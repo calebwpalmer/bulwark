@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="EvolutionChamber">
+    <meta name="963" icon="btn-building-zerg-evolutionchamber" race="Zerg" hotkey="964" tooltip="965" source="Liberty.SC2Mod" index="113"/>
+    <life start="750" max="750" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Hatchery" name="926"/>
+    </requires>
+    <cost minerals="75" time="35"/>
+    <score build="75" kill="75"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3CreepContour" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="ZergMeleeWeaponsLevel1" ability="187" index="0">
+            <meta name="966" icon="btn-upgrade-zerg-meleeattacks-level1" hotkey="139" type="command" tooltip="140"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="ZergMeleeWeaponsLevel2" ability="187" index="1">
+            <meta name="967" icon="btn-upgrade-zerg-meleeattacks-level2" hotkey="142" type="command" tooltip="143"/>
+            <requires>
+                <upgrade id="ZergMeleeWeaponsLevel1" name="138"/>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="190"/>
+        </upgrade>
+        <upgrade id="ZergMeleeWeaponsLevel3" ability="187" index="2">
+            <meta name="968" icon="btn-upgrade-zerg-meleeattacks-level3" hotkey="145" type="command" tooltip="146"/>
+            <requires>
+                <upgrade id="ZergMeleeWeaponsLevel2" name="141"/>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="220"/>
+        </upgrade>
+        <upgrade id="ZergGroundArmorsLevel1" ability="187" index="3">
+            <meta name="969" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" type="command" tooltip="94"/>
+            <cost minerals="150" vespene="150" time="160"/>
+        </upgrade>
+        <upgrade id="ZergGroundArmorsLevel2" ability="187" index="4">
+            <meta name="970" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" type="command" tooltip="97"/>
+            <requires>
+                <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="190"/>
+        </upgrade>
+        <upgrade id="ZergGroundArmorsLevel3" ability="187" index="5">
+            <meta name="971" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" type="command" tooltip="101"/>
+            <requires>
+                <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="220"/>
+        </upgrade>
+        <upgrade id="ZergMissileWeaponsLevel1" ability="187" index="6">
+            <meta name="972" icon="btn-upgrade-zerg-missileattacks-level1" hotkey="104" type="command" tooltip="105"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="ZergMissileWeaponsLevel2" ability="187" index="7">
+            <meta name="973" icon="btn-upgrade-zerg-missileattacks-level2" hotkey="107" type="command" tooltip="108"/>
+            <requires>
+                <upgrade id="ZergMissileWeaponsLevel1" name="103"/>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="190"/>
+        </upgrade>
+        <upgrade id="ZergMissileWeaponsLevel3" ability="187" index="8">
+            <meta name="974" icon="btn-upgrade-zerg-missileattacks-level3" hotkey="110" type="command" tooltip="111"/>
+            <requires>
+                <upgrade id="ZergMissileWeaponsLevel2" name="106"/>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="220"/>
+        </upgrade>
+    </researches>
+</unit>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="UltraliskCavern">
+    <meta name="1012" icon="btn-building-zerg-ultraliskcavern" race="Zerg" hotkey="1013" tooltip="1014" source="Liberty.SC2Mod" index="116"/>
+    <life start="850" max="850" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Hive" name="102"/>
+    </requires>
+    <cost minerals="150" vespene="200" time="65"/>
+    <score build="350" kill="350"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3CreepContour" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="AnabolicSynthesis" ability="119" index="0">
+            <meta name="1015" icon="btn-upgrade-zerg-anabolicsynthesis" hotkey="1016" type="command" tooltip="1017"/>
+            <cost minerals="150" vespene="150" time="60"/>
+        </upgrade>
+        <upgrade id="ChitinousPlating" ability="119" index="2">
+            <meta name="1018" icon="btn-upgrade-zerg-chitinousplating" hotkey="1019" type="command" tooltip="1020"/>
+            <cost minerals="150" vespene="150" time="110"/>
+        </upgrade>
+    </researches>
+</unit>

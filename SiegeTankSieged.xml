@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SiegeTankSieged">
+    <meta name="305" icon="btn-unit-terran-siegetanksiegemode" race="Terr" hotkey="0" tooltip="441" source="Liberty.SC2Mod" index="55"/>
+    <life start="175" max="175"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.875" cargoSize="0" footprint="FootprintSieged" sightRadius="11" supply="-3"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Roach" name="442"/>
+        <unit id="Stalker" name="128"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Banshee" name="294"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="CrucioShockCannon" index="6">
+            <meta name="443" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc range="13" speed="3" targets="ground"/>
+            <effect id="CrucioShockCannonDummy" index="517" radius="-1" damage="40" max="52" death="Blast" kind="Splash">
+                <bonus damage="30" max="30" type="Armored"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="Unsiege" index="138">
+            <command id="Execute" index="0">
+                <meta name="444" icon="btn-unit-terran-siegetank" hotkey="445" type="command" tooltip="446"/>
+                <cost time="3.7917"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleWeapons">
+            <level id="TerranVehicleWeaponsLevel1" index="33">
+                <meta name="397" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" tooltip="393"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel2" index="34">
+                <meta name="401" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" tooltip="396"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel3" index="35">
+                <meta name="447" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" tooltip="400"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

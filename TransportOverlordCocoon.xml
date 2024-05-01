@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="TransportOverlordCocoon">
+    <meta name="1325" icon="btn-unit-zerg-overlordtransport" race="Zerg" hotkey="1117" tooltip="1326" source="Liberty.SC2Mod" index="182"/>
+    <life start="200" max="200" regenRate="0.2734"/>
+    <armor start="2" max="5"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Lair" name="98"/>
+    </requires>
+    <cost minerals="25" vespene="25" time="21.001"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.625" cargoSize="0" sightRadius="5" supply="8"/>
+    <producer id="Overlord" name="1104"/>
+    <attributes>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="MorphToTransportOverlord" index="312">
+            <command id="Execute" index="0">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+                <requires>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="-25" vespene="-75" time="21.001"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergFlyerArmors">
+            <level id="ZergFlyerArmorsLevel1" index="74">
+                <meta name="1007" icon="btn-upgrade-zerg-flyercarapace-level1" hotkey="1002" tooltip="1003"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergFlyerArmorsLevel2" index="75">
+                <meta name="1011" icon="btn-upgrade-zerg-flyercarapace-level2" hotkey="1005" tooltip="1006"/>
+                <requires>
+                    <upgrade id="ZergFlyerArmorsLevel1" name="1007"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="ZergFlyerArmorsLevel3" index="76">
+                <meta name="1119" icon="btn-upgrade-zerg-flyercarapace-level3" hotkey="1009" tooltip="1010"/>
+                <requires>
+                    <upgrade id="ZergFlyerArmorsLevel2" name="1011"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

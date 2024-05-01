@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Queen">
+    <meta name="1199" icon="btn-unit-zerg-queen" race="Zerg" hotkey="946" tooltip="947" source="Liberty.SC2Mod" index="149"/>
+    <life start="175" max="175" regenRate="0.2734"/>
+    <energy start="25" max="200" regenRate="0.5625"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="SpawningPool" name="932"/>
+    </requires>
+    <cost minerals="150" supply="2" time="50"/>
+    <movement type="Ground" speed="0.9375" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="150" kill="150"/>
+    <misc radius="0.875" cargoSize="2" sightRadius="9" supply="-2"/>
+    <producer id="Hatchery" name="926"/>
+    <attributes>
+        <attribute type="Biological"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <strengths>
+        <unit id="Hellion" name="594"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Oracle" name="869"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="AcidSpines" index="61">
+            <meta name="1200" icon="btn-upgrade-zerg-missileattacks-level0" tooltip="1201"/>
+            <misc range="7" speed="1" targets="air"/>
+            <effect id="AcidSpines" index="631" radius="-1" damage="9" max="12" death="Normal" kind="Ranged"/>
+        </weapon>
+        <weapon id="TalonsMissile" index="85">
+            <meta name="1202" icon="btn-upgrade-zerg-missileattacks-level0" tooltip="0"/>
+            <misc count="2" range="5" speed="1" targets="ground"/>
+            <effect id="TalonsMissileDamage" index="1242" radius="-1" damage="4" max="7" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="BurrowQueenDown" index="217">
+            <command id="Execute" index="0">
+                <meta name="88" icon="btn-ability-zerg-burrow-color" hotkey="89" type="command" tooltip="90"/>
+                <requires>
+                    <upgrade id="Burrow" name="91"/>
+                </requires>
+                <cost time="0.9582"/>
+            </command>
+        </ability>
+        <ability id="SpawnLarva" index="113">
+            <command id="Execute" index="0">
+                <meta name="1203" icon="BTN-Unit-Zerg-Larva" hotkey="1204" type="command" tooltip="1205"/>
+                <misc range="0.1"/>
+                <cost energy="25"/>
+            </command>
+        </ability>
+        <ability id="Transfusion" index="247">
+            <command id="Execute" index="0">
+                <meta name="1206" icon="btn-ability-zerg-transfusion-color" hotkey="1207" type="command" tooltip="1208"/>
+                <misc range="7"/>
+                <requires>
+                    <ability id="QueenMustBeOnCreep" name="1209"/>
+                </requires>
+                <cost energy="50" cooldown="1" time="0.2"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="CreepTumorQueen" ability="262" index="0">
+            <meta name="1210" icon="btn-building-zerg-creeptumor" hotkey="1211" type="command" tooltip="1212"/>
+            <misc range="0"/>
+            <cost energy="25" time="15"/>
+        </unit>
+    </builds>
+    <upgrades>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ZergMissileWeapons">
+            <level id="ZergMissileWeaponsLevel1" index="62">
+                <meta name="103" icon="btn-upgrade-zerg-missileattacks-level1" hotkey="104" tooltip="105"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergMissileWeaponsLevel2" index="63">
+                <meta name="106" icon="btn-upgrade-zerg-missileattacks-level2" hotkey="107" tooltip="108"/>
+                <requires>
+                    <upgrade id="ZergMissileWeaponsLevel1" name="103"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="ZergMissileWeaponsLevel3" index="64">
+                <meta name="109" icon="btn-upgrade-zerg-missileattacks-level3" hotkey="110" tooltip="111"/>
+                <requires>
+                    <upgrade id="ZergMissileWeaponsLevel2" name="106"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

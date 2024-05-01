@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Zergling">
+    <meta name="27" icon="btn-unit-zerg-zergling" race="Zerg" hotkey="1100" tooltip="203" source="Liberty.SC2Mod" index="128"/>
+    <life start="35" max="35" regenRate="0.2734"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="SpawningPool" name="932"/>
+    </requires>
+    <cost minerals="50" supply="1" time="24"/>
+    <movement type="Ground" speed="2.9531" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="25" kill="25"/>
+    <misc radius="0.375" cargoSize="1" sightRadius="8" supply="-0.5"/>
+    <producer id="Larva" name="1079"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <strengths>
+        <unit id="Marauder" name="126"/>
+        <unit id="Hydralisk" name="439"/>
+        <unit id="Stalker" name="128"/>
+    </strengths>
+    <weaknesses>
+        <unit id="HellionTank" name="83"/>
+        <unit id="Baneling" name="124"/>
+        <unit id="Colossus" name="21"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="Claws" index="44">
+            <meta name="204" icon="btn-upgrade-zerg-meleeattacks-level0" tooltip="0"/>
+            <misc range="0.1" speed="0.696" targets="ground"/>
+            <effect id="Claws" index="556" radius="-1" damage="5" max="8" death="Normal" kind="Melee"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="BurrowZerglingDown" index="205">
+            <command id="Execute" index="0">
+                <meta name="88" icon="btn-ability-zerg-burrow-color" hotkey="89" type="command" tooltip="90"/>
+                <requires>
+                    <upgrade id="Burrow" name="91"/>
+                </requires>
+                <cost time="1.518"/>
+            </command>
+        </ability>
+        <ability id="MorphToBaneling" index="729">
+            <command id="Execute" index="0">
+                <meta name="1101" icon="btn-unit-zerg-baneling" hotkey="115" type="command" tooltip="125"/>
+                <requires>
+                    <unit id="BanelingNest" name="117"/>
+                </requires>
+                <cost minerals="25" vespene="25" time="20"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergMeleeWeapons">
+            <level id="ZergMeleeWeaponsLevel1" index="56">
+                <meta name="138" icon="btn-upgrade-zerg-meleeattacks-level1" hotkey="139" tooltip="140"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel2" index="57">
+                <meta name="141" icon="btn-upgrade-zerg-meleeattacks-level2" hotkey="142" tooltip="143"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel1" name="138"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel3" index="58">
+                <meta name="144" icon="btn-upgrade-zerg-meleeattacks-level3" hotkey="145" tooltip="146"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel2" name="141"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+        <upgrade id="zerglingattackspeed" index="68">
+            <level>
+                <meta name="1102" icon="btn-upgrade-zerg-adrenalglands" hotkey="958" tooltip="959"/>
+                <requires>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="130"/>
+            </level>
+        </upgrade>
+        <upgrade id="zerglingmovementspeed" index="69">
+            <level>
+                <meta name="1103" icon="btn-upgrade-zerg-metabolicboost" hotkey="961" tooltip="962"/>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

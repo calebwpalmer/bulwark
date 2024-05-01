@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Hatchery">
+    <meta name="926" icon="btn-building-zerg-hatchery" race="Zerg" hotkey="927" tooltip="928" source="Liberty.SC2Mod" index="109"/>
+    <life start="1500" max="1500" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="300" time="100"/>
+    <score build="300" kill="300"/>
+    <misc radius="2" cargoSize="0" footprint="Footprint6x5DropOffCreepSourceContour" sightRadius="12" supply="6"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5CancelToSelection" index="126">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="UpgradeToLair" index="188">
+            <command id="Execute" index="0">
+                <meta name="929" icon="btn-building-zerg-lair" hotkey="930" type="command" tooltip="931"/>
+                <requires>
+                    <unit id="SpawningPool" name="932"/>
+                </requires>
+                <cost minerals="150" vespene="100" time="80"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="933" icon="btn-command-cancel" hotkey="119" type="command" tooltip="934"/>
+            </command>
+        </ability>
+        <ability id="RallyHatchery" index="108">
+            <command id="Rally1" index="0">
+                <meta name="935" icon="btn-ability-terran-setrallypoint" hotkey="936" type="command" tooltip="937"/>
+            </command>
+            <command id="Rally2" index="1">
+                <meta name="938" icon="btn-ability-zerg-setworkerrallypoint" hotkey="939" type="command" tooltip="940"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="overlordspeed" ability="191" index="1">
+            <meta name="941" icon="btn-upgrade-zerg-pneumatizedcarapace" hotkey="942" type="command" tooltip="943"/>
+            <cost minerals="100" vespene="100" time="60"/>
+        </upgrade>
+        <upgrade id="Burrow" ability="191" index="3">
+            <meta name="944" icon="btn-ability-zerg-burrow-color" hotkey="112" type="command" tooltip="113"/>
+            <cost minerals="100" vespene="100" time="100"/>
+        </upgrade>
+    </researches>
+    <trains>
+        <unit id="Queen" ability="245" index="0">
+            <meta name="945" icon="btn-unit-zerg-queen" hotkey="946" type="command" tooltip="947"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="150" supply="2" time="50"/>
+        </unit>
+    </trains>
+</unit>

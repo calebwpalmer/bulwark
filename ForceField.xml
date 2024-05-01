@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ForceField">
+    <meta name="1251" icon="BTN-Ability-Terran-ScannerSweep" race="Prot" hotkey="0" tooltip="826" source="Liberty.SC2Mod" index="158"/>
+    <life start="15" max="15"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="1.5" cargoSize="0" sightRadius="0" supply="0"/>
+    <attributes/>
+    <abilities/>
+</unit>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="XelNaga_Caverns_DoorW">
+    <meta name="2209" icon="btn-missing-kaeo" race="Neut" hotkey="0" tooltip="0" source="Swarm.SC2Mod" index="752"/>
+    <life start="1" max="1"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" footprint="XelNaga_Caverns_DoorW" sightRadius="0" supply="0"/>
+    <attributes/>
+    <abilities>
+        <ability id="XelNaga_Caverns_DoorWOpened" index="445">
+            <command id="Execute" index="0">
+                <meta name="2194" icon="btn-missing-kaeo" hotkey="0" type="command" tooltip="0"/>
+                <cost time="2.667"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

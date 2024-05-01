@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="TemplarArchive">
+    <meta name="683" icon="btn-building-protoss-templararchives" race="Prot" hotkey="751" tooltip="752" source="Liberty.SC2Mod" index="91"/>
+    <life start="500" max="500"/>
+    <shields start="500" max="500" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="TwilightCouncil" name="44"/>
+    </requires>
+    <cost minerals="150" vespene="200" time="50"/>
+    <score build="350" kill="350"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="PsiStormTech" ability="184" index="4">
+            <meta name="753" icon="btn-ability-protoss-psistorm-color" hotkey="754" type="command" tooltip="755"/>
+            <cost minerals="200" vespene="200" time="110"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

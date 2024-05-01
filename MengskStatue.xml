@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="MengskStatue">
+    <meta name="2038" icon="Wireframe-Destructible-MengskStatue" race="Neut" hotkey="0" tooltip="2039" source="Liberty.SC2Mod" index="592"/>
+    <life start="200" max="200"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="3" cargoSize="0" footprint="MengskStatue" sightRadius="0" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+</unit>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Larva">
+    <meta name="1079" icon="btn-unit-zerg-larva" race="Zerg" hotkey="0" tooltip="1350" source="Liberty.SC2Mod" index="189"/>
+    <life start="25" max="25" regenRate="0.2734"/>
+    <armor start="10" max="10"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Creep" speed="0.5625" acceleration="1000" deceleration="0" turnRate="720"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.125" cargoSize="0" sightRadius="5" supply="0"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="que1" index="124">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="Drone" ability="195" index="0">
+            <meta name="1351" icon="btn-unit-zerg-drone" hotkey="1077" type="command" tooltip="1078"/>
+            <cost minerals="50" supply="1" time="17"/>
+        </unit>
+        <unit id="Zergling" ability="195" index="1">
+            <meta name="1352" icon="btn-unit-zerg-zergling" hotkey="1100" type="command" tooltip="203"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="50" supply="1" time="24"/>
+        </unit>
+        <unit id="Overlord" ability="195" index="2">
+            <meta name="1353" icon="btn-unit-zerg-overlord" hotkey="1105" type="command" tooltip="1106"/>
+            <cost minerals="100" time="25"/>
+        </unit>
+        <unit id="Hydralisk" ability="195" index="3">
+            <meta name="1354" icon="btn-unit-zerg-hydralisk" hotkey="1121" type="command" tooltip="1122"/>
+            <requires>
+                <unit id="HydraliskDen" name="975"/>
+            </requires>
+            <cost minerals="100" vespene="50" supply="2" time="33"/>
+        </unit>
+        <unit id="Mutalisk" ability="195" index="4">
+            <meta name="1355" icon="btn-unit-zerg-mutalisk" hotkey="1130" type="command" tooltip="1131"/>
+            <requires>
+                <unit id="Spire" name="984"/>
+            </requires>
+            <cost minerals="100" vespene="100" supply="2" time="33"/>
+        </unit>
+        <unit id="Ultralisk" ability="195" index="6">
+            <meta name="1356" icon="btn-unit-zerg-ultralisk" hotkey="1137" type="command" tooltip="1138"/>
+            <requires>
+                <unit id="UltraliskCavern" name="1012"/>
+            </requires>
+            <cost minerals="275" vespene="200" supply="6" time="55"/>
+        </unit>
+        <unit id="Roach" ability="195" index="9">
+            <meta name="1357" icon="btn-unit-zerg-roach" hotkey="1144" type="command" tooltip="1145"/>
+            <requires>
+                <unit id="RoachWarren" name="1047"/>
+            </requires>
+            <cost minerals="75" vespene="25" supply="2" time="27"/>
+        </unit>
+        <unit id="Infestor" ability="195" index="10">
+            <meta name="1358" icon="btn-unit-zerg-infestor" hotkey="1154" type="command" tooltip="1155"/>
+            <requires>
+                <unit id="InfestationPit" name="1021"/>
+            </requires>
+            <cost minerals="100" vespene="150" supply="2" time="50"/>
+        </unit>
+        <unit id="Corruptor" ability="195" index="11">
+            <meta name="1359" icon="btn-unit-zerg-corruptor" hotkey="1170" type="command" tooltip="1171"/>
+            <requires>
+                <unit id="Spire" name="984"/>
+            </requires>
+            <cost minerals="150" vespene="100" supply="2" time="40"/>
+        </unit>
+        <unit id="Viper" ability="195" index="12">
+            <meta name="1360" icon="btn-unit-zerg-viper" hotkey="1361" type="command" tooltip="1362"/>
+            <requires>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="100" vespene="200" supply="3" time="40"/>
+        </unit>
+        <unit id="SwarmHostMP" ability="195" index="14">
+            <meta name="1363" icon="btn-unit-zerg-swarmhost" hotkey="1364" type="command" tooltip="1365"/>
+            <requires>
+                <unit id="InfestationPit" name="1021"/>
+            </requires>
+            <cost minerals="100" vespene="75" supply="3" time="40"/>
+        </unit>
+    </trains>
+</unit>

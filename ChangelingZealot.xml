@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ChangelingZealot">
+    <meta name="190" icon="btn-unit-protoss-zealot" race="Zerg" hotkey="0" tooltip="199" source="Liberty.SC2Mod" index="33"/>
+    <life start="100" max="100"/>
+    <shields start="50" max="50" regenRate="0.5"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="9" supply="0"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <weapons>
+        <weapon id="PsiBlades" index="17">
+            <meta name="200" icon="btn-upgrade-protoss-groundweaponslevel0" tooltip="0"/>
+            <misc count="2" range="0.1" speed="1.2" targets="ground"/>
+            <effect id="PsiBlades" index="537" radius="-1" damage="8" max="8" death="Eviscerate" kind="Melee"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

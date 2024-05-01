@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SupplyDepot">
+    <meta name="236" icon="btn-building-terran-supplydepot" race="Terr" hotkey="237" tooltip="238" source="Liberty.SC2Mod" index="40"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="100" time="30"/>
+    <score build="100" kill="100"/>
+    <misc radius="1.25" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="9" supply="8"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="SupplyDepotLower" index="159">
+            <command id="Execute" index="0">
+                <meta name="239" icon="btn-building-terran-supplydepotlowered" hotkey="240" type="command" tooltip="241"/>
+                <cost time="1.3"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

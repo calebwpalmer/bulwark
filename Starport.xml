@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Starport">
+    <meta name="364" icon="btn-building-terran-starport" race="Terr" hotkey="365" tooltip="366" source="Liberty.SC2Mod" index="50"/>
+    <life start="1300" max="1300"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Factory" name="340"/>
+    </requires>
+    <cost minerals="150" vespene="100" time="50"/>
+    <score build="250" kill="250"/>
+    <misc radius="1.625" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="StarportLiftOff" index="154">
+            <command id="Execute" index="0">
+                <meta name="220" icon="btn-ability-terran-liftoff" hotkey="221" type="command" tooltip="222"/>
+                <cost time="2"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="StarportTechLab" ability="153" index="0">
+            <meta name="367" icon="btn-building-terran-techlab" hotkey="368" type="command" tooltip="369"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="25" time="25"/>
+        </unit>
+        <unit id="StarportReactor" ability="153" index="1">
+            <meta name="250" icon="btn-building-terran-reactor" hotkey="251" type="command" tooltip="78"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="50" time="50"/>
+        </unit>
+    </builds>
+    <trains>
+        <unit id="Medivac" ability="163" index="0">
+            <meta name="370" icon="btn-unit-terran-medivac" hotkey="371" type="command" tooltip="372"/>
+            <cost minerals="100" vespene="100" supply="2" time="42"/>
+        </unit>
+        <unit id="Banshee" ability="163" index="1">
+            <meta name="373" icon="btn-unit-terran-banshee" hotkey="374" type="command" tooltip="375"/>
+            <requires>
+                <unit id="TechLab" name="69"/>
+            </requires>
+            <cost minerals="150" vespene="100" supply="3" time="60"/>
+        </unit>
+        <unit id="Raven" ability="163" index="2">
+            <meta name="376" icon="btn-unit-terran-raven" hotkey="377" type="command" tooltip="378"/>
+            <requires>
+                <unit id="TechLab" name="69"/>
+            </requires>
+            <cost minerals="100" vespene="150" supply="2" time="48"/>
+        </unit>
+        <unit id="Battlecruiser" ability="163" index="3">
+            <meta name="379" icon="btn-unit-terran-battlecruiser" hotkey="380" type="command" tooltip="381"/>
+            <requires>
+                <unit id="TechLab" name="69"/>
+                <unit id="FusionCore" name="382"/>
+            </requires>
+            <cost minerals="400" vespene="300" supply="6" time="90"/>
+        </unit>
+        <unit id="VikingFighter" ability="163" index="4">
+            <meta name="383" icon="btn-unit-terran-vikingfighter" hotkey="384" type="command" tooltip="385"/>
+            <cost minerals="150" vespene="75" supply="2" time="42"/>
+        </unit>
+        <unit id="Liberator" ability="163" index="6">
+            <meta name="386" icon="btn-unit-terran-liberator" hotkey="387" type="command" tooltip="388"/>
+            <cost minerals="150" vespene="125" supply="3" time="60"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

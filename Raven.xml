@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Raven">
+    <meta name="436" icon="btn-unit-terran-raven" race="Terr" hotkey="377" tooltip="378" source="Liberty.SC2Mod" index="79"/>
+    <life start="140" max="140"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="TechLab" name="69"/>
+    </requires>
+    <cost minerals="100" vespene="150" supply="2" time="48"/>
+    <movement type="Fly" speed="2.9492" acceleration="2" deceleration="0" turnRate="999.8437"/>
+    <score build="250" kill="250"/>
+    <misc radius="0.625" cargoSize="0" sightRadius="11" supply="-2"/>
+    <producer id="Starport" name="364"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Banshee" name="294"/>
+        <unit id="LurkerMP" name="624"/>
+        <unit id="DarkTemplar" name="625"/>
+    </strengths>
+    <weaknesses>
+        <unit id="VikingFighter" name="29"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="HighTemplar" name="556"/>
+    </weaknesses>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="RavenScramblerMissile" index="718">
+            <command id="Execute" index="0">
+                <meta name="626" icon="btn-upgrade-terran-interferencematrix" hotkey="627" type="command" tooltip="628"/>
+                <misc range="9"/>
+                <requires>
+                    <upgrade id="InterferenceMatrix" name="629"/>
+                </requires>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="RavenShredderMissile" index="721">
+            <command id="Execute" index="0">
+                <meta name="630" icon="BTN-Ability-Terran-ShredderMissile-Color" hotkey="631" type="command" tooltip="632"/>
+                <misc range="10"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="BuildAutoTurret" index="268">
+            <command id="Execute" index="0">
+                <meta name="633" icon="btn-building-terran-autoturret" hotkey="434" type="command" tooltip="435"/>
+                <misc range="2"/>
+                <cost energy="50"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="InterferenceMatrix" index="202">
+            <level>
+                <meta name="629" icon="btn-upgrade-terran-interferencematrix" hotkey="498" tooltip="499"/>
+                <cost minerals="50" vespene="50" time="80"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

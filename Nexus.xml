@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Nexus">
+    <meta name="154" icon="btn-building-protoss-nexus" race="Prot" hotkey="643" tooltip="644" source="Liberty.SC2Mod" index="82"/>
+    <life start="1000" max="1000"/>
+    <shields start="1000" max="1000" regenRate="2" delay="10"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <cost minerals="400" time="100"/>
+    <score build="400" kill="400"/>
+    <misc radius="2" cargoSize="0" footprint="Footprint5x5Contour" sightRadius="11" supply="15"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <weapons/>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="ChronoBoostEnergyCost" index="722">
+            <command id="Execute" index="0">
+                <meta name="645" icon="btn-ability-protoss-protoncharge-color" hotkey="646" type="command" tooltip="647"/>
+                <cost energy="50"/>
+            </command>
+        </ability>
+        <ability id="que5Passive" index="279">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="RallyNexus" index="107">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="NexusMassRecall" index="723">
+            <command id="Execute" index="0">
+                <meta name="648" icon="btn-ability-protoss-massrecall" hotkey="649" type="command" tooltip="650"/>
+                <cost energy="50" cooldown="182"/>
+                <effect id="NexusMassRecallSearch" index="1924" radius="2.5"/>
+            </command>
+        </ability>
+        <ability id="BatteryOvercharge" index="698">
+            <command id="Execute" index="0">
+                <meta name="651" icon="btn-ability-zeratul-observer-sensorarray" hotkey="652" type="command" tooltip="653"/>
+                <cost energy="50" cooldown="84"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="Probe" ability="177" index="0">
+            <meta name="654" icon="btn-unit-protoss-probe" hotkey="655" type="command" tooltip="656"/>
+            <cost minerals="50" supply="1" time="17"/>
+        </unit>
+        <unit id="Mothership" ability="76" index="0">
+            <meta name="657" icon="btn-unit-protoss-mothership" hotkey="151" type="command" tooltip="152"/>
+            <requires>
+                <unit id="FleetBeacon" name="153"/>
+                <unit id="Mothership" name="150"/>
+            </requires>
+            <cost minerals="300" vespene="300" supply="6" time="125"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

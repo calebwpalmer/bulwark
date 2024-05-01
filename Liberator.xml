@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Liberator">
+    <meta name="634" icon="btn-unit-terran-liberator" race="Terr" hotkey="387" tooltip="388" source="Void.SC2Mod" index="476"/>
+    <life start="180" max="180"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="150" vespene="125" supply="3" time="60"/>
+    <movement type="Fly" speed="3.375" acceleration="3.5" deceleration="0" turnRate="1499.9414"/>
+    <score build="275" kill="275"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="10" supply="-3"/>
+    <producer id="Starport" name="364"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Ultralisk" name="84"/>
+        <unit id="Phoenix" name="295"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Battlecruiser" name="462"/>
+        <unit id="Corruptor" name="30"/>
+        <unit id="Tempest" name="31"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="LiberatorMissileLaunchers" index="108">
+            <meta name="1858" icon="btn-upgrade-terran-shipweaponslevel0" tooltip="0"/>
+            <misc count="2" range="5" speed="1.8" targets="air"/>
+            <effect id="LiberatorMissileDamage" index="1784" radius="1.5" damage="5" max="5" death="Fire" kind="Ranged">
+                <area radius="1.5"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="LiberatorAGTarget" index="617">
+            <command id="Execute" index="0">
+                <meta name="1859" icon="btn-ability-terran-liberator-agmode" hotkey="1860" type="command" tooltip="1861"/>
+                <misc range="5"/>
+            </command>
+        </ability>
+        <ability id="LiberatorAGRangeUpgrade">
+            <command index="0">
+                <meta name="1825" icon="btn-upgrade-terran-advanceballistics" type="passive" tooltip="1826"/>
+                <requires>
+                    <upgrade id="LiberatorAGRangeUpgrade" name="1827"/>
+                </requires>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="LiberatorAGRangeUpgrade" index="193">
+            <level>
+                <meta name="1827" icon="btn-upgrade-terran-advanceballistics" hotkey="428" tooltip="429"/>
+                <requires>
+                    <unit id="FusionCore" name="382"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

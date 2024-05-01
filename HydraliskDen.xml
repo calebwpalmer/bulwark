@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="HydraliskDen">
+    <meta name="975" icon="btn-building-zerg-hydraliskden" race="Zerg" hotkey="976" tooltip="977" source="Liberty.SC2Mod" index="114"/>
+    <life start="850" max="850" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Lair" name="98"/>
+    </requires>
+    <cost minerals="100" vespene="100" time="40"/>
+    <score build="200" kill="200"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3CreepContour" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="EvolveGroovedSpines" ability="193" index="0">
+            <meta name="978" icon="btn-upgrade-zerg-hotsgroovedspines" hotkey="979" type="command" tooltip="980"/>
+            <cost minerals="75" vespene="75" time="70"/>
+        </upgrade>
+        <upgrade id="EvolveMuscularAugments" ability="193" index="1">
+            <meta name="981" icon="btn-upgrade-zerg-evolvemuscularaugments" hotkey="982" type="command" tooltip="983"/>
+            <cost minerals="100" vespene="100" time="90"/>
+        </upgrade>
+    </researches>
+</unit>

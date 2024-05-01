@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="WarpGate">
+    <meta name="1244" icon="BTN-Building-Protoss-WarpGate" race="Prot" hotkey="671" tooltip="1245" source="Liberty.SC2Mod" index="156"/>
+    <life start="500" max="500"/>
+    <shields start="500" max="500" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <upgrade id="WarpGateResearch" name="673"/>
+    </requires>
+    <cost time="10"/>
+    <score build="0" kill="0"/>
+    <misc radius="1.75" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Gateway" name="667"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="MorphBackToGateway" index="231">
+            <command id="Execute" index="0">
+                <meta name="1246" icon="btn-building-protoss-gateway" hotkey="1247" type="command" tooltip="1248"/>
+                <cost time="10"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="Zealot" ability="216" index="0">
+            <meta name="674" icon="btn-unit-protoss-zealot" hotkey="675" type="command" tooltip="199"/>
+            <cost minerals="100" supply="2" time="16"/>
+        </unit>
+        <unit id="Stalker" ability="216" index="1">
+            <meta name="676" icon="btn-unit-protoss-stalker" hotkey="677" type="command" tooltip="678"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="125" vespene="50" supply="2" time="16"/>
+        </unit>
+        <unit id="HighTemplar" ability="216" index="3">
+            <meta name="680" icon="btn-unit-protoss-hightemplar" hotkey="681" type="command" tooltip="682"/>
+            <requires>
+                <unit id="TemplarArchive" name="683"/>
+            </requires>
+            <cost minerals="50" vespene="150" supply="2" time="16"/>
+        </unit>
+        <unit id="DarkTemplar" ability="216" index="4">
+            <meta name="684" icon="btn-unit-protoss-darktemplar" hotkey="685" type="command" tooltip="686"/>
+            <requires>
+                <unit id="DarkShrine" name="687"/>
+            </requires>
+            <cost minerals="125" vespene="125" supply="2" time="16"/>
+        </unit>
+        <unit id="Sentry" ability="216" index="5">
+            <meta name="688" icon="btn-unit-protoss-sentry" hotkey="689" type="command" tooltip="690"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="50" vespene="100" supply="2" time="16"/>
+        </unit>
+        <unit id="Adept" ability="216" index="6">
+            <meta name="691" icon="btn-unit-protoss-adept" hotkey="692" type="command" tooltip="693"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="100" vespene="25" supply="2" time="16"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

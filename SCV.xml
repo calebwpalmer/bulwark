@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SCV">
+    <meta name="208" icon="btn-unit-terran-scv" race="Terr" hotkey="234" tooltip="235" source="Liberty.SC2Mod" index="68"/>
+    <life start="45" max="45"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="50" supply="1" time="17"/>
+    <movement type="Ground" speed="2.8125" acceleration="2.5" deceleration="0" turnRate="999.8437"/>
+    <score build="50" kill="50"/>
+    <misc radius="0.375" cargoSize="1" sightRadius="8" supply="-1"/>
+    <producer id="CommandCenter" name="205"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <weapons>
+        <weapon id="FusionCutter" index="12">
+            <meta name="508" icon="btn-upgrade-terran-infantryweaponslevel0" tooltip="0"/>
+            <misc range="0.2" speed="1.5" targets="ground"/>
+            <effect id="FusionCutter" index="509" radius="-1" damage="5" max="5" death="Normal" kind="Melee"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="Repair" index="130">
+            <command id="Execute" index="0">
+                <meta name="509" icon="btn-ability-terran-repair" hotkey="510" type="command" tooltip="511"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="SCVHarvest" index="121">
+            <command id="Gather" index="0">
+                <meta name="512" icon="btn-ability-terran-gather" hotkey="513" type="command" tooltip="514"/>
+                <misc range="0"/>
+            </command>
+            <command id="Return" index="1">
+                <meta name="515" icon="btn-command-returncargo" hotkey="516" type="command" tooltip="517"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="SprayTerran" index="62">
+            <command id="Execute" index="0">
+                <meta name="518" icon="btn-command-spray" hotkey="519" type="command" tooltip="520"/>
+                <misc range="1"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="CommandCenter" ability="131" index="0">
+            <meta name="521" icon="btn-building-terran-commandcenter" hotkey="206" type="command" tooltip="207"/>
+            <misc range="0"/>
+            <cost minerals="400" time="100"/>
+        </unit>
+        <unit id="SupplyDepot" ability="131" index="1">
+            <meta name="522" icon="btn-building-terran-supplydepot" hotkey="237" type="command" tooltip="238"/>
+            <misc range="0"/>
+            <cost minerals="100" time="30"/>
+        </unit>
+        <unit id="Refinery" ability="131" index="2">
+            <meta name="523" icon="btn-building-terran-refinery" hotkey="243" type="command" tooltip="244"/>
+            <misc range="0"/>
+            <cost minerals="75" time="30"/>
+        </unit>
+        <unit id="Barracks" ability="131" index="3">
+            <meta name="524" icon="btn-building-terran-barracks" hotkey="245" type="command" tooltip="246"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="SupplyDepot" name="236"/>
+            </requires>
+            <cost minerals="150" time="65"/>
+        </unit>
+        <unit id="EngineeringBay" ability="131" index="4">
+            <meta name="525" icon="btn-building-terran-engineeringbay" hotkey="264" type="command" tooltip="265"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="CommandCenter" name="205"/>
+            </requires>
+            <cost minerals="125" time="35"/>
+        </unit>
+        <unit id="MissileTurret" ability="131" index="5">
+            <meta name="526" icon="btn-building-terran-missileturret" hotkey="292" type="command" tooltip="293"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="EngineeringBay" name="226"/>
+            </requires>
+            <cost minerals="100" time="25"/>
+        </unit>
+        <unit id="Bunker" ability="131" index="6">
+            <meta name="527" icon="btn-building-terran-bunker" hotkey="303" type="command" tooltip="304"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Barracks" name="232"/>
+            </requires>
+            <cost minerals="100" time="40"/>
+        </unit>
+        <unit id="SensorTower" ability="131" index="8">
+            <meta name="528" icon="btn-building-terran-sensordome" hotkey="328" type="command" tooltip="329"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="EngineeringBay" name="226"/>
+            </requires>
+            <cost minerals="125" vespene="100" time="25"/>
+        </unit>
+        <unit id="GhostAcademy" ability="131" index="9">
+            <meta name="529" icon="btn-building-terran-ghostacademy" hotkey="332" type="command" tooltip="333"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Barracks" name="232"/>
+            </requires>
+            <cost minerals="150" vespene="50" time="40"/>
+        </unit>
+        <unit id="Factory" ability="131" index="10">
+            <meta name="530" icon="btn-building-terran-factory" hotkey="341" type="command" tooltip="342"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Barracks" name="232"/>
+            </requires>
+            <cost minerals="150" vespene="100" time="60"/>
+        </unit>
+        <unit id="Starport" ability="131" index="11">
+            <meta name="531" icon="btn-building-terran-starport" hotkey="365" type="command" tooltip="366"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Factory" name="340"/>
+            </requires>
+            <cost minerals="150" vespene="100" time="50"/>
+        </unit>
+        <unit id="Armory" ability="131" index="13">
+            <meta name="532" icon="btn-building-terran-armory" hotkey="389" type="command" tooltip="390"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Factory" name="340"/>
+            </requires>
+            <cost minerals="150" vespene="50" time="65"/>
+        </unit>
+        <unit id="FusionCore" ability="131" index="15">
+            <meta name="533" icon="btn-building-terran-fusioncore" hotkey="422" type="command" tooltip="423"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Starport" name="364"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="65"/>
+        </unit>
+    </builds>
+    <upgrades>
+        <upgrade id="TerranInfantryArmors">
+            <level id="TerranInfantryArmorsLevel1" index="14">
+                <meta name="286" icon="btn-upgrade-terran-infantryarmorlevel1" hotkey="281" tooltip="282"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel2" index="15">
+                <meta name="290" icon="btn-upgrade-terran-infantryarmorlevel2" hotkey="284" tooltip="285"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel1" name="286"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel3" index="16">
+                <meta name="534" icon="btn-upgrade-terran-infantryarmorlevel3" hotkey="288" tooltip="289"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel2" name="290"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

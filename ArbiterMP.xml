@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ArbiterMP">
+    <meta name="2568" icon="btn-unit-protoss-arbiter" race="Prot" hotkey="0" tooltip="0" source="Void.SC2Mod" index="1139"/>
+    <life start="200" max="200"/>
+    <shields start="150" max="150" regenRate="2" delay="10"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Fly" speed="2.25" acceleration="1.875" deceleration="0" turnRate="539.4726"/>
+    <score build="0" kill="0"/>
+    <misc radius="1" cargoSize="0" sightRadius="9" supply="-4"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Carrier" name="635"/>
+        <unit id="BroodLord" name="463"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Battlecruiser" name="462"/>
+        <unit id="VikingFighter" name="29"/>
+        <unit id="Corruptor" name="30"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="ArbiterMPWeapon" index="103">
+            <meta name="2569" icon="btn-upgrade-protoss-airweaponslevel0" tooltip="0"/>
+            <misc range="5" speed="1.5" targets="any"/>
+            <effect id="ArbiterMPWeaponDamage" index="1695" radius="-1" damage="10" max="10" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="ArbiterMPRecall" index="590">
+            <command id="Execute" index="0">
+                <meta name="2570" icon="btn-ability-protoss-massrecall" hotkey="2571" type="command" tooltip="2572"/>
+                <cost energy="100"/>
+                <effect id="ArbiterMPRecallSearch" index="1375" radius="6.5"/>
+            </command>
+        </ability>
+        <ability id="ArbiterMPStasisField" index="589">
+            <command id="Execute" index="0">
+                <meta name="2573" icon="btn-ability-protoss-forcefield-color" hotkey="2574" type="command" tooltip="2575"/>
+                <misc range="9"/>
+                <cost energy="100"/>
+                <effect id="ArbiterMPStasisFieldSearch" index="1373" radius="5"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

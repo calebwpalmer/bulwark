@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="UltraliskBurrowed">
+    <meta name="84" icon="btn-unit-zerg-omegalisk" race="Zerg" hotkey="0" tooltip="1138" source="Liberty.SC2Mod" index="154"/>
+    <life start="500" max="500" regenRate="0.2734"/>
+    <armor start="2" max="7"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.875" cargoSize="0" sightRadius="5" supply="-6"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Massive"/>
+    </attributes>
+    <abilities>
+        <ability id="BurrowUltraliskUp" index="228">
+            <command id="Execute" index="0">
+                <meta name="1184" icon="btn-ability-zerg-upburrow-color" hotkey="1185" type="command" tooltip="1186"/>
+                <cost time="1.5"/>
+            </command>
+        </ability>
+        <ability id="Frenzied">
+            <command index="0">
+                <meta name="1140" icon="btn-ability-zerg-frenzied-color" type="passive" tooltip="1141"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergMeleeWeapons">
+            <level id="ZergMeleeWeaponsLevel1" index="56">
+                <meta name="138" icon="btn-upgrade-zerg-meleeattacks-level1" hotkey="139" tooltip="140"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel2" index="57">
+                <meta name="141" icon="btn-upgrade-zerg-meleeattacks-level2" hotkey="142" tooltip="143"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel1" name="138"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel3" index="58">
+                <meta name="144" icon="btn-upgrade-zerg-meleeattacks-level3" hotkey="145" tooltip="146"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel2" name="141"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ChitinousPlating" index="7">
+            <level>
+                <meta name="1142" icon="btn-upgrade-zerg-chitinousplating" hotkey="1019" tooltip="1020"/>
+                <cost minerals="150" vespene="150" time="110"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

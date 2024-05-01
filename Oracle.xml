@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Oracle">
+    <meta name="869" icon="btn-unit-protoss-oracle" race="Prot" hotkey="746" tooltip="747" source="Swarm.SC2Mod" index="185"/>
+    <life start="100" max="100"/>
+    <shields start="60" max="60" regenRate="2" delay="10"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="150" vespene="150" supply="3" time="52"/>
+    <movement type="Fly" speed="4" acceleration="3" deceleration="0" turnRate="999.8437"/>
+    <score build="300" kill="300"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="10" supply="-3"/>
+    <producer id="Stargate" name="710"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <strengths>
+        <unit id="SCV" name="208"/>
+        <unit id="Drone" name="437"/>
+        <unit id="Probe" name="438"/>
+    </strengths>
+    <weaknesses>
+        <unit id="VikingFighter" name="29"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Phoenix" name="295"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="Oracle" index="94">
+            <meta name="1329" icon="btn-ability-protoss-oraclepulsarcannonon" tooltip="0"/>
+            <misc range="4" speed="0.86" targets="ground"/>
+            <effect id="OracleWeaponDamage" index="1631" radius="-1" damage="15" max="15" death="Normal" kind="Spell">
+                <bonus damage="7" max="7" type="Light"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="OracleRevelation" index="421">
+            <command id="Execute" index="0">
+                <meta name="1330" icon="btn-ability-protoss-preordain" hotkey="1331" type="command" tooltip="1332"/>
+                <misc range="12"/>
+                <cost energy="25" cooldown="14"/>
+                <effect id="OracleRevelationSearch" index="833" radius="6"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="1333" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="OracleWeapon" index="540">
+            <command id="On" index="0">
+                <meta name="1334" icon="BTN-Ability-Protoss-OraclePulsarCannonOn" hotkey="1335" type="command" tooltip="1336"/>
+                <cost energy="25" cooldown="4"/>
+            </command>
+            <command id="Off" index="1">
+                <meta name="1337" icon="BTN-Ability-Protoss-OraclePulsarCannonOff" hotkey="1338" type="command" tooltip="1339"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="OracleStasisTrap" ability="605" index="0">
+            <meta name="1340" icon="btn-ability-protoss-oracle-stasisward" hotkey="1341" type="command" tooltip="1342"/>
+            <misc range="5"/>
+            <cost energy="50" time="5"/>
+        </unit>
+    </builds>
+</unit>

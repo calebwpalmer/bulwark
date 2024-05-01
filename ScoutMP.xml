@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ScoutMP">
+    <meta name="2565" icon="btn-missing-kaeo" race="Prot" hotkey="0" tooltip="0" source="Void.SC2Mod" index="1137"/>
+    <life start="150" max="150"/>
+    <shields start="100" max="100" regenRate="2" delay="10"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Fly" speed="2.8125" acceleration="1.875" deceleration="0" turnRate="539.4726"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="9" supply="-3"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Battlecruiser" name="462"/>
+        <unit id="BroodLord" name="463"/>
+    </strengths>
+    <weaknesses>
+        <unit id="VikingFighter" name="29"/>
+        <unit id="MissileTurret" name="291"/>
+        <unit id="Mutalisk" name="81"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="ScoutMPGround" index="101">
+            <meta name="2566" icon="btn-upgrade-protoss-airweaponslevel0" tooltip="0"/>
+            <misc range="4" speed="1.694" targets="ground"/>
+            <effect id="ScoutMPGround" index="1689" radius="-1" damage="8" max="8" death="Normal" kind="Ranged"/>
+        </weapon>
+        <weapon id="ScoutMPAir" index="102">
+            <meta name="2567" icon="btn-upgrade-protoss-airweaponslevel0" tooltip="0"/>
+            <misc count="2" range="4" speed="1.25" targets="air"/>
+            <effect id="ScoutMPAirU" index="1693" radius="-1" damage="7" max="7" death="Normal" kind="Ranged">
+                <bonus damage="7" max="7" type="Armored"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="OverlordGenerateCreepKeybind">
+    <meta name="1104" race="Neut" hotkey="0" tooltip="0" source="Liberty.SC2Mod" index="590"/>
+    <life start="1" max="1"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="0" supply="0"/>
+    <attributes/>
+    <abilities>
+        <ability id="GenerateCreep" index="261">
+            <command id="On" index="0">
+                <meta name="1113" icon="btn-ability-zerg-generatecreepstop-color" hotkey="1114" type="command" tooltip="1115"/>
+                <requires>
+                    <unit id="Lair" name="98"/>
+                </requires>
+            </command>
+            <command id="Off" index="1">
+                <meta name="1113" icon="btn-ability-zerg-generatecreepstop-color" hotkey="1114" type="command" tooltip="1115"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

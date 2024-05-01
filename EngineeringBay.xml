@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="EngineeringBay">
+    <meta name="226" icon="btn-building-terran-engineeringbay" race="Terr" hotkey="264" tooltip="265" source="Liberty.SC2Mod" index="43"/>
+    <life start="850" max="850"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="CommandCenter" name="205"/>
+    </requires>
+    <cost minerals="125" time="35"/>
+    <score build="125" kill="125"/>
+    <misc radius="1.25" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="HiSecAutoTracking" ability="164" index="0">
+            <meta name="266" icon="BTN-Upgrade-Terran-hisecautotracking" hotkey="188" type="command" tooltip="189"/>
+            <cost minerals="100" vespene="100" time="80"/>
+        </upgrade>
+        <upgrade id="TerranBuildingArmor" ability="164" index="1">
+            <meta name="267" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" type="command" tooltip="76"/>
+            <cost minerals="150" vespene="150" time="140"/>
+        </upgrade>
+        <upgrade id="TerranInfantryWeaponsLevel1" ability="164" index="2">
+            <meta name="268" icon="btn-upgrade-terran-infantryweaponslevel1" hotkey="269" type="command" tooltip="270"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="TerranInfantryWeaponsLevel2" ability="164" index="3">
+            <meta name="271" icon="btn-upgrade-terran-infantryweaponslevel2" hotkey="272" type="command" tooltip="273"/>
+            <requires>
+                <upgrade id="TerranInfantryWeaponsLevel1" name="274"/>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="190"/>
+        </upgrade>
+        <upgrade id="TerranInfantryWeaponsLevel3" ability="164" index="4">
+            <meta name="276" icon="btn-upgrade-terran-infantryweaponslevel3" hotkey="277" type="command" tooltip="278"/>
+            <requires>
+                <upgrade id="TerranInfantryWeaponsLevel2" name="279"/>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="220"/>
+        </upgrade>
+        <upgrade id="TerranInfantryArmorsLevel1" ability="164" index="6">
+            <meta name="280" icon="btn-upgrade-terran-infantryarmorlevel1" hotkey="281" type="command" tooltip="282"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="TerranInfantryArmorsLevel2" ability="164" index="7">
+            <meta name="283" icon="btn-upgrade-terran-infantryarmorlevel2" hotkey="284" type="command" tooltip="285"/>
+            <requires>
+                <upgrade id="TerranInfantryArmorsLevel1" name="286"/>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="190"/>
+        </upgrade>
+        <upgrade id="TerranInfantryArmorsLevel3" ability="164" index="8">
+            <meta name="287" icon="btn-upgrade-terran-infantryarmorlevel3" hotkey="288" type="command" tooltip="289"/>
+            <requires>
+                <upgrade id="TerranInfantryArmorsLevel2" name="290"/>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="220"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

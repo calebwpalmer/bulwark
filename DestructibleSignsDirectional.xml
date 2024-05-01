@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="DestructibleSignsDirectional">
+    <meta name="1987" icon="btn-missing-kaeo" race="Neut" hotkey="0" tooltip="0" source="Liberty.SC2Mod" index="560"/>
+    <life start="6" max="6"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" footprint="FootprintDoodad1x1" sightRadius="2.5" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+    </attributes>
+    <abilities/>
+</unit>

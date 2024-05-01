@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Disruptor">
+    <meta name="1296" icon="Btn-unit-protoss-disruptor" race="Prot" hotkey="783" tooltip="1869" source="Void.SC2Mod" index="479"/>
+    <life start="100" max="100"/>
+    <shields start="100" max="100" regenRate="2" delay="10"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="RoboticsBay" name="24"/>
+    </requires>
+    <cost minerals="150" vespene="150" supply="4" time="50"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0"/>
+    <score build="300" kill="300"/>
+    <misc radius="0.625" cargoSize="4" sightRadius="9" supply="-4"/>
+    <producer id="RoboticsFacility" name="25"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Marauder" name="126"/>
+        <unit id="Hydralisk" name="439"/>
+        <unit id="Stalker" name="128"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Thor" name="557"/>
+        <unit id="Ultralisk" name="84"/>
+        <unit id="Tempest" name="31"/>
+    </weaknesses>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="PurificationNovaTargeted" index="528">
+            <command id="Execute" index="0">
+                <meta name="1870" icon="BTN-Ability-Protoss-PurificationNova" hotkey="1871" type="command" tooltip="1872"/>
+                <cost cooldown="30"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossGroundArmors">
+            <level id="ProtossGroundArmorsLevel1" index="45">
+                <meta name="48" icon="BTN-Upgrade-Protoss-GroundArmorLevel1" hotkey="49" tooltip="50"/>
+                <cost minerals="100" vespene="100" time="170"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel2" index="46">
+                <meta name="51" icon="BTN-Upgrade-Protoss-GroundArmorLevel2" hotkey="52" tooltip="53"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel1" name="48"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="202.5"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel3" index="47">
+                <meta name="54" icon="BTN-Upgrade-Protoss-GroundArmorLevel3" hotkey="55" tooltip="56"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel2" name="51"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

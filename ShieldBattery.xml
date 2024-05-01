@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ShieldBattery">
+    <meta name="1892" icon="btn-building-protoss-shieldbattery" race="Prot" hotkey="922" tooltip="923" source="Liberty.SC2Mod" index="482"/>
+    <life start="150" max="150"/>
+    <shields start="150" max="150" regenRate="2" delay="10"/>
+    <energy start="50" max="100" regenRate="0.5625"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="1"/>
+    <requires>
+        <unit id="CyberneticsCore" name="679"/>
+    </requires>
+    <cost minerals="100" time="40"/>
+    <score build="100" kill="100"/>
+    <misc radius="1" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="ShieldBatteryRechargeEx5" index="701">
+            <command id="Execute" index="0">
+                <meta name="1893" icon="btn-ability-protoss-shieldbattery-color" hotkey="1894" type="command" tooltip="1895"/>
+                <misc range="6"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossShieldsLevel1" index="48">
+            <level>
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

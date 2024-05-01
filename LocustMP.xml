@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="LocustMP">
+    <meta name="2156" icon="btn-unit-zerg-locust" race="Zerg" hotkey="0" tooltip="2157" source="Swarm.SC2Mod" index="717"/>
+    <life start="50" max="50" regenRate="0.2734"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="1.875" acceleration="1000" deceleration="0" turnRate="720"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.375" cargoSize="0" sightRadius="6" supply="0"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <strengths>
+        <unit id="SCV" name="208"/>
+        <unit id="Drone" name="437"/>
+        <unit id="Probe" name="438"/>
+    </strengths>
+    <weaknesses>
+        <unit id="HellionTank" name="83"/>
+        <unit id="Ultralisk" name="84"/>
+        <unit id="Colossus" name="21"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="LocustMP" index="84">
+            <meta name="2158" icon="btn-upgrade-zerg-missileattacks-level0" tooltip="0"/>
+            <misc range="3" speed="0.6" targets="ground"/>
+            <effect id="LocustMPDamage" index="208" radius="-1" damage="10" max="13" death="Disintegrate" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergMeleeWeapons">
+            <level id="ZergMeleeWeaponsLevel1" index="56">
+                <meta name="138" icon="btn-upgrade-zerg-meleeattacks-level1" hotkey="139" tooltip="140"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel2" index="57">
+                <meta name="141" icon="btn-upgrade-zerg-meleeattacks-level2" hotkey="142" tooltip="143"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel1" name="138"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="ZergMeleeWeaponsLevel3" index="58">
+                <meta name="144" icon="btn-upgrade-zerg-meleeattacks-level3" hotkey="145" tooltip="146"/>
+                <requires>
+                    <upgrade id="ZergMeleeWeaponsLevel2" name="141"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="ZergMissileWeapons">
+            <level id="ZergMissileWeaponsLevel1" index="62">
+                <meta name="103" icon="btn-upgrade-zerg-missileattacks-level1" hotkey="104" tooltip="105"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergMissileWeaponsLevel2" index="63">
+                <meta name="106" icon="btn-upgrade-zerg-missileattacks-level2" hotkey="107" tooltip="108"/>
+                <requires>
+                    <upgrade id="ZergMissileWeaponsLevel1" name="103"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="ZergMissileWeaponsLevel3" index="64">
+                <meta name="109" icon="btn-upgrade-zerg-missileattacks-level3" hotkey="110" tooltip="111"/>
+                <requires>
+                    <upgrade id="ZergMissileWeaponsLevel2" name="106"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

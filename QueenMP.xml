@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="QueenMP">
+    <meta name="2579" icon="btn-unit-zerg-queen" race="Zerg" hotkey="0" tooltip="2580" source="Void.SC2Mod" index="1142"/>
+    <life start="150" max="150" regenRate="0.2734"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Fly" speed="3.25" acceleration="3.5" deceleration="0" turnRate="799.9804"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="11" supply="2"/>
+    <attributes>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="QueenMPEnsnare" index="599">
+            <command id="Execute" index="0">
+                <meta name="2581" icon="btn-ability-zerg-fungalgrowth-color" hotkey="2582" type="command" tooltip="2583"/>
+                <misc range="9"/>
+                <cost energy="75" time="0.5"/>
+                <effect id="QueenMPEnsnareSearch" index="1387" radius="2"/>
+            </command>
+        </ability>
+        <ability id="QueenMPSpawnBroodlings" index="600">
+            <command id="Execute" index="0">
+                <meta name="2584" icon="btn-ability-zerg-swarmseeds-color" hotkey="2585" type="command" tooltip="2586"/>
+                <misc range="9"/>
+                <cost energy="150" time="0.5"/>
+            </command>
+        </ability>
+        <ability id="QueenMPInfestCommandCenter" index="601">
+            <command id="Execute" index="0">
+                <meta name="2587" icon="btn-building-terran-commandcenter" hotkey="2588" type="command" tooltip="0"/>
+                <misc range="1"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

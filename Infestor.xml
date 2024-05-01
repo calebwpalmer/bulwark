@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Infestor">
+    <meta name="127" icon="btn-unit-zerg-infestor" race="Zerg" hotkey="1154" tooltip="1155" source="Liberty.SC2Mod" index="134"/>
+    <life start="90" max="90" regenRate="0.2734"/>
+    <energy start="75" max="200" regenRate="0.5625"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="InfestationPit" name="1021"/>
+    </requires>
+    <cost minerals="100" vespene="150" supply="2" time="50"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="250" kill="250"/>
+    <misc radius="0.625" cargoSize="2" sightRadius="10" supply="-2"/>
+    <producer id="Larva" name="1079"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="VoidRay" name="82"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Ghost" name="555"/>
+        <unit id="Ultralisk" name="84"/>
+        <unit id="HighTemplar" name="556"/>
+    </weaknesses>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="BurrowInfestorDown" index="221">
+            <command id="Execute" index="0">
+                <meta name="1156" icon="btn-ability-zerg-burrow-color" hotkey="89" type="command" tooltip="1157"/>
+                <requires>
+                    <upgrade id="Burrow" name="91"/>
+                </requires>
+                <cost time="0.685"/>
+            </command>
+        </ability>
+        <ability id="NeuralParasite" index="112">
+            <command id="Execute" index="0">
+                <meta name="1158" icon="BTN-Ability-Zerg-NeuralParasite-color" hotkey="1159" type="command" tooltip="1160"/>
+                <misc range="8"/>
+                <requires>
+                    <upgrade id="NeuralParasite" name="1161"/>
+                </requires>
+                <cost energy="100"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="FungalGrowth" index="72">
+            <command id="Execute" index="0">
+                <meta name="1162" icon="btn-ability-zerg-fungalgrowth-color" hotkey="1163" type="command" tooltip="1164"/>
+                <misc range="10"/>
+                <cost energy="75"/>
+                <effect id="FungalGrowthSearch" index="82" radius="2.25"/>
+            </command>
+        </ability>
+        <ability id="AmorphousArmorcloud" index="700">
+            <command id="Execute" index="0">
+                <meta name="1165" icon="btn-ability-zerg-darkswarm" hotkey="1166" type="command" tooltip="1167"/>
+                <misc range="9"/>
+                <cost energy="75"/>
+                <effect id="AmorphousArmorcloudSearch" index="1886" radius="3.5"/>
+            </command>
+        </ability>
+        <ability id="BurrowedMove">
+            <command index="0">
+                <meta name="1168" icon="btn-upgrade-zerg-burrowmove" type="passive" tooltip="1169"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+        <upgrade id="NeuralParasite" index="151">
+            <level>
+                <meta name="1161" icon="btn-ability-zerg-neuralparasite-color" hotkey="1025" tooltip="1026"/>
+                <cost minerals="150" vespene="150" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

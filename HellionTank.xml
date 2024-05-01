@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="HellionTank">
+    <meta name="83" icon="btn-unit-terran-hellionbattlemode" race="Terr" hotkey="356" tooltip="357" source="Swarm.SC2Mod" index="473"/>
+    <life start="135" max="135"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Armory" name="275"/>
+    </requires>
+    <cost minerals="100" supply="2" time="30"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="720"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.625" cargoSize="4" sightRadius="10" supply="-2"/>
+    <producer id="Factory" name="340"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="SCV" name="208"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marauder" name="126"/>
+        <unit id="Baneling" name="124"/>
+        <unit id="Stalker" name="128"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="HellionTank" index="80">
+            <meta name="1829" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc range="2" speed="2" targets="ground"/>
+            <effect id="HellionTankDamage" index="1159" radius="-1" damage="18" max="24" death="Fire" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="MorphToHellion" index="359">
+            <command id="Execute" index="0">
+                <meta name="1830" icon="btn-unit-terran-hellion" hotkey="1831" type="command" tooltip="1832"/>
+                <requires>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost time="4.125"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleWeapons">
+            <level id="TerranVehicleWeaponsLevel1" index="33">
+                <meta name="397" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" tooltip="393"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel2" index="34">
+                <meta name="401" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" tooltip="396"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel3" index="35">
+                <meta name="447" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" tooltip="400"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="HighCapacityBarrels" index="22">
+            <level>
+                <meta name="600" icon="btn-upgrade-terran-infernalpreigniter" hotkey="482" tooltip="483"/>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+        <upgrade id="SmartServos" index="187">
+            <level>
+                <meta name="459" icon="btn-upgrade-terran-transformationservos" hotkey="460" tooltip="461"/>
+                <requires>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

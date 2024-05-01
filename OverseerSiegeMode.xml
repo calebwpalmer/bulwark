@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="OverseerSiegeMode">
+    <meta name="1366" icon="btn-unit-zerg-overseer" race="Zerg" hotkey="0" tooltip="1215" source="BalanceData" index="190"/>
+    <life start="200" max="200" regenRate="0.2734"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="1" cargoSize="0" sightRadius="13.75" supply="8"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="SpawnChangeling" index="97">
+            <command id="Execute" index="0">
+                <meta name="1216" icon="BTN-Unit-Zerg-changeling" hotkey="191" type="command" tooltip="1217"/>
+                <misc range="0"/>
+                <cost energy="50"/>
+            </command>
+        </ability>
+        <ability id="Contaminate" index="276">
+            <command id="Execute" index="0">
+                <meta name="1218" icon="btn-ability-zerg-contaminate-color" hotkey="1219" type="command" tooltip="1220"/>
+                <misc range="3"/>
+                <cost energy="125"/>
+            </command>
+        </ability>
+        <ability id="OverseerSiegeModeMorphtoOverseer" index="717">
+            <command id="Execute" index="0">
+                <meta name="1367" icon="btn-ability-zerg-overlord-oversight-off" hotkey="1368" type="command" tooltip="1369"/>
+                <cost time="0.75"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergFlyerArmors">
+            <level id="ZergFlyerArmorsLevel1" index="74">
+                <meta name="1007" icon="btn-upgrade-zerg-flyercarapace-level1" hotkey="1002" tooltip="1003"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="ZergFlyerArmorsLevel2" index="75">
+                <meta name="1011" icon="btn-upgrade-zerg-flyercarapace-level2" hotkey="1005" tooltip="1006"/>
+                <requires>
+                    <upgrade id="ZergFlyerArmorsLevel1" name="1007"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="ZergFlyerArmorsLevel3" index="76">
+                <meta name="1119" icon="btn-upgrade-zerg-flyercarapace-level3" hotkey="1009" tooltip="1010"/>
+                <requires>
+                    <upgrade id="ZergFlyerArmorsLevel2" name="1011"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="overlordspeed" index="65">
+            <level>
+                <meta name="1120" icon="btn-upgrade-zerg-pneumatizedcarapace" hotkey="942" tooltip="943"/>
+                <cost minerals="100" vespene="100" time="60"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

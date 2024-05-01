@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SpawningPool">
+    <meta name="932" icon="btn-building-zerg-spawningpool" race="Zerg" hotkey="955" tooltip="956" source="Liberty.SC2Mod" index="112"/>
+    <life start="1000" max="1000" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Hatchery" name="926"/>
+    </requires>
+    <cost minerals="200" time="65"/>
+    <score build="200" kill="200"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3CreepContour" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="zerglingattackspeed" ability="192" index="0">
+            <meta name="957" icon="btn-upgrade-zerg-adrenalglands" hotkey="958" type="command" tooltip="959"/>
+            <requires>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="130"/>
+        </upgrade>
+        <upgrade id="zerglingmovementspeed" ability="192" index="1">
+            <meta name="960" icon="btn-upgrade-zerg-metabolicboost" hotkey="961" type="command" tooltip="962"/>
+            <cost minerals="100" vespene="100" time="110"/>
+        </upgrade>
+    </researches>
+</unit>

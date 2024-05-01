@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SpacePlatformGeyser">
+    <meta name="1973" icon="wireframe-general-vespenegeyser-spaceplatform" race="Neut" hotkey="0" tooltip="1917" source="Liberty.SC2Mod" index="551"/>
+    <life start="10000" max="10000"/>
+    <armor start="10" max="10"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="1.5" cargoSize="0" footprint="FootprintGeyserRounded" sightRadius="0" supply="0"/>
+    <attributes>
+        <attribute type="Structure"/>
+    </attributes>
+</unit>

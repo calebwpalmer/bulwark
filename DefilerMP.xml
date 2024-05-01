@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="DefilerMP">
+    <meta name="2425" icon="btn-unit-zerg-defilerex3" race="Zerg" hotkey="0" tooltip="0" source="Void.SC2Mod" index="989"/>
+    <life start="80" max="80" regenRate="0.2734"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="200" kill="200"/>
+    <misc radius="0.75" cargoSize="2" sightRadius="10" supply="-2"/>
+    <attributes>
+        <attribute type="Biological"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="DefilerMPConsume" index="594">
+            <command id="Execute" index="0">
+                <meta name="2426" icon="btn-ability-zerg-consume" hotkey="2427" type="command" tooltip="0"/>
+                <misc range="0.5"/>
+                <cost time="0.25"/>
+            </command>
+        </ability>
+        <ability id="DefilerMPDarkSwarm" index="595">
+            <command id="Execute" index="0">
+                <meta name="2428" icon="btn-ability-zerg-darkswarm" hotkey="2429" type="command" tooltip="0"/>
+                <misc range="8"/>
+                <cost energy="100" time="0.5"/>
+                <effect id="DefilerMPDarkSwarmSearch" index="1382" radius="3"/>
+            </command>
+        </ability>
+        <ability id="DefilerMPPlague" index="596">
+            <command id="Execute" index="0">
+                <meta name="2430" icon="btn-ability-zerg-defilerplague" hotkey="2431" type="command" tooltip="2432"/>
+                <misc range="8"/>
+                <cost energy="150" time="0.25"/>
+                <effect id="DefilerMPPlagueSearch" index="1384" radius="1.5"/>
+            </command>
+        </ability>
+        <ability id="DefilerMPBurrow" index="597">
+            <command id="Execute" index="0">
+                <meta name="88" icon="btn-ability-zerg-burrow-color" hotkey="89" type="command" tooltip="90"/>
+                <requires>
+                    <upgrade id="Burrow" name="91"/>
+                </requires>
+                <cost time="1.518"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

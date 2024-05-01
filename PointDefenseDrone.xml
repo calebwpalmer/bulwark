@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="PointDefenseDrone">
+    <meta name="183" icon="btn-unit-terran-targetingdrone" race="Terr" hotkey="0" tooltip="184" source="Liberty.SC2Mod" index="31"/>
+    <life start="50" max="50"/>
+    <energy start="200" max="200" regenRate="1"/>
+    <armor start="0" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.625" cargoSize="0" sightRadius="7" supply="0"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <weapons/>
+    <abilities>
+        <ability id="PointDefense">
+            <command index="0">
+                <meta name="185" icon="btn-ability-terran-pointdefenselaser" type="passive" tooltip="186"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="HiSecAutoTracking" index="8">
+            <level>
+                <meta name="187" icon="BTN-Upgrade-Terran-hisecautotracking" hotkey="188" tooltip="189"/>
+                <cost minerals="100" vespene="100" time="80"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

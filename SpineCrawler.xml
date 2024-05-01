@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SpineCrawler">
+    <meta name="1056" icon="btn-building-zerg-spinecrawler" race="Zerg" hotkey="1057" tooltip="1058" source="Liberty.SC2Mod" index="121"/>
+    <life start="300" max="300" regenRate="0.2734"/>
+    <armor start="2" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="SpawningPool" name="932"/>
+    </requires>
+    <cost minerals="100" time="50"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.875" cargoSize="0" footprint="Footprint2x2ZergSpineCrawler" sightRadius="11" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Roach" name="442"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Baneling" name="124"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="ImpalerTentacle" index="10">
+            <meta name="1059" icon="btn-upgrade-zerg-seismicspines" tooltip="0"/>
+            <misc range="7" speed="1.85" targets="ground"/>
+            <effect id="ImpalerTentacleU" index="559" radius="-1" damage="25" max="25" death="Normal" kind="Ranged">
+                <bonus damage="5" max="5" type="Armored"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="SpineCrawlerUproot" index="263">
+            <command id="Execute" index="0">
+                <meta name="1060" icon="btn-ability-zerg-uproot-color" hotkey="1061" type="command" tooltip="1062"/>
+                <cost time="1"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

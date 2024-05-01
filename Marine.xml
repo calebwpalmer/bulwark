@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Marine">
+    <meta name="26" icon="btn-unit-terran-marine" race="Terr" hotkey="253" tooltip="201" source="Liberty.SC2Mod" index="71"/>
+    <life start="45" max="45"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="50" supply="1" time="25"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="50" kill="50"/>
+    <misc radius="0.375" cargoSize="1" sightRadius="9" supply="-1"/>
+    <producer id="Barracks" name="232"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <strengths>
+        <unit id="Marauder" name="126"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Immortal" name="306"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Baneling" name="124"/>
+        <unit id="Colossus" name="21"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="GuassRifle" index="27">
+            <meta name="202" icon="btn-upgrade-terran-infantryweaponslevel0" tooltip="0"/>
+            <misc range="5" speed="0.8608" targets="any"/>
+            <effect id="GuassRifle" index="510" radius="-1" damage="6" max="9" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="Stimpack" index="133">
+            <command id="Execute" index="0">
+                <meta name="541" icon="btn-ability-terran-stimpack-color" hotkey="542" type="command" tooltip="543"/>
+                <misc range="0"/>
+                <requires>
+                    <upgrade id="Stimpack" name="322"/>
+                </requires>
+                <cost life="10"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranInfantryWeapons">
+            <level id="TerranInfantryWeaponsLevel1" index="10">
+                <meta name="274" icon="btn-upgrade-terran-infantryweaponslevel1" hotkey="269" tooltip="270"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranInfantryWeaponsLevel2" index="11">
+                <meta name="279" icon="btn-upgrade-terran-infantryweaponslevel2" hotkey="272" tooltip="273"/>
+                <requires>
+                    <upgrade id="TerranInfantryWeaponsLevel1" name="274"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="TerranInfantryWeaponsLevel3" index="12">
+                <meta name="544" icon="btn-upgrade-terran-infantryweaponslevel3" hotkey="277" tooltip="278"/>
+                <requires>
+                    <upgrade id="TerranInfantryWeaponsLevel2" name="279"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranInfantryArmors">
+            <level id="TerranInfantryArmorsLevel1" index="14">
+                <meta name="286" icon="btn-upgrade-terran-infantryarmorlevel1" hotkey="281" tooltip="282"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel2" index="15">
+                <meta name="290" icon="btn-upgrade-terran-infantryarmorlevel2" hotkey="284" tooltip="285"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel1" name="286"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel3" index="16">
+                <meta name="534" icon="btn-upgrade-terran-infantryarmorlevel3" hotkey="288" tooltip="289"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel2" name="290"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Stimpack" index="18">
+            <level>
+                <meta name="322" icon="btn-ability-terran-stimpack-color" hotkey="473" tooltip="474"/>
+                <cost minerals="100" vespene="100" time="140"/>
+            </level>
+        </upgrade>
+        <upgrade id="ShieldWall" index="19">
+            <level>
+                <meta name="545" icon="BTN-techupgrade-terran-combatshield-color" hotkey="476" tooltip="477"/>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

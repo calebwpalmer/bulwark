@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="RavenRepairDrone">
+    <meta name="2655" icon="btn-unit-biomechanicaldrone" race="Terr" hotkey="0" tooltip="2656" source="BalanceData" index="1193"/>
+    <life start="50" max="50"/>
+    <energy start="200" max="200" regenRate="0.5625"/>
+    <armor start="0" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.625" cargoSize="0" sightRadius="7" supply="0"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+        <attribute type="Summoned"/>
+    </attributes>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="RavenRepairDroneHeal" index="720">
+            <command id="Execute" index="0">
+                <meta name="2657" icon="btn-ability-terran-heal-color" hotkey="2658" type="command" tooltip="2659"/>
+                <misc range="6"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Sentry">
+    <meta name="803" icon="btn-unit-protoss-sentry" race="Prot" hotkey="689" tooltip="690" source="Liberty.SC2Mod" index="100"/>
+    <life start="40" max="40"/>
+    <shields start="40" max="40" regenRate="2" delay="10"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="CyberneticsCore" name="679"/>
+    </requires>
+    <cost minerals="50" vespene="100" supply="2" time="32"/>
+    <movement type="Ground" speed="2.5" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="150" kill="150"/>
+    <misc radius="0.5" cargoSize="2" sightRadius="10" supply="-2"/>
+    <producer id="Gateway" name="667"/>
+    <attributes>
+        <attribute type="Mechanical"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Thor" name="557"/>
+        <unit id="Ravager" name="617"/>
+        <unit id="Archon" name="823"/>
+    </weaknesses>
+    <weapons/>
+    <abilities>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="ForceField" index="234">
+            <command id="Execute" index="0">
+                <meta name="824" icon="BTN-Ability-protoss-forcefield-color" hotkey="825" type="command" tooltip="826"/>
+                <misc range="9"/>
+                <cost energy="50"/>
+                <effect id="ForceFieldPlacement" index="159" radius="1.7"/>
+            </command>
+        </ability>
+        <ability id="GuardianShield" index="73">
+            <command id="Execute" index="0">
+                <meta name="827" icon="btn-ability-protoss-shieldbattery-color" hotkey="828" type="command" tooltip="829"/>
+                <misc range="0"/>
+                <cost energy="75" cooldown="18"/>
+            </command>
+        </ability>
+        <ability id="ProgressRally" index="105">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="HallucinationArchon" index="80">
+            <command id="Execute" index="0">
+                <meta name="830" icon="btn-unit-protoss-archon" hotkey="831" type="command" tooltip="832"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationColossus" index="81">
+            <command id="Execute" index="0">
+                <meta name="833" icon="btn-unit-protoss-colossus" hotkey="834" type="command" tooltip="835"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationHighTemplar" index="82">
+            <command id="Execute" index="0">
+                <meta name="836" icon="btn-unit-protoss-hightemplar" hotkey="837" type="command" tooltip="838"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationImmortal" index="83">
+            <command id="Execute" index="0">
+                <meta name="839" icon="BTN-Unit-Protoss-Immortal" hotkey="840" type="command" tooltip="841"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationPhoenix" index="84">
+            <command id="Execute" index="0">
+                <meta name="842" icon="btn-unit-protoss-phoenix" hotkey="843" type="command" tooltip="844"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationProbe" index="85">
+            <command id="Execute" index="0">
+                <meta name="845" icon="btn-unit-protoss-probe" hotkey="846" type="command" tooltip="847"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationStalker" index="86">
+            <command id="Execute" index="0">
+                <meta name="848" icon="btn-unit-protoss-stalker" hotkey="849" type="command" tooltip="850"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationVoidRay" index="87">
+            <command id="Execute" index="0">
+                <meta name="851" icon="btn-unit-protoss-warpray" hotkey="852" type="command" tooltip="853"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationWarpPrism" index="88">
+            <command id="Execute" index="0">
+                <meta name="854" icon="btn-unit-protoss-warpprism" hotkey="855" type="command" tooltip="856"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationZealot" index="89">
+            <command id="Execute" index="0">
+                <meta name="857" icon="btn-unit-protoss-zealot" hotkey="858" type="command" tooltip="859"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationOracle" index="405">
+            <command id="Execute" index="0">
+                <meta name="860" icon="btn-unit-protoss-oracle" hotkey="861" type="command" tooltip="862"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationDisruptor" index="547">
+            <command id="Execute" index="0">
+                <meta name="863" icon="btn-unit-protoss-disruptor" hotkey="864" type="command" tooltip="865"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+        <ability id="HallucinationAdept" index="548">
+            <command id="Execute" index="0">
+                <meta name="866" icon="btn-unit-protoss-adept" hotkey="867" type="command" tooltip="868"/>
+                <misc range="0"/>
+                <cost energy="75"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossGroundWeapons">
+            <level id="ProtossGroundWeaponsLevel1" index="42">
+                <meta name="38" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel1" hotkey="39" tooltip="40"/>
+                <cost minerals="100" vespene="100" time="170"/>
+            </level>
+            <level id="ProtossGroundWeaponsLevel2" index="43">
+                <meta name="41" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel2" hotkey="42" tooltip="43"/>
+                <requires>
+                    <upgrade id="ProtossGroundWeaponsLevel1" name="38"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="202.5"/>
+            </level>
+            <level id="ProtossGroundWeaponsLevel3" index="44">
+                <meta name="45" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel3" hotkey="46" tooltip="47"/>
+                <requires>
+                    <upgrade id="ProtossGroundWeaponsLevel2" name="41"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossGroundArmors">
+            <level id="ProtossGroundArmorsLevel1" index="45">
+                <meta name="48" icon="BTN-Upgrade-Protoss-GroundArmorLevel1" hotkey="49" tooltip="50"/>
+                <cost minerals="100" vespene="100" time="170"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel2" index="46">
+                <meta name="51" icon="BTN-Upgrade-Protoss-GroundArmorLevel2" hotkey="52" tooltip="53"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel1" name="48"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="202.5"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel3" index="47">
+                <meta name="54" icon="BTN-Upgrade-Protoss-GroundArmorLevel3" hotkey="55" tooltip="56"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel2" name="51"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

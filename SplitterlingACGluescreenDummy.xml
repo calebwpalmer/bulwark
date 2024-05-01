@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="SplitterlingACGluescreenDummy">
+    <meta name="1455" icon="btn-unit-collection-webby-baneling" race="Neut" hotkey="0" tooltip="1456" source="Liberty.SC2Mod" index="237"/>
+    <life start="1" max="1"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="0" supply="0"/>
+    <attributes/>
+</unit>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Barracks">
+    <meta name="232" icon="btn-building-terran-barracks" race="Terr" hotkey="245" tooltip="246" source="Liberty.SC2Mod" index="42"/>
+    <life start="1000" max="1000"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="SupplyDepot" name="236"/>
+    </requires>
+    <cost minerals="150" time="65"/>
+    <score build="150" kill="150"/>
+    <misc radius="1.75" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="BarracksLiftOff" index="150">
+            <command id="Execute" index="0">
+                <meta name="220" icon="btn-ability-terran-liftoff" hotkey="221" type="command" tooltip="222"/>
+                <cost time="2"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="BarracksTechLab" ability="149" index="0">
+            <meta name="247" icon="btn-building-terran-techlab" hotkey="248" type="command" tooltip="249"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="25" time="25"/>
+        </unit>
+        <unit id="BarracksReactor" ability="149" index="1">
+            <meta name="250" icon="btn-building-terran-reactor" hotkey="251" type="command" tooltip="78"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="50" time="50"/>
+        </unit>
+    </builds>
+    <trains>
+        <unit id="Marine" ability="161" index="0">
+            <meta name="252" icon="btn-unit-terran-marine" hotkey="253" type="command" tooltip="201"/>
+            <cost minerals="50" supply="1" time="25"/>
+        </unit>
+        <unit id="Reaper" ability="161" index="1">
+            <meta name="254" icon="btn-unit-terran-reaper" hotkey="255" type="command" tooltip="256"/>
+            <cost minerals="50" vespene="50" supply="1" time="45"/>
+        </unit>
+        <unit id="Ghost" ability="161" index="2">
+            <meta name="257" icon="btn-unit-terran-ghost" hotkey="258" type="command" tooltip="259"/>
+            <requires>
+                <unit id="BarracksTechLab" name="69"/>
+                <unit id="GhostAcademy" name="260"/>
+            </requires>
+            <cost minerals="150" vespene="125" supply="2" time="40"/>
+        </unit>
+        <unit id="Marauder" ability="161" index="3">
+            <meta name="261" icon="btn-unit-terran-marauder" hotkey="262" type="command" tooltip="263"/>
+            <requires>
+                <unit id="TechLab" name="69"/>
+            </requires>
+            <cost minerals="100" vespene="25" supply="2" time="30"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="VikingFighter">
+    <meta name="29" icon="btn-unit-terran-vikingfighter" race="Terr" hotkey="384" tooltip="385" source="Liberty.SC2Mod" index="58"/>
+    <life start="135" max="135"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="150" vespene="75" supply="2" time="42"/>
+    <movement type="Fly" speed="2.75" acceleration="2.625" deceleration="0" turnRate="999.8437"/>
+    <score build="225" kill="225"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="10" supply="-2"/>
+    <producer id="Starport" name="364"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Battlecruiser" name="462"/>
+        <unit id="BroodLord" name="463"/>
+        <unit id="Tempest" name="31"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marine" name="26"/>
+        <unit id="Hydralisk" name="439"/>
+        <unit id="Stalker" name="128"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="LanzerTorpedoes" index="40">
+            <meta name="464" icon="btn-upgrade-terran-shipweaponslevel0" tooltip="0"/>
+            <misc count="2" range="9" speed="2" targets="air"/>
+            <effect id="LanzerTorpedoesDamage" index="520" radius="-1" damage="10" max="13" death="Normal" kind="Ranged">
+                <bonus damage="4" max="4" type="Armored"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="AssaultMode" index="143">
+            <command id="Execute" index="0">
+                <meta name="465" icon="btn-unit-terran-vikingassault" hotkey="466" type="command" tooltip="467"/>
+                <cost time="2.59"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranShipWeapons">
+            <level id="TerranShipWeaponsLevel1" index="39">
+                <meta name="408" icon="btn-upgrade-terran-shipweaponslevel1" hotkey="403" tooltip="404"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranShipWeaponsLevel2" index="40">
+                <meta name="412" icon="btn-upgrade-terran-shipweaponslevel2" hotkey="406" tooltip="407"/>
+                <requires>
+                    <upgrade id="TerranShipWeaponsLevel1" name="408"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranShipWeaponsLevel3" index="41">
+                <meta name="458" icon="btn-upgrade-terran-shipweaponslevel3" hotkey="410" tooltip="411"/>
+                <requires>
+                    <upgrade id="TerranShipWeaponsLevel2" name="412"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="SmartServos" index="187">
+            <level>
+                <meta name="459" icon="btn-upgrade-terran-transformationservos" hotkey="460" tooltip="461"/>
+                <requires>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

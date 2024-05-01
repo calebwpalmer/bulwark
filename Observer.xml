@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Observer">
+    <meta name="815" icon="btn-unit-protoss-observer" race="Prot" hotkey="776" tooltip="777" source="Liberty.SC2Mod" index="105"/>
+    <life start="40" max="40"/>
+    <shields start="30" max="30" regenRate="2" delay="10"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="3"/>
+    <cost minerals="25" vespene="75" supply="1" time="25"/>
+    <movement type="Fly" speed="2.0156" acceleration="2.125" deceleration="0" turnRate="720"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="11" supply="-1"/>
+    <producer id="RoboticsFacility" name="25"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Banshee" name="294"/>
+        <unit id="LurkerMP" name="624"/>
+        <unit id="DarkTemplar" name="625"/>
+    </strengths>
+    <weaknesses>
+        <unit id="MissileTurret" name="291"/>
+        <unit id="SporeCrawler" name="602"/>
+        <unit id="PhotonCannon" name="603"/>
+    </weaknesses>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="ObserverMorphtoObserverSiege" index="715">
+            <command id="Execute" index="0">
+                <meta name="894" icon="btn-unit-protoss-observer-Surveillance" hotkey="895" type="command" tooltip="896"/>
+                <cost time="0.75"/>
+            </command>
+        </ability>
+        <ability id="PermanentlyCloakedObserver">
+            <command index="0">
+                <meta name="897" icon="BTN-ability-Protoss-permanentlycloaked-Observer-color" type="passive" tooltip="898"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossAirArmors">
+            <level id="ProtossAirArmorsLevel1" index="84">
+                <meta name="174" icon="BTN-Upgrade-Protoss-AirArmorLevel1" hotkey="175" tooltip="176"/>
+                <cost minerals="100" vespene="100" time="180"/>
+            </level>
+            <level id="ProtossAirArmorsLevel2" index="85">
+                <meta name="177" icon="BTN-Upgrade-Protoss-AirArmorLevel2" hotkey="178" tooltip="179"/>
+                <requires>
+                    <upgrade id="ProtossAirArmorsLevel1" name="174"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="215"/>
+            </level>
+            <level id="ProtossAirArmorsLevel3" index="86">
+                <meta name="180" icon="BTN-Upgrade-Protoss-AirArmorLevel3" hotkey="181" tooltip="182"/>
+                <requires>
+                    <upgrade id="ProtossAirArmorsLevel2" name="177"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="250"/>
+            </level>
+        </upgrade>
+        <upgrade id="ObserverGraviticBooster" index="51">
+            <level>
+                <meta name="899" icon="btn-upgrade-protoss-graviticbooster" hotkey="764" tooltip="765"/>
+                <cost minerals="100" vespene="100" time="80"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

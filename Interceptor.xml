@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Interceptor">
+    <meta name="878" icon="btn-unit-protoss-interceptor" race="Prot" hotkey="876" tooltip="924" source="Liberty.SC2Mod" index="108"/>
+    <life start="40" max="40"/>
+    <shields start="40" max="40" regenRate="2" delay="10"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="Interceptor" name="878"/>
+    </requires>
+    <cost minerals="15" cooldown="0.01" time="12"/>
+    <movement type="Fly" speed="7.5" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="15" kill="15"/>
+    <misc radius="0.25" cargoSize="0" sightRadius="7" supply="0"/>
+    <producer id="Carrier" name="635"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <weapons>
+        <weapon id="InterceptorBeam" index="21">
+            <meta name="925" icon="btn-upgrade-protoss-airweaponslevel0" tooltip="0"/>
+            <misc count="2" range="2" speed="3" targets="any"/>
+            <effect id="InterceptorBeamDamage" index="540" radius="-1" damage="5" max="8" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossAirWeapons">
+            <level id="ProtossAirWeaponsLevel1" index="81">
+                <meta name="165" icon="BTN-Upgrade-Protoss-AirWeaponsLevel1" hotkey="166" tooltip="167"/>
+                <cost minerals="100" vespene="100" time="180"/>
+            </level>
+            <level id="ProtossAirWeaponsLevel2" index="82">
+                <meta name="168" icon="BTN-Upgrade-Protoss-AirWeaponsLevel2" hotkey="169" tooltip="170"/>
+                <requires>
+                    <upgrade id="ProtossAirWeaponsLevel1" name="165"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="215"/>
+            </level>
+            <level id="ProtossAirWeaponsLevel3" index="83">
+                <meta name="171" icon="BTN-Upgrade-Protoss-AirWeaponsLevel3" hotkey="172" tooltip="173"/>
+                <requires>
+                    <upgrade id="ProtossAirWeaponsLevel2" name="168"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="250"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossAirArmors">
+            <level id="ProtossAirArmorsLevel1" index="84">
+                <meta name="174" icon="BTN-Upgrade-Protoss-AirArmorLevel1" hotkey="175" tooltip="176"/>
+                <cost minerals="100" vespene="100" time="180"/>
+            </level>
+            <level id="ProtossAirArmorsLevel2" index="85">
+                <meta name="177" icon="BTN-Upgrade-Protoss-AirArmorLevel2" hotkey="178" tooltip="179"/>
+                <requires>
+                    <upgrade id="ProtossAirArmorsLevel1" name="174"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="215"/>
+            </level>
+            <level id="ProtossAirArmorsLevel3" index="86">
+                <meta name="180" icon="BTN-Upgrade-Protoss-AirArmorLevel3" hotkey="181" tooltip="182"/>
+                <requires>
+                    <upgrade id="ProtossAirArmorsLevel2" name="177"/>
+                    <unit id="FleetBeacon" name="153"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="250"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

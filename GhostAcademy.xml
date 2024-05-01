@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="GhostAcademy">
+    <meta name="260" icon="btn-building-terran-ghostacademy" race="Terr" hotkey="332" tooltip="333" source="Liberty.SC2Mod" index="48"/>
+    <life start="1250" max="1250"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Barracks" name="232"/>
+    </requires>
+    <cost minerals="150" vespene="50" time="40"/>
+    <score build="200" kill="200"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="PersonalCloaking" ability="170" index="0">
+            <meta name="334" icon="btn-ability-terran-cloak-color" hotkey="335" type="command" tooltip="336"/>
+            <cost minerals="150" vespene="150" time="120"/>
+        </upgrade>
+    </researches>
+    <trains>
+        <unit id="Nuke" ability="166" index="0">
+            <meta name="337" icon="btn-ability-terran-armnuke" hotkey="338" type="command" tooltip="339"/>
+            <requires>
+                <unit id="Factory" name="340"/>
+                <unit id="FactoryFlying" name="340"/>
+            </requires>
+            <cost minerals="100" vespene="100" time="60"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

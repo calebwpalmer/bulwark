@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="RavagerCocoon">
+    <meta name="1323" icon="btn-unit-zerg-ravager" race="Zerg" hotkey="1148" tooltip="1324" source="Liberty.SC2Mod" index="181"/>
+    <life start="100" max="100" regenRate="0.2734"/>
+    <armor start="5" max="5"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="RoachWarren" name="1047"/>
+    </requires>
+    <cost minerals="25" vespene="75" supply="1" time="17"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="5" supply="-2"/>
+    <producer id="Roach" name="442"/>
+    <attributes>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="MorphToRavager" index="311">
+            <command id="Execute" index="0">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+                <requires>
+                    <unit id="RoachWarren" name="1047"/>
+                </requires>
+                <cost minerals="100" vespene="100" supply="1" time="17"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

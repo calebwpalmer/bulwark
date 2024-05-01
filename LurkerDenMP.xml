@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="LurkerDenMP">
+    <meta name="1127" icon="btn-building-zerg-lurkerden" race="Zerg" hotkey="1095" tooltip="1300" source="Liberty.SC2Mod" index="175"/>
+    <life start="850" max="850" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="HydraliskDen" name="975"/>
+    </requires>
+    <cost minerals="100" vespene="150" time="80"/>
+    <score build="250" kill="250"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3CreepContour" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="DiggingClaws" ability="713" index="0">
+            <meta name="1301" icon="btn-upgrade-zerg-adaptivetalons" hotkey="1294" type="command" tooltip="1295"/>
+            <requires>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="100" vespene="100" time="80"/>
+        </upgrade>
+        <upgrade id="LurkerRange" ability="713" index="1">
+            <meta name="1302" icon="btn-upgrade-kerrigan-seismicspines" hotkey="1291" type="command" tooltip="1292"/>
+            <requires>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="80"/>
+        </upgrade>
+    </researches>
+</unit>

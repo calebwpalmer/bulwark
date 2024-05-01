@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Medivac">
+    <meta name="601" icon="btn-unit-terran-medivac" race="Terr" hotkey="371" tooltip="372" source="Liberty.SC2Mod" index="77"/>
+    <life start="150" max="150"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="100" vespene="100" supply="2" time="42"/>
+    <movement type="Fly" speed="2.5" acceleration="2.25" deceleration="0" turnRate="999.8437"/>
+    <score build="200" kill="200"/>
+    <misc radius="0.75" cargoCapacity="8" cargoSize="0" sightRadius="11" supply="-2"/>
+    <producer id="Starport" name="364"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <weaknesses>
+        <unit id="MissileTurret" name="291"/>
+        <unit id="SporeCrawler" name="602"/>
+        <unit id="PhotonCannon" name="603"/>
+    </weaknesses>
+    <abilities>
+        <ability id="MedivacHeal" index="136">
+            <command id="Execute" index="0">
+                <meta name="604" icon="btn-ability-terran-heal-color" hotkey="605" type="command" tooltip="606"/>
+                <misc range="4"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+            <command id="AcquireMove" index="3">
+                <meta name="194" icon="btn-command-attack" hotkey="195" type="command" tooltip="196"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="MedivacTransport" index="140">
+            <command id="Load" index="0">
+                <meta name="607" icon="btn-ability-terran-load" hotkey="608" type="command" tooltip="609"/>
+                <misc range="1"/>
+            </command>
+            <command id="UnloadAt" index="2">
+                <meta name="610" icon="btn-ability-terran-unloadall" hotkey="611" type="command" tooltip="612"/>
+                <misc range="1"/>
+            </command>
+        </ability>
+        <ability id="MedivacSpeedBoost" index="406">
+            <command id="Execute" index="0">
+                <meta name="613" icon="BTN-Upgrade-Terran-MedivacEmergencyThrusters" hotkey="614" type="command" tooltip="615"/>
+                <misc range="0"/>
+                <cost cooldown="20"/>
+            </command>
+        </ability>
+        <ability id="CaduceusReactor">
+            <command index="0">
+                <meta name="616" icon="btn-upgrade-terran-caduceusreactor" type="passive" tooltip="432"/>
+                <requires>
+                    <upgrade id="MedivacCaduceusReactor" name="616"/>
+                </requires>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="MedivacCaduceusReactor" index="24">
+            <level>
+                <meta name="616" icon="btn-upgrade-terran-caduceusreactor" hotkey="431" tooltip="432"/>
+                <cost minerals="100" vespene="100" time="70"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

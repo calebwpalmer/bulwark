@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="NydusCanalAttacker">
+    <meta name="1305" icon="btn-unit-zerg-nydusdestroyer" race="Zerg" hotkey="0" tooltip="1306" source="Swarm.SC2Mod" index="177"/>
+    <life start="200" max="200" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="200" kill="200"/>
+    <misc radius="0.5" cargoSize="0" footprint="Footprint2x2IgnoreCreepContour" sightRadius="10" supply="-2"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <weapons>
+        <weapon id="NydusCanalAttackerWeapon" index="78">
+            <meta name="1307" icon="btn-upgrade-zerg-missileattacks-level0" tooltip="0"/>
+            <misc range="7" speed="2" targets="any"/>
+            <effect id="NydusCanalAttackerDamage" index="993" radius="-1" damage="10" max="10" death="Disintegrate" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

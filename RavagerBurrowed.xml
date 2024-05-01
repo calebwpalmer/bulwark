@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="RavagerBurrowed">
+    <meta name="1321" icon="btn-unit-zerg-ravager" race="Zerg" hotkey="0" tooltip="1322" source="Liberty.SC2Mod" index="180"/>
+    <life start="120" max="120" regenRate="0.2734"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.75" cargoSize="0" sightRadius="5" supply="-3"/>
+    <attributes>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="BurrowRavagerUp" index="310">
+            <command id="Execute" index="0">
+                <meta name="1184" icon="btn-ability-zerg-upburrow-color" hotkey="1185" type="command" tooltip="1186"/>
+                <cost time="0.4943"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

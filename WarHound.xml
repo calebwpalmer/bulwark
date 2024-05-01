@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="WarHound">
+    <meta name="2165" icon="btn-unit-terran-warhound" race="Terr" hotkey="0" tooltip="2166" source="Swarm.SC2Mod" index="721"/>
+    <life start="220" max="220"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.8125" acceleration="1000" deceleration="0" turnRate="360"/>
+    <score build="225" kill="225"/>
+    <misc radius="0.8125" cargoSize="4" sightRadius="11" supply="-3"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Stalker" name="128"/>
+        <unit id="SiegeTankSieged" name="305"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Roach" name="442"/>
+        <unit id="Zealot" name="28"/>
+        <unit id="Marauder" name="126"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="WarHound" index="82">
+            <meta name="2167" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc range="7" speed="1.3" targets="ground"/>
+            <effect id="WarHound" index="1150" radius="-1" damage="23" max="29" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="TornadoMissile" index="402">
+            <command id="Execute" index="0">
+                <meta name="2168" icon="BTN-Ability-Terran-HaywireMissile" hotkey="2169" type="command" tooltip="2170"/>
+                <cost cooldown="6"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleWeapons">
+            <level id="TerranVehicleWeaponsLevel1" index="33">
+                <meta name="397" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" tooltip="393"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel2" index="34">
+                <meta name="401" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" tooltip="396"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel3" index="35">
+                <meta name="447" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" tooltip="400"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

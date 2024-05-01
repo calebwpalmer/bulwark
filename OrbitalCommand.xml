@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="OrbitalCommand">
+    <meta name="1233" icon="BTN-Building-Terran-SurveillanceStation" race="Terr" hotkey="230" tooltip="1234" source="Liberty.SC2Mod" index="155"/>
+    <life start="1500" max="1500"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Barracks" name="232"/>
+    </requires>
+    <cost minerals="150" time="35"/>
+    <score build="550" kill="550"/>
+    <misc radius="2.5" cargoSize="0" footprint="Footprint5x5Contour" sightRadius="11" supply="15"/>
+    <producer id="CommandCenter" name="205"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="CalldownMULE" index="92">
+            <command id="Execute" index="0">
+                <meta name="1235" icon="BTN-Unit-Terran-mule" hotkey="1236" type="command" tooltip="1237"/>
+                <cost energy="50"/>
+            </command>
+        </ability>
+        <ability id="SupplyDrop" index="115">
+            <command id="Execute" index="0">
+                <meta name="1238" icon="BTN-Ability-Terran-CalldownExtraSupplies-color" hotkey="1239" type="command" tooltip="1240"/>
+                <cost energy="50"/>
+            </command>
+        </ability>
+        <ability id="que5CancelToSelection" index="126">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="RallyCommand" index="106">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="ScannerSweep" index="141">
+            <command id="Execute" index="0">
+                <meta name="1241" icon="btn-ability-terran-scannersweep-color" hotkey="1242" type="command" tooltip="1243"/>
+                <cost energy="50"/>
+                <effect id="ScannerSweep" index="144" radius="13" duration="12.2775"/>
+            </command>
+        </ability>
+        <ability id="OrbitalLiftOff" index="232">
+            <command id="Execute" index="0">
+                <meta name="220" icon="btn-ability-terran-liftoff" hotkey="221" type="command" tooltip="222"/>
+                <cost time="2"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="SCV" ability="157" index="0">
+            <meta name="233" icon="btn-unit-terran-scv" hotkey="234" type="command" tooltip="235"/>
+            <cost minerals="50" supply="1" time="17"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

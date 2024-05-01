@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="FactoryTechLab">
+    <meta name="69" icon="btn-building-terran-techlab" race="Terr" hotkey="344" tooltip="70" source="Liberty.SC2Mod" index="62"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="50" vespene="25" time="25"/>
+    <score build="75" kill="75"/>
+    <misc radius="1" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="9" supply="0"/>
+    <producer id="Factory" name="340"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5Addon" index="128">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="HighCapacityBarrels" ability="168" index="1">
+            <meta name="481" icon="btn-upgrade-terran-infernalpreigniter" hotkey="482" type="command" tooltip="483"/>
+            <cost minerals="100" vespene="100" time="110"/>
+        </upgrade>
+        <upgrade id="DrillClaws" ability="168" index="4">
+            <meta name="484" icon="BTN-Upgrade-Terran-ResearchDrillingClaws" hotkey="485" type="command" tooltip="486"/>
+            <requires>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="75" vespene="75" time="110"/>
+        </upgrade>
+        <upgrade id="SmartServos" ability="168" index="6">
+            <meta name="487" icon="btn-upgrade-terran-transformationservos" hotkey="460" type="command" tooltip="461"/>
+            <requires>
+                <unit id="Armory" name="275"/>
+            </requires>
+            <cost minerals="100" vespene="100" time="110"/>
+        </upgrade>
+        <upgrade id="HurricaneThrusters" ability="168" index="10">
+            <meta name="488" icon="btn-upgrade-mengsk-armory-smartservos" hotkey="489" type="command" tooltip="490"/>
+            <cost minerals="100" vespene="100" time="140"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

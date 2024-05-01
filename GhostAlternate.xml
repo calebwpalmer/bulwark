@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="GhostAlternate">
+    <meta name="555" icon="btn-unit-terran-ghost" race="Terr" hotkey="0" tooltip="259" source="BalanceData" index="167"/>
+    <life start="100" max="100"/>
+    <energy start="75" max="200" regenRate="0.5625"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.8125" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="300" kill="300"/>
+    <misc radius="0.375" cargoSize="2" sightRadius="11" supply="-2"/>
+    <attributes>
+        <attribute type="Biological"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <strengths>
+        <unit id="Raven" name="436"/>
+        <unit id="Infestor" name="127"/>
+        <unit id="HighTemplar" name="556"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marauder" name="126"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Stalker" name="128"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="C10CanisterRifle" index="30">
+            <meta name="558" icon="btn-upgrade-terran-infantryweaponslevel0" tooltip="0"/>
+            <misc range="6" speed="1.5" targets="any"/>
+            <effect id="C10CanisterRifle" index="511" radius="-1" damage="10" max="10" death="Normal" kind="Ranged">
+                <bonus damage="10" max="10" type="Light"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="GhostCloak" index="134">
+            <command id="On" index="0">
+                <meta name="559" icon="btn-ability-terran-cloak-color" hotkey="560" type="command" tooltip="561"/>
+                <requires>
+                    <upgrade id="PersonalCloaking" name="562"/>
+                </requires>
+                <cost energy="25"/>
+            </command>
+            <command id="Off" index="1">
+                <meta name="563" icon="BTN-Ability-Terran-Decloak-color" hotkey="564" type="command" tooltip="565"/>
+            </command>
+        </ability>
+        <ability id="TacNukeStrike" index="240">
+            <command id="Execute" index="0">
+                <meta name="569" icon="btn-ability-terran-nuclearstrike-color" hotkey="570" type="command" tooltip="571"/>
+                <misc range="12"/>
+                <requires>
+                    <unit id="Nuke" name="572"/>
+                </requires>
+                <effect id="NukeDamage" index="161" radius="8" damage="300" max="300" death="Fire" kind="Spell">
+                    <area radius="4"/>
+                    <area radius="6" fraction="0.5"/>
+                    <area radius="8" fraction="0.25"/>
+                    <bonus damage="200" max="200" type="Structure"/>
+                </effect>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="GhostHoldFire" index="67">
+            <command id="Execute" index="0">
+                <meta name="573" icon="BTN-Ability-Terran-HoldFire" hotkey="574" type="command" tooltip="575"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="EMP" index="243">
+            <command id="Execute" index="0">
+                <meta name="576" icon="btn-ability-terran-emp-color" hotkey="577" type="command" tooltip="578"/>
+                <misc range="10"/>
+                <cost energy="75" time="0.01"/>
+                <effect id="EMPSearch" index="164" radius="1.5"/>
+            </command>
+        </ability>
+        <ability id="GhostWeaponsFree" index="68">
+            <command id="Execute" index="0">
+                <meta name="579" icon="btn-ability-terran-weaponsfree" hotkey="580" type="command" tooltip="581"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="ChannelSnipe" index="709">
+            <command id="Execute" index="0">
+                <meta name="566" icon="btn-ability-terran-snipe-color" hotkey="567" type="command" tooltip="568"/>
+                <misc range="10"/>
+                <cost energy="50"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranInfantryArmors">
+            <level id="TerranInfantryArmorsLevel1" index="14">
+                <meta name="286" icon="btn-upgrade-terran-infantryarmorlevel1" hotkey="281" tooltip="282"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel2" index="15">
+                <meta name="290" icon="btn-upgrade-terran-infantryarmorlevel2" hotkey="284" tooltip="285"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel1" name="286"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="190"/>
+            </level>
+            <level id="TerranInfantryArmorsLevel3" index="16">
+                <meta name="534" icon="btn-upgrade-terran-infantryarmorlevel3" hotkey="288" tooltip="289"/>
+                <requires>
+                    <upgrade id="TerranInfantryArmorsLevel2" name="290"/>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="PersonalCloaking" index="28">
+            <level>
+                <meta name="562" icon="btn-ability-terran-cloak-color" hotkey="335" tooltip="336"/>
+                <cost minerals="150" vespene="150" time="120"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

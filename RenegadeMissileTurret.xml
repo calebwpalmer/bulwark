@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="RenegadeMissileTurret">
+    <meta name="1922" icon="btn-building-terran-missileturret" race="Terr" hotkey="0" tooltip="1923" source="Liberty.SC2Mod" index="515"/>
+    <life start="250" max="250"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.75" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="11" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <weapons>
+        <weapon id="RenegadeLongboltMissile" index="14">
+            <meta name="1924" icon="btn-upgrade-terran-hisecautotracking" tooltip="0"/>
+            <misc count="2" range="7" speed="0.8608" targets="air"/>
+            <effect id="RenegadeLongboltMissileU" index="351" radius="-1" damage="12" max="12" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+                <requires/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

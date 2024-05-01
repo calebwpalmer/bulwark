@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="MissileTurret">
+    <meta name="291" icon="btn-building-terran-missileturret" race="Terr" hotkey="292" tooltip="293" source="Liberty.SC2Mod" index="44"/>
+    <life start="250" max="250"/>
+    <armor start="0" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="EngineeringBay" name="226"/>
+    </requires>
+    <cost minerals="100" time="25"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.75" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="11" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Banshee" name="294"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Phoenix" name="295"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="LongboltMissile" index="7">
+            <meta name="296" icon="btn-upgrade-terran-hisecautotracking" tooltip="0"/>
+            <misc count="2" range="7" speed="0.8608" targets="air"/>
+            <effect id="LongboltMissileU" index="526" radius="-1" damage="12" max="12" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+                <requires/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="HiSecAutoTracking" index="8">
+            <level>
+                <meta name="187" icon="BTN-Upgrade-Terran-hisecautotracking" hotkey="188" tooltip="189"/>
+                <cost minerals="100" vespene="100" time="80"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

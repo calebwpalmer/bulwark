@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Cyclone">
+    <meta name="595" icon="btn-unit-terran-cyclone" race="Terr" hotkey="359" tooltip="360" source="Void.SC2Mod" index="474"/>
+    <life start="130" max="130"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="125" vespene="50" supply="2" time="45"/>
+    <movement type="Ground" speed="2.8125" acceleration="1000" deceleration="0" turnRate="360"/>
+    <score build="175" kill="175"/>
+    <misc radius="0.75" cargoSize="4" sightRadius="11" supply="-2"/>
+    <producer id="Factory" name="340"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Marauder" name="126"/>
+        <unit id="Roach" name="442"/>
+        <unit id="Adept" name="85"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="TyphoonMissilePod" index="97">
+            <meta name="1833" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc range="6" speed="0.812" targets="any"/>
+            <effect id="CycloneAttackWeaponDamage" index="1600" radius="-1" damage="11" max="11" death="Blast" kind="Ranged">
+                <bonus damage="3" max="3" type="Mechanical"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="LockOnCancel" index="532">
+            <command id="Execute" index="0">
+                <meta name="1834" icon="btn-command-cancel" hotkey="1835" type="command" tooltip="1836"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="LockOn" index="530">
+            <command id="Execute" index="0">
+                <meta name="1837" icon="btn-ability-terran-lockon" hotkey="1838" type="command" tooltip="1839"/>
+                <misc range="6"/>
+                <requires/>
+                <cost cooldown="4"/>
+            </command>
+        </ability>
+        <ability id="HurricaneThrusters">
+            <command index="0">
+                <meta name="1840" icon="btn-upgrade-mengsk-armory-smartservos" type="passive" tooltip="1841"/>
+                <requires>
+                    <upgrade id="HurricaneThrusters" name="1842"/>
+                </requires>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="HurricaneThrusters" index="191">
+            <level>
+                <meta name="1842" icon="btn-upgrade-mengsk-armory-smartservos" hotkey="489" tooltip="490"/>
+                <cost minerals="100" vespene="100" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

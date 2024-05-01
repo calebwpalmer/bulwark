@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="TowerMine">
+    <meta name="2278" race="Terr" hotkey="0" tooltip="0" source="Swarm.SC2Mod" index="833"/>
+    <life start="100" max="100"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="0" supply="-4"/>
+    <attributes/>
+    <abilities/>
+</unit>

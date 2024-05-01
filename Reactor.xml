@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Reactor">
+    <meta name="77" icon="btn-building-terran-reactor" race="Terr" hotkey="0" tooltip="78" source="Liberty.SC2Mod" index="25"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="100" kill="100"/>
+    <misc radius="1" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="9" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

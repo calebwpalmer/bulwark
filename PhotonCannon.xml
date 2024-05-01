@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="PhotonCannon">
+    <meta name="603" icon="btn-building-protoss-photoncannon" race="Prot" hotkey="731" tooltip="732" source="Liberty.SC2Mod" index="89"/>
+    <life start="150" max="150"/>
+    <shields start="150" max="150" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="Forge" name="696"/>
+    </requires>
+    <cost minerals="150" time="40"/>
+    <score build="150" kill="150"/>
+    <misc radius="1" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="11" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Banshee" name="294"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="DarkTemplar" name="625"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="BroodLord" name="463"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="PhotonCannon" index="8">
+            <meta name="733" icon="btn-building-protoss-photoncannon" tooltip="0"/>
+            <misc range="7" speed="1.25" targets="any"/>
+            <effect id="PhotonCannonU" index="599" radius="-1" damage="20" max="20" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="Detector">
+            <command index="0">
+                <meta name="300" icon="BTN-Status-Detector" type="passive" tooltip="301"/>
+                <requires/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

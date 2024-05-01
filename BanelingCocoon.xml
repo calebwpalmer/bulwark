@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="BanelingCocoon">
+    <meta name="114" icon="btn-unit-zerg-baneling" race="Zerg" hotkey="115" tooltip="116" source="Liberty.SC2Mod" index="28"/>
+    <life start="50" max="50" regenRate="0.2734"/>
+    <armor start="2" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="BanelingNest" name="117"/>
+    </requires>
+    <cost minerals="25" vespene="25" time="20"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.375" cargoSize="0" sightRadius="5" supply="-0.5"/>
+    <producer id="Zergling" name="27"/>
+    <attributes>
+        <attribute type="Biological"/>
+    </attributes>
+    <abilities>
+        <ability id="MorphToBaneling" index="729">
+            <command id="Execute" index="0">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+                <requires>
+                    <unit id="BanelingNest" name="117"/>
+                </requires>
+                <cost time="20"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

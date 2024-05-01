@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="AutoTestAttackTargetGround">
+    <meta name="2050" icon="btn-missing-kaeo" race="Terr" hotkey="0" tooltip="0" source="Liberty.SC2Mod" index="603"/>
+    <life start="100" max="100"/>
+    <energy start="40" max="40"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.086" acceleration="1000" deceleration="0" turnRate="494.4726"/>
+    <score build="100" kill="100"/>
+    <misc radius="0.625" cargoSize="1" sightRadius="7" supply="-1"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Robotic"/>
+    </attributes>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

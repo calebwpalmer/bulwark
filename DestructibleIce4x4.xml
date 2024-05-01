@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="DestructibleIce4x4">
+    <meta name="2336" icon="btn-missing-kaeo" race="Neut" hotkey="0" tooltip="2016" source="Swarm.SC2Mod" index="886"/>
+    <life start="2000" max="2000"/>
+    <armor start="3" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" footprint="Footprint4x4ContourDestructibleRock" sightRadius="0" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+</unit>

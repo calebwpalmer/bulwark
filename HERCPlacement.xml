@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="HERCPlacement">
+    <meta name="2521" icon="btn-missing-kaeo" race="Terr" hotkey="0" tooltip="0" source="Void.SC2Mod" index="1091"/>
+    <life start="80" max="80"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="999.8437"/>
+    <score build="250" kill="250"/>
+    <misc radius="0.6875" cargoSize="2" sightRadius="9" supply="-3"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <strengths>
+        <unit id="SiegeTankSieged" name="305"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Disruptor" name="1296"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Thor" name="557"/>
+        <unit id="Ultralisk" name="84"/>
+        <unit id="Archon" name="823"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="HERCWeapon" index="95">
+            <meta name="2522" icon="btn-upgrade-terran-infantryweaponslevel0" tooltip="0"/>
+            <misc range="6" speed="1.5" targets="ground"/>
+            <effect id="HERCWeaponDamage" index="1741" radius="2.1" damage="20" max="20" death="Normal" kind="Ranged">
+                <area radius="2.1"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="CreepTumorQueen">
+    <meta name="948" icon="btn-building-zerg-creeptumor" race="Zerg" hotkey="1211" tooltip="950" source="Liberty.SC2Mod" index="161"/>
+    <life start="50" max="50" regenRate="0.2734"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <cost energy="25" time="15"/>
+    <score build="0" kill="0"/>
+    <misc radius="1" cargoSize="0" footprint="CreepTumorQueen" sightRadius="10" supply="0"/>
+    <producer id="Queen" name="1199"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities/>
+</unit>

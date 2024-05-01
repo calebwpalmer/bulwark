@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Armory">
+    <meta name="275" icon="btn-building-terran-armory" race="Terr" hotkey="389" tooltip="390" source="Liberty.SC2Mod" index="52"/>
+    <life start="750" max="750"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Factory" name="340"/>
+    </requires>
+    <cost minerals="150" vespene="50" time="65"/>
+    <score build="200" kill="200"/>
+    <misc radius="1.25" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="TerranVehicleWeaponsLevel1" ability="171" index="5">
+            <meta name="391" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" type="command" tooltip="393"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="TerranVehicleWeaponsLevel2" ability="171" index="6">
+            <meta name="394" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" type="command" tooltip="396"/>
+            <requires>
+                <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+            </requires>
+            <cost minerals="175" vespene="175" time="190"/>
+        </upgrade>
+        <upgrade id="TerranVehicleWeaponsLevel3" ability="171" index="7">
+            <meta name="398" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" type="command" tooltip="400"/>
+            <requires>
+                <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="220"/>
+        </upgrade>
+        <upgrade id="TerranShipWeaponsLevel1" ability="171" index="11">
+            <meta name="402" icon="btn-upgrade-terran-shipweaponslevel1" hotkey="403" type="command" tooltip="404"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="TerranShipWeaponsLevel2" ability="171" index="12">
+            <meta name="405" icon="btn-upgrade-terran-shipweaponslevel2" hotkey="406" type="command" tooltip="407"/>
+            <requires>
+                <upgrade id="TerranShipWeaponsLevel1" name="408"/>
+            </requires>
+            <cost minerals="175" vespene="175" time="190"/>
+        </upgrade>
+        <upgrade id="TerranShipWeaponsLevel3" ability="171" index="13">
+            <meta name="409" icon="btn-upgrade-terran-shipweaponslevel3" hotkey="410" type="command" tooltip="411"/>
+            <requires>
+                <upgrade id="TerranShipWeaponsLevel2" name="412"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="220"/>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmorsLevel1" ability="171" index="14">
+            <meta name="413" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" type="command" tooltip="415"/>
+            <cost minerals="100" vespene="100" time="160"/>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmorsLevel2" ability="171" index="15">
+            <meta name="416" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" type="command" tooltip="417"/>
+            <requires>
+                <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+            </requires>
+            <cost minerals="175" vespene="175" time="190"/>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmorsLevel3" ability="171" index="16">
+            <meta name="419" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" type="command" tooltip="420"/>
+            <requires>
+                <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="220"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

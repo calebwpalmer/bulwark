@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Extractor">
+    <meta name="952" icon="btn-building-zerg-extractor" race="Zerg" hotkey="953" tooltip="954" source="Liberty.SC2Mod" index="111"/>
+    <life start="500" max="500" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="25" time="30"/>
+    <score build="25" kill="25"/>
+    <misc radius="1.5" cargoSize="0" footprint="FootprintGeyserRoundedBuilt" sightRadius="9" supply="0"/>
+    <producer id="Drone" name="437"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

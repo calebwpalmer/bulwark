@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="BroodLordCocoon">
+    <meta name="1179" icon="btn-unit-zerg-broodlord" race="Zerg" hotkey="1177" tooltip="1180" source="Liberty.SC2Mod" index="136"/>
+    <life start="200" max="200" regenRate="0.2734"/>
+    <armor start="2" max="2"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="GreaterSpire" name="1072"/>
+    </requires>
+    <cost minerals="150" vespene="150" supply="2" time="33.8342"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.625" cargoSize="0" sightRadius="5" supply="-2"/>
+    <producer id="Corruptor" name="30"/>
+    <attributes>
+        <attribute type="Biological"/>
+        <attribute type="Massive"/>
+    </attributes>
+    <abilities>
+        <ability id="MorphToBroodLord" index="196">
+            <command id="Execute" index="0">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+                <requires>
+                    <unit id="GreaterSpire" name="1072"/>
+                </requires>
+                <cost supply="2" time="33.8342"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="118" icon="btn-command-cancel" hotkey="119" type="command" tooltip="120"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ReleaseInterceptorsBeacon">
+    <meta name="2507" race="Prot" hotkey="0" tooltip="0" source="Void.SC2Mod" index="1074"/>
+    <life start="1" max="1"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="1.5" cargoSize="0" sightRadius="0" supply="0"/>
+    <attributes/>
+</unit>

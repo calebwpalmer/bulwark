@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="DestructibleGarage">
+    <meta name="1992" icon="Wireframe-terran-garage" race="Neut" hotkey="0" tooltip="1993" source="Liberty.SC2Mod" index="565"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" footprint="FootprintDoodad3x3" sightRadius="0" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+</unit>

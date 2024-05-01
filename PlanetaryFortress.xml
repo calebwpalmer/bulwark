@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="PlanetaryFortress">
+    <meta name="1224" icon="btn-building-terran-planetaryfortress" race="Terr" hotkey="224" tooltip="1225" source="Liberty.SC2Mod" index="153"/>
+    <life start="1500" max="1500"/>
+    <armor start="3" max="5"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="EngineeringBay" name="226"/>
+    </requires>
+    <cost minerals="150" vespene="150" time="50"/>
+    <score build="700" kill="700"/>
+    <misc radius="2.5" cargoCapacity="5" cargoSize="0" footprint="Footprint5x5Contour" sightRadius="11" supply="15"/>
+    <producer id="CommandCenter" name="205"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="VoidRay" name="82"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="TwinIbiksCannon" index="53">
+            <meta name="1226" icon="btn-upgrade-terran-hisecautotracking" tooltip="0"/>
+            <misc range="6" speed="2" targets="ground"/>
+            <effect id="TwinIbiksCannon" index="203" radius="1.25" damage="40" max="40" death="Fire" kind="Ranged">
+                <area radius="0.5"/>
+                <area radius="0.8" fraction="0.75"/>
+                <area radius="1.25" fraction="0.375"/>
+            </effect>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="1227" icon="btn-command-stop" hotkey="1228" type="command" tooltip="1229"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+        <ability id="RallyCommand" index="106">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="que5PassiveCancelToSelection" index="280">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="CommandCenterTransport" index="146">
+            <command id="Load" index="0">
+                <meta name="1230" icon="btn-ability-terran-load" hotkey="1231" type="command" tooltip="1232"/>
+                <misc range="1"/>
+            </command>
+            <command id="UnloadAll" index="1">
+                <meta name="217" icon="btn-ability-terran-unloadall" hotkey="218" type="command" tooltip="219"/>
+            </command>
+            <command id="LoadAll" index="4">
+                <meta name="1230" icon="btn-ability-terran-load" hotkey="1231" type="command" tooltip="1232"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="SCV" ability="157" index="0">
+            <meta name="233" icon="btn-unit-terran-scv" hotkey="234" type="command" tooltip="235"/>
+            <cost minerals="50" supply="1" time="17"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="HiSecAutoTracking" index="8">
+            <level>
+                <meta name="187" icon="BTN-Upgrade-Terran-hisecautotracking" hotkey="188" tooltip="189"/>
+                <cost minerals="100" vespene="100" time="80"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

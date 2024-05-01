@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Probe">
+    <meta name="438" icon="btn-unit-protoss-probe" race="Prot" hotkey="655" tooltip="656" source="Liberty.SC2Mod" index="107"/>
+    <life start="20" max="20"/>
+    <shields start="20" max="20" regenRate="2" delay="10"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="3"/>
+    <cost minerals="50" supply="1" time="17"/>
+    <movement type="Ground" speed="2.8125" acceleration="2.5" deceleration="0" turnRate="999.8437"/>
+    <score build="50" kill="50"/>
+    <misc radius="0.375" cargoSize="1" sightRadius="8" supply="-1"/>
+    <producer id="Nexus" name="154"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <weapons>
+        <weapon id="ParticleBeam" index="16">
+            <meta name="903" icon="btn-upgrade-protoss-groundweaponslevel0" tooltip="0"/>
+            <misc range="0.2" speed="1.5" targets="ground"/>
+            <effect id="ParticleBeam" index="535" radius="-1" damage="5" max="5" death="Normal" kind="Melee"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="ProbeHarvest" index="122">
+            <command id="Gather" index="0">
+                <meta name="904" icon="btn-ability-protoss-gather" hotkey="905" type="command" tooltip="906"/>
+                <misc range="0"/>
+            </command>
+            <command id="Return" index="1">
+                <meta name="515" icon="btn-command-returncargo" hotkey="516" type="command" tooltip="517"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="SprayProtoss" index="64">
+            <command id="Execute" index="0">
+                <meta name="518" icon="btn-command-spray" hotkey="519" type="command" tooltip="520"/>
+                <misc range="1"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="Nexus" ability="172" index="0">
+            <meta name="907" icon="btn-building-protoss-nexus" hotkey="643" type="command" tooltip="644"/>
+            <misc range="0"/>
+            <cost minerals="400" time="100"/>
+        </unit>
+        <unit id="Pylon" ability="172" index="1">
+            <meta name="908" icon="btn-building-protoss-pylon" hotkey="659" type="command" tooltip="660"/>
+            <misc range="0"/>
+            <cost minerals="100" time="25"/>
+        </unit>
+        <unit id="Assimilator" ability="172" index="2">
+            <meta name="909" icon="btn-building-protoss-assimilator" hotkey="665" type="command" tooltip="666"/>
+            <misc range="0"/>
+            <cost minerals="75" time="30"/>
+        </unit>
+        <unit id="Gateway" ability="172" index="3">
+            <meta name="910" icon="btn-building-protoss-gateway" hotkey="668" type="command" tooltip="669"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Nexus" name="154"/>
+            </requires>
+            <cost minerals="150" time="65"/>
+        </unit>
+        <unit id="Forge" ability="172" index="4">
+            <meta name="911" icon="btn-building-protoss-forge" hotkey="697" type="command" tooltip="698"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Nexus" name="154"/>
+            </requires>
+            <cost minerals="150" time="45"/>
+        </unit>
+        <unit id="FleetBeacon" ability="172" index="5">
+            <meta name="912" icon="btn-building-protoss-fleetbeacon" hotkey="708" type="command" tooltip="709"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Stargate" name="710"/>
+            </requires>
+            <cost minerals="300" vespene="200" time="60"/>
+        </unit>
+        <unit id="TwilightCouncil" ability="172" index="6">
+            <meta name="913" icon="btn-building-protoss-twilightcouncil" hotkey="720" type="command" tooltip="721"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="150" vespene="100" time="50"/>
+        </unit>
+        <unit id="PhotonCannon" ability="172" index="7">
+            <meta name="914" icon="btn-building-protoss-photoncannon" hotkey="731" type="command" tooltip="732"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Forge" name="696"/>
+            </requires>
+            <cost minerals="150" time="40"/>
+        </unit>
+        <unit id="Stargate" ability="172" index="9">
+            <meta name="915" icon="btn-building-protoss-stargate" hotkey="734" type="command" tooltip="735"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="60"/>
+        </unit>
+        <unit id="TemplarArchive" ability="172" index="10">
+            <meta name="916" icon="btn-building-protoss-templararchives" hotkey="751" type="command" tooltip="752"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="150" vespene="200" time="50"/>
+        </unit>
+        <unit id="DarkShrine" ability="172" index="11">
+            <meta name="917" icon="btn-building-protoss-darkshrine" hotkey="756" type="command" tooltip="757"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="100"/>
+        </unit>
+        <unit id="RoboticsBay" ability="172" index="12">
+            <meta name="918" icon="btn-building-protoss-roboticssupportbay" hotkey="761" type="command" tooltip="762"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="RoboticsFacility" name="25"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="65"/>
+        </unit>
+        <unit id="RoboticsFacility" ability="172" index="13">
+            <meta name="919" icon="btn-building-protoss-roboticsfacility" hotkey="770" type="command" tooltip="771"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="150" vespene="100" time="65"/>
+        </unit>
+        <unit id="CyberneticsCore" ability="172" index="14">
+            <meta name="920" icon="btn-building-protoss-CyberneticsCore" hotkey="785" type="command" tooltip="786"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Gateway" name="667"/>
+            </requires>
+            <cost minerals="150" time="50"/>
+        </unit>
+        <unit id="ShieldBattery" ability="172" index="15">
+            <meta name="921" icon="btn-building-protoss-shieldbattery" hotkey="922" type="command" tooltip="923"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="CyberneticsCore" name="679"/>
+            </requires>
+            <cost minerals="100" time="40"/>
+        </unit>
+    </builds>
+    <upgrades>
+        <upgrade id="ProtossGroundArmors">
+            <level id="ProtossGroundArmorsLevel1" index="45">
+                <meta name="48" icon="BTN-Upgrade-Protoss-GroundArmorLevel1" hotkey="49" tooltip="50"/>
+                <cost minerals="100" vespene="100" time="170"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel2" index="46">
+                <meta name="51" icon="BTN-Upgrade-Protoss-GroundArmorLevel2" hotkey="52" tooltip="53"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel1" name="48"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="202.5"/>
+            </level>
+            <level id="ProtossGroundArmorsLevel3" index="47">
+                <meta name="54" icon="BTN-Upgrade-Protoss-GroundArmorLevel3" hotkey="55" tooltip="56"/>
+                <requires>
+                    <upgrade id="ProtossGroundArmorsLevel2" name="51"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="235"/>
+            </level>
+        </upgrade>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

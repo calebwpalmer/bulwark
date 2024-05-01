@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="CommandCenter">
+    <meta name="205" icon="btn-building-terran-commandcenter" race="Terr" hotkey="206" tooltip="207" source="Liberty.SC2Mod" index="39"/>
+    <life start="1500" max="1500"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="400" time="100"/>
+    <score build="400" kill="400"/>
+    <misc radius="2.5" cargoCapacity="5" cargoSize="0" footprint="Footprint5x5Contour" sightRadius="11" supply="15"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="que5CancelToSelection" index="126">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="RallyCommand" index="106">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+        <ability id="CommandCenterTransport" index="146">
+            <command id="Load" index="0">
+                <meta name="214" icon="btn-ability-terran-load" hotkey="215" type="command" tooltip="216"/>
+                <misc range="1"/>
+            </command>
+            <command id="UnloadAll" index="1">
+                <meta name="217" icon="btn-ability-terran-unloadall" hotkey="218" type="command" tooltip="219"/>
+            </command>
+            <command id="LoadAll" index="4">
+                <meta name="214" icon="btn-ability-terran-load" hotkey="215" type="command" tooltip="216"/>
+            </command>
+        </ability>
+        <ability id="CommandCenterLiftOff" index="147">
+            <command id="Execute" index="0">
+                <meta name="220" icon="btn-ability-terran-liftoff" hotkey="221" type="command" tooltip="222"/>
+                <cost time="2"/>
+            </command>
+        </ability>
+        <ability id="UpgradeToPlanetaryFortress" index="224">
+            <command id="Execute" index="0">
+                <meta name="223" icon="btn-building-terran-planetaryfortress" hotkey="224" type="command" tooltip="225"/>
+                <requires>
+                    <unit id="EngineeringBay" name="226"/>
+                </requires>
+                <cost minerals="150" vespene="150" time="50"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="227" icon="btn-command-cancel" hotkey="119" type="command" tooltip="228"/>
+            </command>
+        </ability>
+        <ability id="UpgradeToOrbital" index="229">
+            <command id="Execute" index="0">
+                <meta name="229" icon="BTN-Building-Terran-SurveillanceStation" hotkey="230" type="command" tooltip="231"/>
+                <requires>
+                    <unit id="Barracks" name="232"/>
+                </requires>
+                <cost minerals="150" time="35"/>
+            </command>
+            <command id="Cancel" index="1">
+                <meta name="227" icon="btn-command-cancel" hotkey="119" type="command" tooltip="228"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="SCV" ability="157" index="0">
+            <meta name="233" icon="btn-unit-terran-scv" hotkey="234" type="command" tooltip="235"/>
+            <cost minerals="50" supply="1" time="17"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

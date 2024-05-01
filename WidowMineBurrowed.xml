@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="WidowMineBurrowed">
+    <meta name="2171" icon="btn-unit-terran-widowmine" race="Terr" hotkey="0" tooltip="363" source="Swarm.SC2Mod" index="722"/>
+    <life start="90" max="90"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="7" supply="-2"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <strengths>
+        <unit id="Marauder" name="126"/>
+        <unit id="Roach" name="442"/>
+        <unit id="Immortal" name="306"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Raven" name="436"/>
+        <unit id="Overseer" name="193"/>
+        <unit id="Observer" name="815"/>
+    </weaknesses>
+    <abilities>
+        <ability id="WidowMineUnburrow" index="400">
+            <command id="Execute" index="0">
+                <meta name="2172" icon="BTN-Ability-Terran-DeactivateMine" hotkey="2173" type="command" tooltip="2174"/>
+                <cost time="1.25"/>
+            </command>
+        </ability>
+        <ability id="WidowMineAttack" index="401">
+            <command id="Execute" index="0">
+                <meta name="1847" icon="btn-command-attack" hotkey="1848" type="command" tooltip="1849"/>
+                <misc range="5"/>
+                <requires>
+                    <ability id="WidowMineArmed" name="1850"/>
+                </requires>
+                <cost cooldown="40" time="1.5"/>
+            </command>
+        </ability>
+        <ability id="WidowMineBioSplash">
+            <command index="0">
+                <meta name="1851" icon="btn-ability-terran-unstablepayload" type="passive" tooltip="1852"/>
+            </command>
+        </ability>
+        <ability id="DrillClaws">
+            <command index="0">
+                <meta name="1853" icon="BTN-Upgrade-Terran-ResearchDrillingClaws" type="passive" tooltip="1854"/>
+                <requires>
+                    <upgrade id="DrillClaws" name="1855"/>
+                </requires>
+            </command>
+        </ability>
+        <ability id="WidowMineConcealment">
+            <command index="0">
+                <meta name="1856" icon="btn-ability-terran-widowminehidden" type="passive" tooltip="1857"/>
+                <requires>
+                    <upgrade id="DrillClaws" name="1855"/>
+                </requires>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleWeapons">
+            <level id="TerranVehicleWeaponsLevel1" index="33">
+                <meta name="397" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" tooltip="393"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel2" index="34">
+                <meta name="401" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" tooltip="396"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel3" index="35">
+                <meta name="447" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" tooltip="400"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="DrillClaws" index="169">
+            <level>
+                <meta name="1855" icon="BTN-Upgrade-Terran-ResearchDrillingClaws" hotkey="485" tooltip="486"/>
+                <requires>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="75" vespene="75" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

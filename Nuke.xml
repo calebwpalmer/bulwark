@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Nuke">
+    <meta name="572" icon="btn-ability-terran-armnuke" race="Terr" hotkey="338" tooltip="0" source="Liberty.SC2Mod" index="81"/>
+    <life start="100" max="100"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Factory" name="340"/>
+        <unit id="FactoryFlying" name="340"/>
+    </requires>
+    <cost minerals="100" vespene="100" time="60"/>
+    <score build="200" kill="200"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="0" supply="0"/>
+    <producer id="GhostAcademy" name="260"/>
+    <attributes/>
+    <abilities/>
+</unit>

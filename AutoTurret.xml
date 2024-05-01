@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="AutoTurret">
+    <meta name="433" icon="btn-building-terran-autoturret" race="Terr" hotkey="434" tooltip="435" source="Liberty.SC2Mod" index="54"/>
+    <life start="100" max="100"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <cost energy="50"/>
+    <score build="0" kill="0"/>
+    <misc radius="1" cargoSize="0" footprint="FootprintAutoTurret" sightRadius="7" supply="0"/>
+    <producer id="Raven" name="436"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="SCV" name="208"/>
+        <unit id="Drone" name="437"/>
+        <unit id="Probe" name="438"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marauder" name="126"/>
+        <unit id="Hydralisk" name="439"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="AutoTurret" index="38">
+            <meta name="440" icon="btn-upgrade-terran-hisecautotracking" tooltip="0"/>
+            <misc range="6" speed="0.8" targets="any"/>
+            <effect id="AutoTurret" index="171" radius="-1" damage="18" max="18" death="Normal" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="297" icon="btn-command-attack" hotkey="298" type="command" tooltip="299"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="HiSecAutoTracking" index="8">
+            <level>
+                <meta name="187" icon="BTN-Upgrade-Terran-hisecautotracking" hotkey="188" tooltip="189"/>
+                <cost minerals="100" vespene="100" time="80"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

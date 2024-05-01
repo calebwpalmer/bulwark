@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="VoidMPImmortalReviveCorpse">
+    <meta name="2416" icon="btn-unit-protoss-immortal" race="Prot" hotkey="0" tooltip="0" source="Void.SC2Mod" index="983"/>
+    <life start="200" max="200"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Ground" speed="2.25" acceleration="1000" deceleration="0" turnRate="720"/>
+    <score build="350" kill="350"/>
+    <misc radius="0.75" cargoSize="4" sightRadius="0" supply="-4"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+    </attributes>
+    <abilities>
+        <ability id="VoidMPImmortalReviveRebuild" index="587">
+            <command id="Execute" index="0">
+                <meta name="2417" icon="btn-techupgrade-terran-immortalityprotocol" hotkey="0" type="command" tooltip="0"/>
+                <cost time="30"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

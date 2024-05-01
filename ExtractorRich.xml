@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ExtractorRich">
+    <meta name="1918" icon="btn-building-zerg-extractor" race="Zerg" hotkey="0" tooltip="1919" source="Liberty.SC2Mod" index="512"/>
+    <life start="500" max="500" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="25" kill="25"/>
+    <misc radius="1.5" cargoSize="0" footprint="FootprintGeyserRoundedBuilt" sightRadius="9" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

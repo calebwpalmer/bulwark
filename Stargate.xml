@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Stargate">
+    <meta name="710" icon="btn-building-protoss-stargate" race="Prot" hotkey="734" tooltip="735" source="Liberty.SC2Mod" index="90"/>
+    <life start="600" max="600"/>
+    <shields start="600" max="600" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="CyberneticsCore" name="679"/>
+    </requires>
+    <cost minerals="150" vespene="150" time="60"/>
+    <score build="300" kill="300"/>
+    <misc radius="1.75" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="121" icon="btn-ability-terran-setrallypoint" hotkey="122" type="command" tooltip="123"/>
+            </command>
+        </ability>
+    </abilities>
+    <trains>
+        <unit id="Phoenix" ability="175" index="0">
+            <meta name="736" icon="btn-unit-protoss-phoenix" hotkey="737" type="command" tooltip="738"/>
+            <cost minerals="150" vespene="100" supply="2" time="35"/>
+        </unit>
+        <unit id="Carrier" ability="175" index="2">
+            <meta name="739" icon="btn-unit-protoss-carrier" hotkey="740" type="command" tooltip="741"/>
+            <requires>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="350" vespene="250" supply="6" time="90"/>
+        </unit>
+        <unit id="VoidRay" ability="175" index="4">
+            <meta name="742" icon="btn-unit-protoss-warpray" hotkey="743" type="command" tooltip="744"/>
+            <cost minerals="250" vespene="150" supply="4" time="60.2"/>
+        </unit>
+        <unit id="Oracle" ability="175" index="8">
+            <meta name="745" icon="btn-unit-protoss-oracle" hotkey="746" type="command" tooltip="747"/>
+            <cost minerals="150" vespene="150" supply="3" time="52"/>
+        </unit>
+        <unit id="Tempest" ability="175" index="9">
+            <meta name="748" icon="btn-unit-protoss-tempest" hotkey="749" type="command" tooltip="750"/>
+            <requires>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="250" vespene="175" supply="5" time="60"/>
+        </unit>
+    </trains>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

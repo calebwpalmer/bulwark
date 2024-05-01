@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="StarportTechLab">
+    <meta name="69" icon="btn-building-terran-techlab" race="Terr" hotkey="368" tooltip="70" source="Liberty.SC2Mod" index="64"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="50" vespene="25" time="25"/>
+    <score build="75" kill="75"/>
+    <misc radius="1" cargoSize="0" footprint="Footprint2x2Contour" sightRadius="9" supply="0"/>
+    <producer id="Starport" name="364"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5Addon" index="128">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="BansheeCloak" ability="169" index="0">
+            <meta name="491" icon="btn-ability-terran-cloak-color" hotkey="492" type="command" tooltip="493"/>
+            <cost minerals="100" vespene="100" time="110"/>
+        </upgrade>
+        <upgrade id="BansheeSpeed" ability="169" index="9">
+            <meta name="494" icon="btn-upgrade-terran-hyperflightrotors" hotkey="495" type="command" tooltip="496"/>
+            <cost minerals="125" vespene="125" time="140"/>
+        </upgrade>
+        <upgrade id="InterferenceMatrix" ability="169" index="17">
+            <meta name="497" icon="btn-upgrade-terran-interferencematrix" hotkey="498" type="command" tooltip="499"/>
+            <cost minerals="50" vespene="50" time="80"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

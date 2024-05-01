@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="TrafficSignal">
+    <meta name="1998" icon="btn-missing-kaeo" race="Neut" hotkey="0" tooltip="1999" source="Liberty.SC2Mod" index="568"/>
+    <life start="60" max="60"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.5" cargoSize="0" footprint="FootprintDoodad1x1" sightRadius="0" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+    </attributes>
+</unit>

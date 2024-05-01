@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="TwilightCouncil">
+    <meta name="44" icon="btn-building-protoss-twilightcouncil" race="Prot" hotkey="720" tooltip="721" source="Liberty.SC2Mod" index="88"/>
+    <life start="500" max="500"/>
+    <shields start="500" max="500" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="CyberneticsCore" name="679"/>
+    </requires>
+    <cost minerals="150" vespene="100" time="50"/>
+    <score build="250" kill="250"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="Charge" ability="239" index="0">
+            <meta name="722" icon="btn-ability-protoss-charge-color" hotkey="723" type="command" tooltip="724"/>
+            <cost minerals="100" vespene="100" time="140"/>
+        </upgrade>
+        <upgrade id="BlinkTech" ability="239" index="1">
+            <meta name="725" icon="btn-ability-protoss-blink-color" hotkey="726" type="command" tooltip="727"/>
+            <cost minerals="150" vespene="150" time="170"/>
+        </upgrade>
+        <upgrade id="AdeptPiercingAttack" ability="239" index="2">
+            <meta name="728" icon="btn-upgrade-protoss-resonatingglaives-orange" hotkey="729" type="command" tooltip="730"/>
+            <cost minerals="100" vespene="100" time="140"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

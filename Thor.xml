@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Thor">
+    <meta name="557" icon="btn-unit-terran-thor" race="Terr" hotkey="350" tooltip="351" source="Liberty.SC2Mod" index="75"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="4"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="FactoryTechLab" name="69"/>
+        <unit id="Armory" name="275"/>
+    </requires>
+    <cost minerals="300" vespene="200" supply="6" time="60"/>
+    <movement type="Ground" speed="1.875" acceleration="1000" deceleration="0" turnRate="360"/>
+    <score build="500" kill="500"/>
+    <misc radius="1" cargoSize="8" sightRadius="11" supply="-6"/>
+    <producer id="Factory" name="340"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Massive"/>
+    </attributes>
+    <strengths>
+        <unit id="VikingFighter" name="29"/>
+        <unit id="Mutalisk" name="81"/>
+        <unit id="Phoenix" name="295"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Marauder" name="126"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <weapons>
+        <weapon id="JavelinMissileLaunchers" index="32">
+            <meta name="589" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc count="4" range="10" speed="3" targets="air"/>
+            <effect id="JavelinMissileLaunchersDamage" index="482" radius="0.5" damage="6" max="9" death="Blast" kind="Ranged">
+                <area radius="0.5"/>
+                <bonus damage="6" max="6" type="Light"/>
+            </effect>
+        </weapon>
+        <weapon id="ThorsHammer" index="33">
+            <meta name="590" icon="btn-upgrade-terran-vehicleweaponslevel0" tooltip="0"/>
+            <misc count="2" range="7" speed="1.28" targets="ground"/>
+            <effect id="ThorsHammerDamage" index="574" radius="-1" damage="30" max="39" death="Blast" kind="Ranged"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="ThorAPMode" index="536">
+            <command id="Execute" index="0">
+                <meta name="591" icon="btn-unit-terran-thorsiegemode" hotkey="592" type="command" tooltip="593"/>
+                <cost time="2.625"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranVehicleWeapons">
+            <level id="TerranVehicleWeaponsLevel1" index="33">
+                <meta name="397" icon="btn-upgrade-terran-vehicleweaponslevel1" hotkey="392" tooltip="393"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel2" index="34">
+                <meta name="401" icon="btn-upgrade-terran-vehicleweaponslevel2" hotkey="395" tooltip="396"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel1" name="397"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleWeaponsLevel3" index="35">
+                <meta name="447" icon="btn-upgrade-terran-vehicleweaponslevel3" hotkey="399" tooltip="400"/>
+                <requires>
+                    <upgrade id="TerranVehicleWeaponsLevel2" name="401"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="TerranVehicleAndShipArmors">
+            <level id="TerranVehicleAndShipArmorsLevel1" index="163">
+                <meta name="418" icon="btn-upgrade-terran-vehicleplatinglevel1" hotkey="414" tooltip="415"/>
+                <cost minerals="100" vespene="100" time="160"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel2" index="164">
+                <meta name="421" icon="btn-upgrade-terran-vehicleplatinglevel2" hotkey="414" tooltip="417"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel1" name="418"/>
+                </requires>
+                <cost minerals="175" vespene="175" time="190"/>
+            </level>
+            <level id="TerranVehicleAndShipArmorsLevel3" index="165">
+                <meta name="448" icon="btn-upgrade-terran-vehicleplatinglevel3" hotkey="414" tooltip="420"/>
+                <requires>
+                    <upgrade id="TerranVehicleAndShipArmorsLevel2" name="421"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="SmartServos" index="187">
+            <level>
+                <meta name="459" icon="btn-upgrade-terran-transformationservos" hotkey="460" tooltip="461"/>
+                <requires>
+                    <unit id="Armory" name="275"/>
+                </requires>
+                <cost minerals="100" vespene="100" time="110"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

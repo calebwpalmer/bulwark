@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="CyberneticsCore">
+    <meta name="679" icon="btn-building-protoss-CyberneticsCore" race="Prot" hotkey="785" tooltip="786" source="Liberty.SC2Mod" index="95"/>
+    <life start="550" max="550"/>
+    <shields start="550" max="550" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="Gateway" name="667"/>
+    </requires>
+    <cost minerals="150" time="50"/>
+    <score build="150" kill="150"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="ProtossAirWeaponsLevel1" ability="238" index="0">
+            <meta name="787" icon="BTN-Upgrade-Protoss-AirWeaponsLevel1" hotkey="166" type="command" tooltip="167"/>
+            <cost minerals="100" vespene="100" time="180"/>
+        </upgrade>
+        <upgrade id="ProtossAirWeaponsLevel2" ability="238" index="1">
+            <meta name="788" icon="BTN-Upgrade-Protoss-AirWeaponsLevel2" hotkey="169" type="command" tooltip="170"/>
+            <requires>
+                <upgrade id="ProtossAirWeaponsLevel1" name="165"/>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="175" vespene="175" time="215"/>
+        </upgrade>
+        <upgrade id="ProtossAirWeaponsLevel3" ability="238" index="2">
+            <meta name="789" icon="BTN-Upgrade-Protoss-AirWeaponsLevel3" hotkey="172" type="command" tooltip="173"/>
+            <requires>
+                <upgrade id="ProtossAirWeaponsLevel2" name="168"/>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="250"/>
+        </upgrade>
+        <upgrade id="ProtossAirArmorsLevel1" ability="238" index="3">
+            <meta name="790" icon="BTN-Upgrade-Protoss-AirArmorLevel1" hotkey="175" type="command" tooltip="176"/>
+            <cost minerals="100" vespene="100" time="180"/>
+        </upgrade>
+        <upgrade id="ProtossAirArmorsLevel2" ability="238" index="4">
+            <meta name="791" icon="BTN-Upgrade-Protoss-AirArmorLevel2" hotkey="178" type="command" tooltip="179"/>
+            <requires>
+                <upgrade id="ProtossAirArmorsLevel1" name="174"/>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="175" vespene="175" time="215"/>
+        </upgrade>
+        <upgrade id="ProtossAirArmorsLevel3" ability="238" index="5">
+            <meta name="792" icon="BTN-Upgrade-Protoss-AirArmorLevel3" hotkey="181" type="command" tooltip="182"/>
+            <requires>
+                <upgrade id="ProtossAirArmorsLevel2" name="177"/>
+                <unit id="FleetBeacon" name="153"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="250"/>
+        </upgrade>
+        <upgrade id="WarpGateResearch" ability="238" index="6">
+            <meta name="793" icon="BTN-Building-Protoss-WarpGate" hotkey="694" type="command" tooltip="695"/>
+            <cost minerals="50" vespene="50" time="140"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

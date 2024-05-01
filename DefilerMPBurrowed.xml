@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="DefilerMPBurrowed">
+    <meta name="2424" icon="btn-unit-zerg-defilerex3" race="Zerg" hotkey="0" tooltip="0" source="Void.SC2Mod" index="988"/>
+    <life start="80" max="80" regenRate="0.2734"/>
+    <energy start="50" max="200" regenRate="0.5625"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <score build="200" kill="200"/>
+    <misc radius="0.75" cargoSize="2" sightRadius="5" supply="-2"/>
+    <attributes>
+        <attribute type="Biological"/>
+        <attribute type="Psionic"/>
+    </attributes>
+    <abilities>
+        <ability id="DefilerMPUnburrow" index="598">
+            <command id="Execute" index="0">
+                <meta name="1184" icon="btn-ability-zerg-upburrow-color" hotkey="1185" type="command" tooltip="1186"/>
+                <cost time="0.55"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

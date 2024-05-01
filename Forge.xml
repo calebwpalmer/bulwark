@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Forge">
+    <meta name="696" icon="btn-building-protoss-forge" race="Prot" hotkey="697" tooltip="698" source="Liberty.SC2Mod" index="86"/>
+    <life start="400" max="400"/>
+    <shields start="400" max="400" regenRate="2" delay="10"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="3"/>
+    <requires>
+        <unit id="Nexus" name="154"/>
+    </requires>
+    <cost minerals="150" time="45"/>
+    <score build="150" kill="150"/>
+    <misc radius="1.5" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="9" supply="0"/>
+    <producer id="Probe" name="438"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="que5" index="125">
+            <command id="CancelLast" index="0">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+    </abilities>
+    <researches>
+        <upgrade id="ProtossGroundWeaponsLevel1" ability="182" index="0">
+            <meta name="699" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel1" hotkey="39" type="command" tooltip="40"/>
+            <cost minerals="100" vespene="100" time="170"/>
+        </upgrade>
+        <upgrade id="ProtossGroundWeaponsLevel2" ability="182" index="1">
+            <meta name="700" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel2" hotkey="42" type="command" tooltip="43"/>
+            <requires>
+                <upgrade id="ProtossGroundWeaponsLevel1" name="38"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="202.5"/>
+        </upgrade>
+        <upgrade id="ProtossGroundWeaponsLevel3" ability="182" index="2">
+            <meta name="701" icon="BTN-Upgrade-Protoss-GroundWeaponsLevel3" hotkey="46" type="command" tooltip="47"/>
+            <requires>
+                <upgrade id="ProtossGroundWeaponsLevel2" name="41"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="235"/>
+        </upgrade>
+        <upgrade id="ProtossGroundArmorsLevel1" ability="182" index="3">
+            <meta name="702" icon="BTN-Upgrade-Protoss-GroundArmorLevel1" hotkey="49" type="command" tooltip="50"/>
+            <cost minerals="100" vespene="100" time="170"/>
+        </upgrade>
+        <upgrade id="ProtossGroundArmorsLevel2" ability="182" index="4">
+            <meta name="703" icon="BTN-Upgrade-Protoss-GroundArmorLevel2" hotkey="52" type="command" tooltip="53"/>
+            <requires>
+                <upgrade id="ProtossGroundArmorsLevel1" name="48"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="202.5"/>
+        </upgrade>
+        <upgrade id="ProtossGroundArmorsLevel3" ability="182" index="5">
+            <meta name="704" icon="BTN-Upgrade-Protoss-GroundArmorLevel3" hotkey="55" type="command" tooltip="56"/>
+            <requires>
+                <upgrade id="ProtossGroundArmorsLevel2" name="51"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="235"/>
+        </upgrade>
+        <upgrade id="ProtossShieldsLevel1" ability="182" index="6">
+            <meta name="705" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" type="command" tooltip="59"/>
+            <cost minerals="150" vespene="150" time="170"/>
+        </upgrade>
+        <upgrade id="ProtossShieldsLevel2" ability="182" index="7">
+            <meta name="706" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" type="command" tooltip="62"/>
+            <requires>
+                <upgrade id="ProtossShieldsLevel1" name="57"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="202.5"/>
+        </upgrade>
+        <upgrade id="ProtossShieldsLevel3" ability="182" index="8">
+            <meta name="707" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" type="command" tooltip="65"/>
+            <requires>
+                <upgrade id="ProtossShieldsLevel2" name="60"/>
+                <unit id="TwilightCouncil" name="44"/>
+            </requires>
+            <cost minerals="250" vespene="250" time="235"/>
+        </upgrade>
+    </researches>
+    <upgrades>
+        <upgrade id="ProtossShields">
+            <level id="ProtossShieldsLevel1" index="48">
+                <meta name="57" icon="BTN-Upgrade-Protoss-ShieldsLevel1" hotkey="58" tooltip="59"/>
+                <cost minerals="150" vespene="150" time="170"/>
+            </level>
+            <level id="ProtossShieldsLevel2" index="49">
+                <meta name="60" icon="BTN-Upgrade-Protoss-ShieldsLevel2" hotkey="61" tooltip="62"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel1" name="57"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="202.5"/>
+            </level>
+            <level id="ProtossShieldsLevel3" index="50">
+                <meta name="63" icon="BTN-Upgrade-Protoss-ShieldsLevel3" hotkey="64" tooltip="65"/>
+                <requires>
+                    <upgrade id="ProtossShieldsLevel2" name="60"/>
+                    <unit id="TwilightCouncil" name="44"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="235"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

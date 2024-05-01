@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Bunker">
+    <meta name="302" icon="btn-building-terran-bunker" race="Terr" hotkey="303" tooltip="304" source="Liberty.SC2Mod" index="45"/>
+    <life start="400" max="400"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="Barracks" name="232"/>
+    </requires>
+    <cost minerals="100" time="40"/>
+    <score build="100" kill="100"/>
+    <misc radius="1.25" cargoCapacity="4" cargoSize="0" footprint="Footprint3x3Contour" sightRadius="10" supply="0"/>
+    <producer id="SCV" name="208"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="SiegeTank" name="305"/>
+        <unit id="Baneling" name="124"/>
+        <unit id="Immortal" name="306"/>
+    </weaknesses>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+            <command id="Halt" index="1">
+                <meta name="209" icon="btn-command-stop" hotkey="210" type="command" tooltip="211"/>
+            </command>
+        </ability>
+        <ability id="BunkerTransport" index="145">
+            <command id="Load" index="0">
+                <meta name="307" icon="btn-ability-terran-load" hotkey="308" type="command" tooltip="309"/>
+                <misc range="0"/>
+            </command>
+            <command id="UnloadAll" index="1">
+                <meta name="310" icon="btn-ability-terran-unloadall" hotkey="311" type="command" tooltip="312"/>
+            </command>
+        </ability>
+        <ability id="SalvageShared" index="65">
+            <command id="On" index="0">
+                <meta name="313" icon="btn-ability-terran-salvage" hotkey="314" type="command" tooltip="315"/>
+            </command>
+            <command id="Off" index="1">
+                <meta name="212" icon="btn-command-cancel" hotkey="119" type="command" tooltip="213"/>
+            </command>
+        </ability>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="316" icon="btn-ability-terran-setrallypoint" hotkey="317" type="command" tooltip="318"/>
+            </command>
+        </ability>
+        <ability id="StimpackRedirect" index="257">
+            <command id="Execute" index="0">
+                <meta name="319" icon="btn-ability-terran-stimpack-color" hotkey="320" type="command" tooltip="321"/>
+                <misc range="0"/>
+                <requires>
+                    <upgrade id="Stimpack" name="322"/>
+                </requires>
+                <cost life="10"/>
+            </command>
+        </ability>
+        <ability id="StimpackMarauderRedirect" index="258">
+            <command id="Execute" index="0">
+                <meta name="319" icon="btn-ability-terran-stimpack-color" hotkey="320" type="command" tooltip="321"/>
+                <misc range="0"/>
+                <requires>
+                    <upgrade id="Stimpack" name="322"/>
+                </requires>
+                <cost life="20"/>
+            </command>
+        </ability>
+        <ability id="StopRedirect" index="260">
+            <command id="Execute" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="AttackRedirect" index="256">
+            <command id="Execute" index="0">
+                <meta name="323" icon="btn-command-attack" hotkey="298" type="command" tooltip="324"/>
+            </command>
+        </ability>
+    </abilities>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

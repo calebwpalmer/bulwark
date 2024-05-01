@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="NydusCanal">
+    <meta name="1272" icon="btn-building-zerg-nydusworm" race="Zerg" hotkey="1042" tooltip="1273" source="Liberty.SC2Mod" index="165"/>
+    <life start="300" max="300" regenRate="0.2734"/>
+    <armor start="1" max="1"/>
+    <shieldArmor start="0" max="0"/>
+    <requires>
+        <unit id="NydusNetwork" name="1027"/>
+    </requires>
+    <cost minerals="75" vespene="75" cooldown="20" time="20"/>
+    <score build="150" kill="150"/>
+    <misc radius="1" cargoCapacity="255" cargoSize="0" footprint="Footprint3x3IgnoreCreepContour" sightRadius="10" supply="0"/>
+    <producer id="NydusNetwork" name="1027"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Biological"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="Rally" index="104">
+            <command id="Rally1" index="0">
+                <meta name="1030" icon="btn-ability-terran-setrallypoint" hotkey="1031" type="command" tooltip="1032"/>
+            </command>
+        </ability>
+        <ability id="NydusWormTransport" index="539">
+            <command id="Load" index="0">
+                <meta name="1274" icon="btn-ability-terran-load" hotkey="1275" type="command" tooltip="1276"/>
+                <misc range="0.5"/>
+            </command>
+            <command id="UnloadAll" index="1">
+                <meta name="1036" icon="btn-ability-terran-unloadall" hotkey="1037" type="command" tooltip="1038"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

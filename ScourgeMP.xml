@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="ScourgeMP">
+    <meta name="2576" icon="btn-unit-zerg-splitterling" race="Zerg" hotkey="0" tooltip="2577" source="Void.SC2Mod" index="1140"/>
+    <life start="25" max="25" regenRate="0.2734"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Fly" speed="3.5" acceleration="3.5" deceleration="0" turnRate="1499.9414"/>
+    <score build="50" kill="50"/>
+    <misc radius="0.5" cargoSize="0" sightRadius="5" supply="-0.5"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <weapons>
+        <weapon id="ScourgeMPWeapon" index="106">
+            <meta name="2578" icon="btn-upgrade-zerg-airattacks-level0" tooltip="0"/>
+            <misc range="0" speed="0.8332" targets="air"/>
+            <effect id="ScourgeMPWeaponDamage" index="1707" radius="-1" damage="110" max="110" death="Normal" kind="Spell"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="OracleStasisTrap">
+    <meta name="2433" icon="btn-ability-protoss-oracle-stasisward" race="Prot" hotkey="1341" tooltip="2434" source="Void.SC2Mod" index="990"/>
+    <life start="30" max="30"/>
+    <shields start="30" max="30" regenRate="2" delay="10"/>
+    <armor start="0" max="0"/>
+    <shieldArmor start="0" max="0"/>
+    <cost energy="50" time="5"/>
+    <score build="0" kill="0"/>
+    <misc radius="0.375" cargoSize="0" footprint="OracleStasisTrap" sightRadius="7" supply="0"/>
+    <producer id="Oracle" name="869"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <strengths>
+        <unit id="Marine" name="26"/>
+        <unit id="Zergling" name="27"/>
+        <unit id="Zealot" name="28"/>
+    </strengths>
+    <weaknesses>
+        <unit id="Raven" name="436"/>
+        <unit id="Overseer" name="193"/>
+        <unit id="Observer" name="815"/>
+    </weaknesses>
+    <abilities>
+        <ability id="BuildInProgress" index="129">
+            <command id="Cancel" index="0">
+                <meta name="71" icon="btn-command-cancel" hotkey="72" type="command" tooltip="73"/>
+            </command>
+        </ability>
+        <ability id="ActivateStasisWard">
+            <command index="0">
+                <meta name="2435" icon="btn-ability-protoss-stasistrap" type="passive" tooltip="2436"/>
+            </command>
+        </ability>
+        <ability id="PermanentlyCloakedStasis">
+            <command index="0">
+                <meta name="2437" icon="btn-upgrade-vorazun-stasiswardpermanentlycloaked" type="passive" tooltip="2438"/>
+            </command>
+        </ability>
+    </abilities>
+</unit>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="Drone">
+    <meta name="437" icon="btn-unit-zerg-drone" race="Zerg" hotkey="1077" tooltip="1078" source="Liberty.SC2Mod" index="127"/>
+    <life start="40" max="40" regenRate="0.2734"/>
+    <armor start="0" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <cost minerals="50" supply="1" time="17"/>
+    <movement type="Ground" speed="2.8125" acceleration="2.5" deceleration="0" turnRate="999.8437"/>
+    <score build="50" kill="50"/>
+    <misc radius="0.375" cargoSize="1" sightRadius="8" supply="-1"/>
+    <producer id="Larva" name="1079"/>
+    <attributes>
+        <attribute type="Light"/>
+        <attribute type="Biological"/>
+    </attributes>
+    <weapons>
+        <weapon id="Spines" index="41">
+            <meta name="1080" icon="btn-upgrade-zerg-meleeattacks-level0" tooltip="0"/>
+            <misc range="0.2" speed="1.5" targets="ground"/>
+            <effect id="Spines" index="555" radius="-1" damage="5" max="5" death="Normal" kind="Melee"/>
+        </weapon>
+    </weapons>
+    <abilities>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+        <ability id="attack" index="46">
+            <command id="Execute" index="0">
+                <meta name="33" icon="btn-command-attack" hotkey="34" type="command" tooltip="35"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="DroneHarvest" index="186">
+            <command id="Gather" index="0">
+                <meta name="1081" icon="btn-ability-zerg-gather" hotkey="1082" type="command" tooltip="1083"/>
+                <misc range="0"/>
+            </command>
+            <command id="Return" index="1">
+                <meta name="515" icon="btn-command-returncargo" hotkey="516" type="command" tooltip="517"/>
+                <misc range="0"/>
+            </command>
+        </ability>
+        <ability id="BurrowDroneDown" index="199">
+            <command id="Execute" index="0">
+                <meta name="88" icon="btn-ability-zerg-burrow-color" hotkey="89" type="command" tooltip="90"/>
+                <requires>
+                    <upgrade id="Burrow" name="91"/>
+                </requires>
+                <cost time="1.458"/>
+            </command>
+        </ability>
+        <ability id="SprayZerg" index="63">
+            <command id="Execute" index="0">
+                <meta name="518" icon="btn-command-spray" hotkey="519" type="command" tooltip="520"/>
+                <misc range="1"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="Hatchery" ability="185" index="0">
+            <meta name="1084" icon="btn-building-zerg-hatchery" hotkey="927" type="command" tooltip="928"/>
+            <misc range="0"/>
+            <cost minerals="300" time="100"/>
+        </unit>
+        <unit id="Extractor" ability="185" index="2">
+            <meta name="1085" icon="btn-building-zerg-extractor" hotkey="953" type="command" tooltip="954"/>
+            <misc range="0"/>
+            <cost minerals="25" time="30"/>
+        </unit>
+        <unit id="SpawningPool" ability="185" index="3">
+            <meta name="1086" icon="btn-building-zerg-spawningpool" hotkey="955" type="command" tooltip="956"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Hatchery" name="926"/>
+            </requires>
+            <cost minerals="200" time="65"/>
+        </unit>
+        <unit id="EvolutionChamber" ability="185" index="4">
+            <meta name="1087" icon="btn-building-zerg-evolutionchamber" hotkey="964" type="command" tooltip="965"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Hatchery" name="926"/>
+            </requires>
+            <cost minerals="75" time="35"/>
+        </unit>
+        <unit id="HydraliskDen" ability="185" index="5">
+            <meta name="1088" icon="btn-building-zerg-hydraliskden" hotkey="976" type="command" tooltip="977"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="100" vespene="100" time="40"/>
+        </unit>
+        <unit id="Spire" ability="185" index="6">
+            <meta name="1089" icon="btn-building-zerg-spire" hotkey="985" type="command" tooltip="986"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="200" vespene="200" time="100"/>
+        </unit>
+        <unit id="UltraliskCavern" ability="185" index="7">
+            <meta name="1090" icon="btn-building-zerg-ultraliskcavern" hotkey="1013" type="command" tooltip="1014"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Hive" name="102"/>
+            </requires>
+            <cost minerals="150" vespene="200" time="65"/>
+        </unit>
+        <unit id="InfestationPit" ability="185" index="8">
+            <meta name="1091" icon="btn-building-zerg-infestationpit" hotkey="1022" type="command" tooltip="1023"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="100" vespene="100" time="50"/>
+        </unit>
+        <unit id="NydusNetwork" ability="185" index="9">
+            <meta name="1092" icon="btn-building-zerg-nydusnetwork" hotkey="1028" type="command" tooltip="1029"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="Lair" name="98"/>
+            </requires>
+            <cost minerals="150" vespene="150" time="50"/>
+        </unit>
+        <unit id="BanelingNest" ability="185" index="10">
+            <meta name="1093" icon="btn-building-zerg-banelingnest" hotkey="1044" type="command" tooltip="1045"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="100" vespene="50" time="60"/>
+        </unit>
+        <unit id="LurkerDenMP" ability="185" index="11">
+            <meta name="1094" icon="btn-building-zerg-lurkerden" hotkey="1095" type="command" tooltip="1096"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="HydraliskDen" name="975"/>
+            </requires>
+            <cost minerals="100" vespene="150" time="80"/>
+        </unit>
+        <unit id="RoachWarren" ability="185" index="13">
+            <meta name="1097" icon="btn-building-zerg-roachwarren" hotkey="1048" type="command" tooltip="1049"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="150" time="55"/>
+        </unit>
+        <unit id="SpineCrawler" ability="185" index="14">
+            <meta name="1098" icon="btn-building-zerg-spinecrawler" hotkey="1057" type="command" tooltip="1058"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="100" time="50"/>
+        </unit>
+        <unit id="SporeCrawler" ability="185" index="15">
+            <meta name="1099" icon="btn-building-zerg-sporecrawler" hotkey="1063" type="command" tooltip="1064"/>
+            <misc range="0"/>
+            <requires>
+                <unit id="SpawningPool" name="932"/>
+            </requires>
+            <cost minerals="75" time="30"/>
+        </unit>
+    </builds>
+    <upgrades>
+        <upgrade id="ZergGroundArmors">
+            <level id="ZergGroundArmorsLevel1" index="59">
+                <meta name="92" icon="btn-upgrade-zerg-groundcarapace-level1" hotkey="93" tooltip="94"/>
+                <cost minerals="150" vespene="150" time="160"/>
+            </level>
+            <level id="ZergGroundArmorsLevel2" index="60">
+                <meta name="95" icon="btn-upgrade-zerg-groundcarapace-level2" hotkey="96" tooltip="97"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel1" name="92"/>
+                    <unit id="Lair" name="98"/>
+                </requires>
+                <cost minerals="200" vespene="200" time="190"/>
+            </level>
+            <level id="ZergGroundArmorsLevel3" index="61">
+                <meta name="99" icon="btn-upgrade-zerg-groundcarapace-level3" hotkey="100" tooltip="101"/>
+                <requires>
+                    <upgrade id="ZergGroundArmorsLevel2" name="95"/>
+                    <unit id="Hive" name="102"/>
+                </requires>
+                <cost minerals="250" vespene="250" time="220"/>
+            </level>
+        </upgrade>
+        <upgrade id="Burrow" index="67">
+            <level>
+                <meta name="91" icon="btn-ability-zerg-burrow-color" hotkey="112" tooltip="113"/>
+                <cost minerals="100" vespene="100" time="100"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>

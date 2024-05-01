@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="enUS">
+    <e id="3">System_Snapshot_Dummy</e>
+    <e id="4">Happy Fun Ball</e>
+    <e id="5">Stop</e>
+    <e id="6">S</e>
+    <e id="7">Orders selected units to cancel all orders and stop moving.</e>
+    <e id="8">Move</e>
+    <e id="9">M</e>
+    <e id="10">Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.</e>
+    <e id="11">Patrol</e>
+    <e id="12">P</e>
+    <e id="13">Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.</e>
+    <e id="14">Hold Position</e>
+    <e id="15">H</e>
+    <e id="16">Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.</e>
+    <e id="17">Taunt</e>
+    <e id="18">T</e>
+    <e id="19">Do NOT Taunt Happy Fun Ball!</e>
+    <e id="20">Stereoscopic Options Unit</e>
+    <e id="21">Colossus</e>
+    <e id="22">C</e>
+    <e id="23">Battle strider with a powerful area attack. Can step up and down cliffs. Can be targeted by anti-air weapons.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="24">Robotics Bay</e>
+    <e id="25">Robotics Facility</e>
+    <e id="26">Marine</e>
+    <e id="27">Zergling</e>
+    <e id="28">Zealot</e>
+    <e id="29">Viking</e>
+    <e id="30">Corruptor</e>
+    <e id="31">Tempest</e>
+    <e id="32">Thermal Lance</e>
+    <e id="33">Attack</e>
+    <e id="34">A</e>
+    <e id="35">Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.</e>
+    <e id="36">Cliff Walk</e>
+    <e id="37">The Colossus can walk up and down cliffs.</e>
+    <e id="38">Protoss Ground Weapons Level 1</e>
+    <e id="39">G</e>
+    <e id="40">Upgrades the damage dealt by Protoss ground units.</e>
+    <e id="41">Protoss Ground Weapons Level 2</e>
+    <e id="42">G</e>
+    <e id="43">Further upgrades the damage dealt by Protoss ground units.</e>
+    <e id="44">Twilight Council</e>
+    <e id="45">Protoss Ground Weapons Level 3</e>
+    <e id="46">G</e>
+    <e id="47">Maximizes the damage dealt by Protoss ground units.</e>
+    <e id="48">Protoss Ground Armor Level 1</e>
+    <e id="49">A</e>
+    <e id="50">Upgrades the armor of Protoss ground units.</e>
+    <e id="51">Protoss Ground Armor Level 2</e>
+    <e id="52">A</e>
+    <e id="53">Further upgrades the armor of Protoss ground units.</e>
+    <e id="54">Protoss Ground Armor Level 3</e>
+    <e id="55">A</e>
+    <e id="56">Maximizes the armor of Protoss ground units.</e>
+    <e id="57">Protoss Shields Level 1</e>
+    <e id="58">S</e>
+    <e id="59">Upgrades the shields of all Protoss units and structures.</e>
+    <e id="60">Protoss Shields Level 2</e>
+    <e id="61">S</e>
+    <e id="62">Further upgrades the shields of all Protoss units and structures.</e>
+    <e id="63">Protoss Shields Level 3</e>
+    <e id="64">S</e>
+    <e id="65">Maximizes the shields of all Protoss units and structures.</e>
+    <e id="66">Extended Thermal Lance</e>
+    <e id="67">E</e>
+    <e id="68">Increases the range of the &lt;font color=&quot;#ffff8a&quot;&gt;Colossus&lt;/font&gt; weapon.</e>
+    <e id="69">Tech Lab</e>
+    <e id="70">Enables additional units and research options. A Tech Lab can fit onto any production structure.</e>
+    <e id="71">Cancel</e>
+    <e id="72">Escape</e>
+    <e id="73">Cancels construction of this structure, destroying the structure and giving a partial refund.</e>
+    <e id="74">Terran Building Armor</e>
+    <e id="75">B</e>
+    <e id="76">Upgrades the armor of &lt;font color=&quot;#ffff8a&quot;&gt;structures&lt;/font&gt; by 2.</e>
+    <e id="77">Reactor</e>
+    <e id="78">Allows 2 units to be created simultaneously.</e>
+    <e id="79">Infested Terran</e>
+    <e id="80">An Infested Terran does moderate damage and lasts for 21 seconds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="81">Mutalisk</e>
+    <e id="82">Void Ray</e>
+    <e id="83">Hellbat</e>
+    <e id="84">Ultralisk</e>
+    <e id="85">Adept</e>
+    <e id="86">Infested Rockets</e>
+    <e id="87">Infested Gauss Rifle</e>
+    <e id="88">Burrow</e>
+    <e id="89">R</e>
+    <e id="90">Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.</e>
+    <e id="91">Burrow</e>
+    <e id="92">Zerg Ground Carapace Level 1</e>
+    <e id="93">C</e>
+    <e id="94">Upgrades the armor of all Zerg ground units.</e>
+    <e id="95">Zerg Ground Carapace Level 2</e>
+    <e id="96">C</e>
+    <e id="97">Further upgrades the armor of all Zerg ground units.</e>
+    <e id="98">Lair</e>
+    <e id="99">Zerg Ground Carapace Level 3</e>
+    <e id="100">C</e>
+    <e id="101">Maximizes the armor of all Zerg ground units.</e>
+    <e id="102">Hive</e>
+    <e id="103">Zerg Missile Attacks Level 1</e>
+    <e id="104">A</e>
+    <e id="105">Upgrades the attacks of all Zerg ground ranged units.</e>
+    <e id="106">Zerg Missile Attacks Level 2</e>
+    <e id="107">A</e>
+    <e id="108">Further upgrades the attacks of all Zerg ground ranged units.</e>
+    <e id="109">Zerg Missile Attacks Level 3</e>
+    <e id="110">A</e>
+    <e id="111">Maximizes the attacks of all Zerg ground ranged units.</e>
+    <e id="112">B</e>
+    <e id="113">Enables all Zerg ground units to use the Burrow ability. Burrow allows a unit to take cover underground, rendering it unable to attack. A burrowed unit is invisible unless revealed by detectors or effects.</e>
+    <e id="114">Baneling Cocoon</e>
+    <e id="115">E</e>
+    <e id="116">This cocoon contains a Zergling that is morphing into a Baneling.</e>
+    <e id="117">Baneling Nest</e>
+    <e id="118">Cancel</e>
+    <e id="119">Escape</e>
+    <e id="120">Cancels the morph order.</e>
+    <e id="121">Set Rally Point</e>
+    <e id="122">Y</e>
+    <e id="123">Sends constructed units to the designated point. Workers rallied to resources will begin gathering automatically.</e>
+    <e id="124">Baneling</e>
+    <e id="125">Suicide unit. Does damage over a small area on death. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="126">Marauder</e>
+    <e id="127">Infestor</e>
+    <e id="128">Stalker</e>
+    <e id="129">Explode</e>
+    <e id="130">X</e>
+    <e id="131">The Baneling detonates where it is standing, damaging nearby enemy units and structures.</e>
+    <e id="132">Enable Structure Attack</e>
+    <e id="133">F</e>
+    <e id="134">Allows Banelings to automatically target structures.&lt;br/&gt;&lt;br/&gt;Banelings deal 80 damage to structures.</e>
+    <e id="135">Disable Structure Attack</e>
+    <e id="136">G</e>
+    <e id="137">Prevents Banelings from automatically targeting structures. Banelings can still be explicitly ordered to attack structures.&lt;br/&gt;&lt;br/&gt;Banelings deal 80 damage to structures.</e>
+    <e id="138">Zerg Melee Attacks Level 1</e>
+    <e id="139">M</e>
+    <e id="140">Upgrades all Zerg melee attacks.</e>
+    <e id="141">Zerg Melee Attacks Level 2</e>
+    <e id="142">M</e>
+    <e id="143">Further upgrades all Zerg melee attacks.</e>
+    <e id="144">Zerg Melee Attacks Level 3</e>
+    <e id="145">M</e>
+    <e id="146">Maximizes all Zerg melee attacks.</e>
+    <e id="147">Centrifugal Hooks</e>
+    <e id="148">C</e>
+    <e id="149">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Banelings&lt;/font&gt;.</e>
+    <e id="150">Mothership</e>
+    <e id="151">M</e>
+    <e id="152">Ultimate Protoss vessel. Can use Photon Overcharge, Mass Recall, and Time Warp abilities. Cloaks nearby friendly units and structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="153">Fleet Beacon</e>
+    <e id="154">Nexus</e>
+    <e id="155">Purifier Beam</e>
+    <e id="156">Time Warp</e>
+    <e id="157">T</e>
+    <e id="158">Warps spacetime within the target area for 7 seconds. Enemy ground units that enter the field have their movement speed reduced by 40%.</e>
+    <e id="159">Mass Recall</e>
+    <e id="160">R</e>
+    <e id="161">Recalls all units owned by the player in the target area to the Caster.</e>
+    <e id="162">Cloaking Field</e>
+    <e id="163"></e>
+    <e id="164">Cloaking Field passively cloaks friendly nearby units and structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Passive ability.&lt;/font&gt;</e>
+    <e id="165">Protoss Air Weapons Level 1</e>
+    <e id="166">E</e>
+    <e id="167">Upgrades the damage dealt by Protoss air units.</e>
+    <e id="168">Protoss Air Weapons Level 2</e>
+    <e id="169">E</e>
+    <e id="170">Further upgrades the damage dealt by Protoss air units.</e>
+    <e id="171">Protoss Air Weapons Level 3</e>
+    <e id="172">E</e>
+    <e id="173">Maximizes the damage dealt by Protoss air units.</e>
+    <e id="174">Protoss Air Armor Level 1</e>
+    <e id="175">A</e>
+    <e id="176">Upgrades the armor of Protoss air units.</e>
+    <e id="177">Protoss Air Armor Level 2</e>
+    <e id="178">A</e>
+    <e id="179">Further upgrades the armor of Protoss air units.</e>
+    <e id="180">Protoss Air Armor Level 3</e>
+    <e id="181">A</e>
+    <e id="182">Maximizes the armor of Protoss air units.</e>
+    <e id="183">Point Defense Drone</e>
+    <e id="184">Uses a laser to shoot down enemy missiles.  &lt;br/&gt;Cannot target special attacks. &lt;br/&gt;Times out after 14 seconds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Each shot consumes 10 energy.&lt;/font&gt;</e>
+    <e id="185">Point Defense Laser</e>
+    <e id="186">Automated defensive laser that intercepts enemy projectiles.&lt;br/&gt;&lt;br/&gt;Effective against Marauders, Vikings, Banshees, Battlecruisers, Cyclones, Thors, Missile Turrets, Stalkers, Phoenixes, Tempests, Photon Cannons, Mothership Cores, Nexus, Queens, Mutalisks, Corruptors, Hydralisks, Ravagers, Locusts, and Spore Crawlers.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Each shot consumes 10 energy.&lt;/font&gt;</e>
+    <e id="187">Hi-Sec Auto Tracking</e>
+    <e id="188">H</e>
+    <e id="189">Adds +1 range to &lt;font color=&quot;#ffff8a&quot;&gt;Auto-Turrets&lt;/font&gt;, &lt;font color=&quot;#ffff8a&quot;&gt;Missile Turrets&lt;/font&gt;, &lt;font color=&quot;#ffff8a&quot;&gt;Planetary Fortresses&lt;/font&gt;, and &lt;font color=&quot;#ffff8a&quot;&gt;Point Defense Drones&lt;/font&gt;.</e>
+    <e id="190">Changeling</e>
+    <e id="191">C</e>
+    <e id="192">Changelings cannot attack. When a Changeling first encounters an enemy unit, it will match that unit&apos;s color and change into a Zealot, Marine, or Zergling, depending on the enemy race. Dies after 107 seconds.</e>
+    <e id="193">Overseer</e>
+    <e id="194">Scan Move</e>
+    <e id="195">A</e>
+    <e id="196">Orders selected units to move to the target area or follow the target unit. Scan-moving units will not engage enemies.</e>
+    <e id="197">Disguise</e>
+    <e id="198">Matches the color and race of the first enemy unit the Changeling comes in contact with.</e>
+    <e id="199">Powerful melee warrior.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="200">Psi Blades</e>
+    <e id="201">General-purpose infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="202">C-14 Gauss Rifle</e>
+    <e id="203">Fast melee creature. Can morph into a Baneling.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="204">Claws</e>
+    <e id="205">Command Center</e>
+    <e id="206">C</e>
+    <e id="207">Primary structure. Used to receive gathered resources. Can use the Lift Off ability and can upgrade into an Orbital Command or a Planetary Fortress.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- SCVs</e>
+    <e id="208">SCV</e>
+    <e id="209">Halt</e>
+    <e id="210">T</e>
+    <e id="211">Halts construction of this structure. The partial construction will remain.</e>
+    <e id="212">Cancel</e>
+    <e id="213">Drops the current order without performing it, and allows you to select a different order.</e>
+    <e id="214">Load</e>
+    <e id="215">O</e>
+    <e id="216">Loads nearby SCVs into Command Center.</e>
+    <e id="217">Unload All</e>
+    <e id="218">D</e>
+    <e id="219">Unloads all units.</e>
+    <e id="220">Lift Off</e>
+    <e id="221">L</e>
+    <e id="222">Transforms structure into a slow air unit for redeployment. May not produce units, research upgrades, or use abilities until it has landed.</e>
+    <e id="223">Upgrade to Planetary Fortress</e>
+    <e id="224">P</e>
+    <e id="225">Upgrades Command Center to a Planetary Fortress, greatly increasing its armor and arming it with a powerful defensive turret. Cannot lift off.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="226">Engineering Bay</e>
+    <e id="227">Cancel</e>
+    <e id="228">Cancels the upgrade order, returning the structure to its original state.</e>
+    <e id="229">Upgrade to Orbital Command</e>
+    <e id="230">B</e>
+    <e id="231">Upgrades Command Center to an Orbital Command, unlocking Scanner Sweep, Calldown: MULE, and Calldown: Extra Supplies. Cannot load SCVs.</e>
+    <e id="232">Barracks</e>
+    <e id="233">Train SCV</e>
+    <e id="234">S</e>
+    <e id="235">Basic worker unit. Can gather resources, build Terran structures, and repair.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="236">Supply Depot</e>
+    <e id="237">S</e>
+    <e id="238">Provides supply.&lt;br/&gt;Supply allows you to create more units.&lt;br/&gt;Supply Depots can be lowered to allow units to walk over them.</e>
+    <e id="239">Lower</e>
+    <e id="240">R</e>
+    <e id="241">Lowers the structure, allowing ground units to move across it.</e>
+    <e id="242">Refinery</e>
+    <e id="243">R</e>
+    <e id="244">Built over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="245">B</e>
+    <e id="246">Infantry-production facility.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Marines&lt;br/&gt;- Reapers&lt;br/&gt;- Bunkers from SCVs&lt;br/&gt;- Orbital Commands from Command Centers</e>
+    <e id="247">Build Tech Lab</e>
+    <e id="248">X</e>
+    <e id="249">Infantry-research structure. A Tech Lab can fit onto any production structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Marauders&lt;br/&gt;- Ghosts with Ghost Academy</e>
+    <e id="250">Build Reactor</e>
+    <e id="251">C</e>
+    <e id="252">Train Marine</e>
+    <e id="253">A</e>
+    <e id="254">Train Reaper</e>
+    <e id="255">R</e>
+    <e id="256">Raider. Can jump up and down cliffs. Regenerates life quickly while out of combat. Can use KD8 Charge.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="257">Train Ghost</e>
+    <e id="258">G</e>
+    <e id="259">Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="260">Ghost Academy</e>
+    <e id="261">Train Marauder</e>
+    <e id="262">D</e>
+    <e id="263">Heavy assault infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="264">E</e>
+    <e id="265">Contains upgrades for Terran infantry and structures. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Missile Turrets from SCVs&lt;br/&gt;- Sensor Towers from SCVs&lt;br/&gt;- Planetary Fortresses from Command Centers</e>
+    <e id="266">Research Hi-Sec Auto Tracking</e>
+    <e id="267">Upgrade Structure Armor</e>
+    <e id="268">Upgrade Infantry Weapons Level 1</e>
+    <e id="269">E</e>
+    <e id="270">Upgrades the damage dealt by infantry units.</e>
+    <e id="271">Upgrade Infantry Weapons Level 2</e>
+    <e id="272">E</e>
+    <e id="273">Further upgrades the damage dealt by infantry units.</e>
+    <e id="274">Terran Infantry Weapons Level 1</e>
+    <e id="275">Armory</e>
+    <e id="276">Upgrade Infantry Weapons Level 3</e>
+    <e id="277">E</e>
+    <e id="278">Maximizes the damage dealt by infantry units.</e>
+    <e id="279">Terran Infantry Weapons Level 2</e>
+    <e id="280">Upgrade Infantry Armor Level 1</e>
+    <e id="281">A</e>
+    <e id="282">Upgrades the armor of infantry units.</e>
+    <e id="283">Upgrade Infantry Armor Level 2</e>
+    <e id="284">A</e>
+    <e id="285">Further upgrades the armor of infantry units.</e>
+    <e id="286">Terran Infantry Armor Level 1</e>
+    <e id="287">Upgrade Infantry Armor Level 3</e>
+    <e id="288">A</e>
+    <e id="289">Maximizes the armor of infantry units.</e>
+    <e id="290">Terran Infantry Armor Level 2</e>
+    <e id="291">Missile Turret</e>
+    <e id="292">T</e>
+    <e id="293">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="294">Banshee</e>
+    <e id="295">Phoenix</e>
+    <e id="296">Longbolt Missile</e>
+    <e id="297">Attack</e>
+    <e id="298">A</e>
+    <e id="299">Targets and attacks the target unit until it is destroyed or moves out of range.</e>
+    <e id="300">Detector</e>
+    <e id="301">This unit can detect cloaked, burrowed, and hallucinated units.</e>
+    <e id="302">Bunker</e>
+    <e id="303">U</e>
+    <e id="304">Defensive structure. &lt;br/&gt;Infantry fights from inside. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: +1 range to units inside.&lt;/font&gt;</e>
+    <e id="305">Siege Tank</e>
+    <e id="306">Immortal</e>
+    <e id="307">Load</e>
+    <e id="308">L</e>
+    <e id="309">Loads infantry into Bunker.</e>
+    <e id="310">Unload All</e>
+    <e id="311">D</e>
+    <e id="312">Unloads all units.</e>
+    <e id="313">Salvage</e>
+    <e id="314">V</e>
+    <e id="315">Salvages the structure, removing it and returning 75% of its mineral and gas value. Salvage takes 4 seconds to finish. Warning: once Salvage is triggered, it cannot be canceled.</e>
+    <e id="316">Set Bunker Rally Point</e>
+    <e id="317">Y</e>
+    <e id="318">Sends unloaded infantry units to designated point.</e>
+    <e id="319">Use Stimpack</e>
+    <e id="320">T</e>
+    <e id="321">Orders Marines and Marauders inside of the Bunker to use Stimpacks. They will take damage and have increased attack speed as normal.</e>
+    <e id="322">Stimpack</e>
+    <e id="323">Attack</e>
+    <e id="324">Targets and attacks the target unit until it is destroyed or moves out of range.</e>
+    <e id="325">Refinery</e>
+    <e id="326">Built over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="327">Sensor Tower</e>
+    <e id="328">N</e>
+    <e id="329">Reveals the locations of enemy units at long range. The Sensor Tower&apos;s detection area is visible to the enemy.</e>
+    <e id="330">Radar</e>
+    <e id="331">Able to expose enemy movements within its radar capability. Does not reveal the area.</e>
+    <e id="332">G</e>
+    <e id="333">Contains upgrades for Ghosts. Can build Nukes for Ghosts.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Ghosts at the Barracks</e>
+    <e id="334">Research Personal Cloaking</e>
+    <e id="335">C</e>
+    <e id="336">Enables &lt;font color=&quot;#ffff8a&quot;&gt;Ghosts&lt;/font&gt; to use the Cloak ability. Cloak renders a unit invisible to enemies unless it&apos;s revealed by detectors or effects.</e>
+    <e id="337">Arm Silo with Nuke</e>
+    <e id="338">N</e>
+    <e id="339">Arms the Silo with a Tactical Nuke.&lt;br/&gt;&lt;br/&gt;Nukes take 14 seconds to land, but they deal up to 300 (+200 vs. structures) damage in a large radius.&lt;br/&gt;&lt;br/&gt;Use a Ghost to designate the target.</e>
+    <e id="340">Factory</e>
+    <e id="341">F</e>
+    <e id="342">Vehicle-production facility. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Hellions&lt;br/&gt;- Widow Mines</e>
+    <e id="343">Build Tech Lab</e>
+    <e id="344">X</e>
+    <e id="345">Vehicle-research structure. A Tech Lab can fit onto any production structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Siege Tanks&lt;br/&gt;- Thor with Armory&lt;br/&gt;- Cyclones</e>
+    <e id="346">Build Siege Tank</e>
+    <e id="347">S</e>
+    <e id="348">Heavy tank. Can switch into Siege Mode to provide long-range artillery support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="349">Build Thor</e>
+    <e id="350">T</e>
+    <e id="351">Heavy assault mech.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="352">Build Hellion</e>
+    <e id="353">E</e>
+    <e id="354">Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can transform into a close range combat unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="355">Build Hellbat</e>
+    <e id="356">R</e>
+    <e id="357">Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="358">Build Cyclone</e>
+    <e id="359">N</e>
+    <e id="360">Mobile assault vehicle. Can use Lock On to quickly fire while moving.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="361">Build Widow Mine</e>
+    <e id="362">D</e>
+    <e id="363">Robotic mine. Launches missiles at nearby enemy units while burrowed. Attacks deal splash damage in a small area around the target. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="364">Starport</e>
+    <e id="365">S</e>
+    <e id="366">Air-unit production facility. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Vikings&lt;br/&gt;- Medivacs</e>
+    <e id="367">Build Tech Lab</e>
+    <e id="368">X</e>
+    <e id="369">Aircraft-research structure. A Tech Lab can fit onto any production structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Banshees&lt;br/&gt;- Ravens&lt;br/&gt;- Battlecruisers with Fusion Core</e>
+    <e id="370">Build Medivac</e>
+    <e id="371">D</e>
+    <e id="372">Air transport. Heals nearby biological units. Can use Afterburners.</e>
+    <e id="373">Build Banshee</e>
+    <e id="374">E</e>
+    <e id="375">Tactical-strike aircraft. Can be upgraded to use cloak.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="376">Build Raven</e>
+    <e id="377">R</e>
+    <e id="378">Aerial support unit. Can use Auto-Turret, Point Defense Drone, and Seeker Missile.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="379">Build Battlecruiser</e>
+    <e id="380">B</e>
+    <e id="381">Powerful warship. Can use Yamato Cannon and Tactical Jump.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="382">Fusion Core</e>
+    <e id="383">Build Viking</e>
+    <e id="384">V</e>
+    <e id="385">Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="386">Build Liberator</e>
+    <e id="387">N</e>
+    <e id="388">Artillery fighter. Loaded with missiles that deal area damage to enemy air targets. Can switch into Defender Mode to provide siege support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="389">A</e>
+    <e id="390">Contains weapon and armor upgrades for Factory and Starport units. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Hellbat at the Factory&lt;br/&gt;- Thor at the Factory</e>
+    <e id="391">Upgrade Vehicle Weapons Level 1</e>
+    <e id="392">E</e>
+    <e id="393">Upgrades the damage dealt by ground vehicles.</e>
+    <e id="394">Upgrade Vehicle Weapons Level 2</e>
+    <e id="395">E</e>
+    <e id="396">Further upgrades the damage dealt by ground vehicles.</e>
+    <e id="397">Terran Vehicle Weapons Level 1</e>
+    <e id="398">Upgrade Vehicle Weapons Level 3</e>
+    <e id="399">E</e>
+    <e id="400">Maximizes the damage dealt by ground vehicles.</e>
+    <e id="401">Terran Vehicle Weapons Level 2</e>
+    <e id="402">Upgrade Ship Weapons Level 1</e>
+    <e id="403">S</e>
+    <e id="404">Upgrades the damage dealt by units built at a Starport.</e>
+    <e id="405">Upgrade Ship Weapons Level 2</e>
+    <e id="406">S</e>
+    <e id="407">Further upgrades the damage dealt by units built at a Starport.</e>
+    <e id="408">Terran Ship Weapons Level 1</e>
+    <e id="409">Upgrade Ship Weapons Level 3</e>
+    <e id="410">S</e>
+    <e id="411">Maximizes the damage dealt by units built at a Starport.</e>
+    <e id="412">Terran Ship Weapons Level 2</e>
+    <e id="413">Upgrade Vehicle and Ship Plating Level 1</e>
+    <e id="414">V</e>
+    <e id="415">Upgrades the armor of units built at a Factory or Starport.</e>
+    <e id="416">Upgrade Vehicle and Ship Plating Level 2</e>
+    <e id="417">Further upgrades the armor of units built at a Factory or Starport.</e>
+    <e id="418">Terran Vehicle And Ship Plating Level 1</e>
+    <e id="419">Upgrade Vehicle and Ship Plating Level 3</e>
+    <e id="420">Maximizes the armor of units built at a Factory or Starport.</e>
+    <e id="421">Terran Vehicle And Ship Plating Level 2</e>
+    <e id="422">C</e>
+    <e id="423">Contains Battlecruiser upgrades. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Battlecruisers at the Starport</e>
+    <e id="424">Research Weapon Refit</e>
+    <e id="425">R</e>
+    <e id="426">Enables use of the &lt;font color=&quot;#ffff8a&quot;&gt;Battlecruiser&lt;/font&gt; Yamato Cannon.</e>
+    <e id="427">Research Advanced Ballistics</e>
+    <e id="428">N</e>
+    <e id="429">Increases the range of &lt;font color=&quot;#ffff8a&quot;&gt;Liberators&lt;/font&gt; in Defender Mode by 4.</e>
+    <e id="430">Research Caduceus Reactor</e>
+    <e id="431">A</e>
+    <e id="432">Increases the energy regeneration rate of &lt;font color=&quot;#ffff8a&quot;&gt;Medivacs&lt;/font&gt; by 100%.</e>
+    <e id="433">Auto-Turret</e>
+    <e id="434">T</e>
+    <e id="435">Automated defensive turret. Times out after 8 seconds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="436">Raven</e>
+    <e id="437">Drone</e>
+    <e id="438">Probe</e>
+    <e id="439">Hydralisk</e>
+    <e id="440">12mm Gauss Cannon</e>
+    <e id="441">Heavy tank. Can switch into Tank Mode to provide mobile tank support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="442">Roach</e>
+    <e id="443">Crucio Shock Cannon</e>
+    <e id="444">Tank Mode</e>
+    <e id="445">D</e>
+    <e id="446">Reverts to Tank Mode. In this mode Siege Tanks can move, but they do less damage.</e>
+    <e id="447">Terran Vehicle Weapons Level 3</e>
+    <e id="448">Terran Vehicle And Ship Plating Level 3</e>
+    <e id="449">90mm Cannons</e>
+    <e id="450">Siege Mode</e>
+    <e id="451">E</e>
+    <e id="452">Deploys into Siege Mode. In this mode Siege Tanks have very long range and inflict area damage. Siege Tanks in this mode cannot move or attack targets at close range.</e>
+    <e id="453">Durable support unit. Can switch into Fighter Mode to attack air units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="454">Gatling Cannon</e>
+    <e id="455">Fighter Mode</e>
+    <e id="456">E</e>
+    <e id="457">Transforms the Viking to Fighter Mode. In this mode Vikings fly, but they can only attack air targets.</e>
+    <e id="458">Terran Ship Weapons Level 3</e>
+    <e id="459">Smart Servos</e>
+    <e id="460">S</e>
+    <e id="461">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Hellions&lt;/font&gt;, &lt;font color=&quot;#ffff8a&quot;&gt;Hellbats&lt;/font&gt;, &lt;font color=&quot;#ffff8a&quot;&gt;Vikings&lt;/font&gt;, and &lt;font color=&quot;#ffff8a&quot;&gt;Thors&lt;/font&gt; to transform quickly between combat modes.</e>
+    <e id="462">Battlecruiser</e>
+    <e id="463">Brood Lord</e>
+    <e id="464">Lanzer Torpedoes</e>
+    <e id="465">Assault Mode</e>
+    <e id="466">D</e>
+    <e id="467">Transforms the Viking to Assault Mode. In this mode Vikings move on the ground and can only attack ground targets.</e>
+    <e id="468">Primary structure. Must land to receive resources, produce units, or use abilities.</e>
+    <e id="469">Land </e>
+    <e id="470">L</e>
+    <e id="471">Lands the structure at a target location, allowing it to once again produce units, research upgrades, and use abilities.</e>
+    <e id="472">Research Stimpack</e>
+    <e id="473">T</e>
+    <e id="474">Enables &lt;font color=&quot;#ffff8a&quot;&gt;Marines&lt;/font&gt; and &lt;font color=&quot;#ffff8a&quot;&gt;Marauders&lt;/font&gt; to use the Stimpack ability. Stimpacks cause damage to a unit, but they increase its attack and movement speeds for a short time.</e>
+    <e id="475">Research Combat Shield</e>
+    <e id="476">C</e>
+    <e id="477">&lt;font color=&quot;#ffff8a&quot;&gt;Marines&lt;/font&gt; gain +10 life.</e>
+    <e id="478">Research Concussive Shells</e>
+    <e id="479">G</e>
+    <e id="480">Upgrades the &lt;font color=&quot;#ffff8a&quot;&gt;Marauder&lt;/font&gt; weapons to slow down opponents.</e>
+    <e id="481">Research Infernal Pre-Igniter</e>
+    <e id="482">I</e>
+    <e id="483">Improves the &lt;font color=&quot;#ffff8a&quot;&gt;Hellion&apos;s&lt;/font&gt; Infernal Flamethrower to deal +5 damage vs. light units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Does not affect Hellbat.&lt;/font&gt;</e>
+    <e id="484">Research Drilling Claws</e>
+    <e id="485">C</e>
+    <e id="486">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Widow Mines&lt;/font&gt; to burrow and activate three times as fast.</e>
+    <e id="487">Research Smart Servos</e>
+    <e id="488">Research Hurricane Engines</e>
+    <e id="489">R</e>
+    <e id="490">Increases the move speed of &lt;font color=&quot;#ffff8a&quot;&gt;Cyclones&lt;/font&gt;.</e>
+    <e id="491">Research Cloaking Field</e>
+    <e id="492">C</e>
+    <e id="493">Enables &lt;font color=&quot;#ffff8a&quot;&gt;Banshees&lt;/font&gt; to use the Cloak ability. Cloak renders the &lt;font color=&quot;#ffff8a&quot;&gt;Banshee&lt;/font&gt; invisible to enemies unless the unit is revealed by detectors or effects.</e>
+    <e id="494">Research Hyperflight Rotors</e>
+    <e id="495">B</e>
+    <e id="496">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Banshees&lt;/font&gt;.</e>
+    <e id="497">Research Interference Matrix</e>
+    <e id="498">T</e>
+    <e id="499">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Ravens&lt;/font&gt; to use the Interference Matrix ability.</e>
+    <e id="500">Factory must land to start unit production.</e>
+    <e id="501">Build Tech Lab</e>
+    <e id="502">X</e>
+    <e id="503">Vehicle-research structure. A Tech Lab can fit onto any production structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Siege Tanks&lt;br/&gt;- Thor with Armory&lt;br/&gt;- Cyclones</e>
+    <e id="504">Starport must land to start unit production.</e>
+    <e id="505">Build Tech Lab</e>
+    <e id="506">X</e>
+    <e id="507">Aircraft-research structure. A Tech Lab can fit onto any production structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Banshees&lt;br/&gt;- Ravens&lt;br/&gt;- Battlecruisers with Fusion Core</e>
+    <e id="508">Fusion Cutter</e>
+    <e id="509">Repair</e>
+    <e id="510">R</e>
+    <e id="511">Restores life to mechanical units and structures at the cost of resources.</e>
+    <e id="512">Gather</e>
+    <e id="513">G</e>
+    <e id="514">Orders SCV to gather resources from a selected Mineral Field or Vespene Geyser.</e>
+    <e id="515">Return Cargo</e>
+    <e id="516">C</e>
+    <e id="517">Returns the carried resources to the nearest drop-off point.</e>
+    <e id="518">Spray</e>
+    <e id="519">Y</e>
+    <e id="520">Orders the unit to apply your currently selected spray to the terrain at the target location.</e>
+    <e id="521">Build Command Center</e>
+    <e id="522">Build Supply Depot</e>
+    <e id="523">Build Refinery</e>
+    <e id="524">Build Barracks</e>
+    <e id="525">Build Engineering Bay</e>
+    <e id="526">Build Missile Turret</e>
+    <e id="527">Build Bunker</e>
+    <e id="528">Build Sensor Tower</e>
+    <e id="529">Build Ghost Academy</e>
+    <e id="530">Build Factory</e>
+    <e id="531">Build Starport</e>
+    <e id="532">Build Armory</e>
+    <e id="533">Build Fusion Core</e>
+    <e id="534">Terran Infantry Armor Level 3</e>
+    <e id="535">Barracks must land to start unit production.</e>
+    <e id="536">Supply Depot</e>
+    <e id="537">Provides supply.&lt;br/&gt;Supply allows you to create more units.&lt;br/&gt;Supply Depots can be lowered to allow units to walk over them.</e>
+    <e id="538">Raise</e>
+    <e id="539">R</e>
+    <e id="540">Raises the structure, preventing ground units from moving across it.</e>
+    <e id="541">Use Stimpack</e>
+    <e id="542">T</e>
+    <e id="543">Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injures the unit for 10 of the unit&apos;s life.</e>
+    <e id="544">Terran Infantry Weapons Level 3</e>
+    <e id="545">Combat Shield</e>
+    <e id="546">Reaper</e>
+    <e id="547">P-45 Gauss Pistol</e>
+    <e id="548">KD8 Charge</e>
+    <e id="549">D</e>
+    <e id="550">Explodes after a short delay, doing 10 damage and knocking back nearby units.</e>
+    <e id="551">Jet Pack</e>
+    <e id="552">Reapers can jump up and down cliffs.  </e>
+    <e id="553">Combat Drugs</e>
+    <e id="554">Regenerates life quickly while out of combat.</e>
+    <e id="555">Ghost</e>
+    <e id="556">High Templar</e>
+    <e id="557">Thor</e>
+    <e id="558">C-10 Canister Rifle</e>
+    <e id="559">Cloak</e>
+    <e id="560">C</e>
+    <e id="561">Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Drains 1.3 energy per second.&lt;/font&gt;</e>
+    <e id="562">Personal Cloaking</e>
+    <e id="563">Decloak</e>
+    <e id="564">D</e>
+    <e id="565">Decloaks the selected unit, making it visible to enemies.</e>
+    <e id="566">Steady Targeting</e>
+    <e id="567">R</e>
+    <e id="568">After carefully aiming for 1.43 seconds while not taking damage, the Ghost fires a sniper round dealing 130 damage. Ignores armor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can only target biological units.&lt;/font&gt;</e>
+    <e id="569">Tac Nuke Strike</e>
+    <e id="570">N</e>
+    <e id="571">Calls down a Nuclear Strike at a target location. Nukes take 14 seconds to land, but they deal up to 300 (+200 vs. structures) damage in a large radius.</e>
+    <e id="572">Nuke</e>
+    <e id="573">Hold Fire</e>
+    <e id="574">F</e>
+    <e id="575">Orders selected units to holster their weapons and avoid engaging enemies, unless given a direct command. Units holding fire will flee if attacked.</e>
+    <e id="576">EMP Round</e>
+    <e id="577">E</e>
+    <e id="578">Creates an electromagnetic pulse that does 100 damage to shields and energy of all units in the targeted area. Cloaked units hit by EMP are revealed for a short time.</e>
+    <e id="579">Weapons Free</e>
+    <e id="580">G</e>
+    <e id="581">Orders selected units to fire at will. They will engage enemy units within range and chase them as normal.</e>
+    <e id="582">Punisher Grenades</e>
+    <e id="583">Use Stimpack</e>
+    <e id="584">T</e>
+    <e id="585">Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injures the unit for 20 of the unit&apos;s life.</e>
+    <e id="586">Concussive Shells</e>
+    <e id="587">Units hit by the Marauder are temporarily slowed.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Massive units are immune.&lt;/font&gt;</e>
+    <e id="588">Concussive Shells</e>
+    <e id="589">Javelin Missile Launchers</e>
+    <e id="590">Thor&apos;s Hammer</e>
+    <e id="591">High Impact Payload</e>
+    <e id="592">E</e>
+    <e id="593">Activates the Thor&apos;s 250mm Punisher Cannons. Punisher cannons strike a single air target for heavy damage.</e>
+    <e id="594">Hellion</e>
+    <e id="595">Cyclone</e>
+    <e id="596">Infernal Flamethrower</e>
+    <e id="597">Hellbat Mode</e>
+    <e id="598">D</e>
+    <e id="599">Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="600">Infernal Pre-igniter</e>
+    <e id="601">Medivac</e>
+    <e id="602">Spore Crawler</e>
+    <e id="603">Photon Cannon</e>
+    <e id="604">Heal</e>
+    <e id="605">E</e>
+    <e id="606">Heals a friendly biological target.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Heals 13 life per 1 energy.&lt;/font&gt;</e>
+    <e id="607">Load</e>
+    <e id="608">L</e>
+    <e id="609">Loads units into the Medivac&apos;s hold.</e>
+    <e id="610">Unload All</e>
+    <e id="611">D</e>
+    <e id="612">Unloads all units.</e>
+    <e id="613">Ignite Afterburners</e>
+    <e id="614">B</e>
+    <e id="615">Increases the Medivac&apos;s movement speed by 70% for 6 seconds.</e>
+    <e id="616">Caduceus Reactor</e>
+    <e id="617">Ravager</e>
+    <e id="618">Backlash Rockets</e>
+    <e id="619">Cloak</e>
+    <e id="620">C</e>
+    <e id="621">Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Drains 1.3 energy per second.&lt;/font&gt;</e>
+    <e id="622">Cloaking Field</e>
+    <e id="623">Hyperflight Rotors</e>
+    <e id="624">Lurker</e>
+    <e id="625">Dark Templar</e>
+    <e id="626">Interference Matrix</e>
+    <e id="627">C</e>
+    <e id="628">Disables a target unit rendering it unable to attack or use abilities for 11 seconds. Reveals Cloaked units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can target mechanical and psionic units.&lt;/font&gt;</e>
+    <e id="629">Interference Matrix</e>
+    <e id="630">Anti-Armor Missile</e>
+    <e id="631">R</e>
+    <e id="632">Deploys a missile which pursues the target unit and, upon contact, reduces the armor and shield armor of affected units by 2 for 21 seconds.</e>
+    <e id="633">Build Auto-Turret</e>
+    <e id="634">Liberator</e>
+    <e id="635">Carrier</e>
+    <e id="636">Yamato Cannon</e>
+    <e id="637">Y</e>
+    <e id="638">Blasts a target with a devastating plasma cannon, causing 300 damage.</e>
+    <e id="639">Weapon Refit</e>
+    <e id="640">Tactical Jump</e>
+    <e id="641">T</e>
+    <e id="642">After 4 seconds, warps to the target location. Battlecruiser is invulnerable while warping.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Does not require vision.&lt;/font&gt;</e>
+    <e id="643">N</e>
+    <e id="644">Primary structure. Can receive gathered resources. Can use the Chrono Boost ability.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Probes&lt;br/&gt;- Mothership Core</e>
+    <e id="645">Chrono Boost</e>
+    <e id="646">C</e>
+    <e id="647">Places target structure in a Chrono Boost, causing it to operate 50% faster for 20 seconds.</e>
+    <e id="648">Strategic Recall</e>
+    <e id="649">R</e>
+    <e id="650">Recalls all units owned by the player in the target area to the Nexus.</e>
+    <e id="651">Battery Overcharge</e>
+    <e id="652">B</e>
+    <e id="653">Overcharges a target Shield Battery near a Nexus, increasing its shield restoration rate by 50% and allowing it to restore shields without consuming energy for 14 seconds.</e>
+    <e id="654">Warp In Probe</e>
+    <e id="655">E</e>
+    <e id="656">Basic worker unit. Can gather resources and warp in Protoss structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="657">Warp In Mothership</e>
+    <e id="658">Pylon</e>
+    <e id="659">E</e>
+    <e id="660">Provides supply.&lt;br/&gt;Supply allows you to warp in more units.&lt;br/&gt;Creates power for nearby structures.</e>
+    <e id="661">Warp Conduit</e>
+    <e id="662">Increases the speed of warp in for units warped into the power field to 4 seconds.</e>
+    <e id="663">Power Source Fast</e>
+    <e id="664">Assimilator</e>
+    <e id="665">A</e>
+    <e id="666">Warped in over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="667">Gateway</e>
+    <e id="668">G</e>
+    <e id="669">Warps in Protoss ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Zealots</e>
+    <e id="670">Transform to Warp Gate</e>
+    <e id="671">G</e>
+    <e id="672">Upgrades this Gateway to a Warp Gate, allowing it to warp in ground units to any location powered by a Pylon or Warp Prism.</e>
+    <e id="673">Warp Gate</e>
+    <e id="674">Warp In Zealot</e>
+    <e id="675">Z</e>
+    <e id="676">Warp In Stalker</e>
+    <e id="677">S</e>
+    <e id="678">Ranged support strider.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="679">Cybernetics Core</e>
+    <e id="680">Warp In High Templar</e>
+    <e id="681">T</e>
+    <e id="682">Potent psionic master. Can use Feedback and be upgraded to use Psionic Storm. Can transform into an Archon.</e>
+    <e id="683">Templar Archives</e>
+    <e id="684">Warp In Dark Templar</e>
+    <e id="685">D</e>
+    <e id="686">Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection. Can transform into an Archon.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="687">Dark Shrine</e>
+    <e id="688">Warp In Sentry</e>
+    <e id="689">E</e>
+    <e id="690">Energy-manipulator unit. Can use Force Field, Guardian Shield, and Hallucination.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="691">Warp In Adept</e>
+    <e id="692">H</e>
+    <e id="693">Ranged specialist. Can use Psionic Transfer.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="694">G</e>
+    <e id="695">Enables &lt;font color=&quot;#ffff8a&quot;&gt;Gateways&lt;/font&gt; to upgrade to Warp Gates.</e>
+    <e id="696">Forge</e>
+    <e id="697">F</e>
+    <e id="698">Contains weapon and armor upgrades for Protoss ground units and shield upgrades for all Protoss units and structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Photon Cannons from Probes</e>
+    <e id="699">Upgrade Ground Weapons Level 1</e>
+    <e id="700">Upgrade Ground Weapons Level 2</e>
+    <e id="701">Upgrade Ground Weapons Level 3</e>
+    <e id="702">Upgrade Ground Armor Level 1</e>
+    <e id="703">Upgrade Ground Armor Level 2</e>
+    <e id="704">Upgrade Ground Armor Level 3</e>
+    <e id="705">Upgrade Shields Level 1</e>
+    <e id="706">Upgrade Shields Level 2</e>
+    <e id="707">Upgrade Shields Level 3</e>
+    <e id="708">F</e>
+    <e id="709">Contains upgrades for Phoenixes and Carriers.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Tempests at the Stargate&lt;br/&gt;- Carriers at the Stargate&lt;br/&gt;- Mothership from the Mothership Core</e>
+    <e id="710">Stargate</e>
+    <e id="711">Research Anion Pulse-Crystals</e>
+    <e id="712">R</e>
+    <e id="713">Increases &lt;font color=&quot;#ffff8a&quot;&gt;Phoenix&apos;s&lt;/font&gt; attack range by 2.</e>
+    <e id="714">Research Flux Vanes</e>
+    <e id="715">F</e>
+    <e id="716">Increases the speed and acceleration of the &lt;font color=&quot;#ffff8a&quot;&gt;Void Ray&lt;/font&gt;.</e>
+    <e id="717">Research Tectonic Destabilizers</e>
+    <e id="718">T</e>
+    <e id="719">Improves the &lt;font color=&quot;#ffff8a&quot;&gt;Tempest&apos;s&lt;/font&gt; weapon to deal +0 damage vs structures.</e>
+    <e id="720">C</e>
+    <e id="721">Contains upgrades for Zealots, Stalkers, and Adepts.</e>
+    <e id="722">Research Charge</e>
+    <e id="723">C</e>
+    <e id="724">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Zealots&lt;/font&gt; to intercept nearby enemies. Also increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Zealots&lt;/font&gt;.</e>
+    <e id="725">Research Blink</e>
+    <e id="726">B</e>
+    <e id="727">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Stalkers&lt;/font&gt; to teleport to a nearby target location.</e>
+    <e id="728">Research Resonating Glaives</e>
+    <e id="729">A</e>
+    <e id="730">Increases the attack speed of &lt;font color=&quot;#ffff8a&quot;&gt;Adepts&lt;/font&gt; by 45%.</e>
+    <e id="731">C</e>
+    <e id="732">Primary defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="733">Photon Cannon</e>
+    <e id="734">S</e>
+    <e id="735">Warps in Protoss air units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Phoenixes&lt;br/&gt;- Void Rays&lt;br/&gt;- Oracles</e>
+    <e id="736">Warp In Phoenix</e>
+    <e id="737">X</e>
+    <e id="738">Air-superiority fighter.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="739">Warp In Carrier</e>
+    <e id="740">C</e>
+    <e id="741">Capital ship. Can build and launch Interceptors to make attacks.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="742">Warp In Void Ray</e>
+    <e id="743">V</e>
+    <e id="744">Surgical strike craft.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="745">Warp In Oracle</e>
+    <e id="746">E</e>
+    <e id="747">Flying caster. Can use Revelation, Stasis Ward, and Pulsar Beam.</e>
+    <e id="748">Warp In Tempest</e>
+    <e id="749">T</e>
+    <e id="750">Siege artillery craft. Attacks from long range. Can use Disintegration.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="751">T</e>
+    <e id="752">Contains an upgrade for High Templar.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- High Templar at the Gateway&lt;br/&gt;- Archon Merge from High Templar</e>
+    <e id="753">Research Psionic Storm</e>
+    <e id="754">T</e>
+    <e id="755">Allows &lt;font color=&quot;#ffff8a&quot;&gt;High Templar&lt;/font&gt; to summon a storm of psionic energy, causing heavy damage to every unit in the target area.</e>
+    <e id="756">D</e>
+    <e id="757">Dark Templar tech structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Dark Templar at the Gateway&lt;br/&gt;- Archon Merge from Dark Templar</e>
+    <e id="758">Research Shadow Stride</e>
+    <e id="759">B</e>
+    <e id="760">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Dark Templars&lt;/font&gt; to teleport to a nearby target location.</e>
+    <e id="761">B</e>
+    <e id="762">Contains upgrades for the Observer, Warp Prism, and Colossus.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Colossi at the Robotics Facility&lt;br/&gt;- Disruptors at the Robotics Facility</e>
+    <e id="763">Research Gravitic Boosters</e>
+    <e id="764">B</e>
+    <e id="765">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Observers&lt;/font&gt;.</e>
+    <e id="766">Research Gravitic Drive</e>
+    <e id="767">G</e>
+    <e id="768">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Warp Prisms&lt;/font&gt;.</e>
+    <e id="769">Research Extended Thermal Lance</e>
+    <e id="770">R</e>
+    <e id="771">Warps in Protoss robotic units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Observers&lt;br/&gt;- Warp Prisms&lt;br/&gt;- Immortals</e>
+    <e id="772">Warp In Warp Prism</e>
+    <e id="773">A</e>
+    <e id="774">Flying transport. Can load and unload units. Can also deploy to create a power field.</e>
+    <e id="775">Warp In Observer</e>
+    <e id="776">B</e>
+    <e id="777">Flying spy. Cloak renders the unit invisible to enemies without detection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="778">Warp In Colossus</e>
+    <e id="779">Warp In Immortal</e>
+    <e id="780">I</e>
+    <e id="781">Assault strider. Can use Barrier to absorb damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="782">Warp In Disruptor</e>
+    <e id="783">D</e>
+    <e id="784">Robotic disruption unit. Can use Purification Nova to deal heavy area damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="785">Y</e>
+    <e id="786">Contains weapon and armor upgrades for Protoss air units and the Warp Gate upgrade.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Sentries at the Gateway&lt;br/&gt;- Stalkers at the Gateway&lt;br/&gt;- Adepts at the Gateway&lt;br/&gt;- Mothership Core at the Nexus</e>
+    <e id="787">Upgrade Air Weapons Level 1</e>
+    <e id="788">Upgrade Air Weapons Level 2</e>
+    <e id="789">Upgrade Air Weapons Level 3</e>
+    <e id="790">Upgrade Air Armor Level 1</e>
+    <e id="791">Upgrade Air Armor Level 2</e>
+    <e id="792">Upgrade Air Armor Level 3</e>
+    <e id="793">Research Warp Gate</e>
+    <e id="794">Charge</e>
+    <e id="795">C</e>
+    <e id="796">Allows Zealots to intercept nearby enemies. Also increases the movement speed of Zealots. Ability can only be used once every 7 seconds.</e>
+    <e id="797">Charge</e>
+    <e id="798">Particle Disruptors</e>
+    <e id="799">Blink</e>
+    <e id="800">B</e>
+    <e id="801">Teleports the Stalker to a nearby target location. Ability can only be used once every 7 seconds.</e>
+    <e id="802">Blink</e>
+    <e id="803">Sentry</e>
+    <e id="804">Psi Blast</e>
+    <e id="805">Psionic Storm</e>
+    <e id="806">T</e>
+    <e id="807">Creates a storm of psionic energy that lasts 3 seconds, causing up to 80 damage to all units in the target area.</e>
+    <e id="808">Psionic Storm</e>
+    <e id="809">Archon Merge</e>
+    <e id="810">C</e>
+    <e id="811">Sacrifices 2 Templar to create an Archon.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="812">Feedback</e>
+    <e id="813">F</e>
+    <e id="814">Drains all energy from the target. Deals 1 damage per point of energy.</e>
+    <e id="815">Observer</e>
+    <e id="816">Warp Blades</e>
+    <e id="817">Shadow Stride</e>
+    <e id="818">B</e>
+    <e id="819">Teleports the Dark Templar to a nearby target location. Ability can only be used once every 14 seconds.</e>
+    <e id="820">Shadow Stride</e>
+    <e id="821">Permanently Cloaked</e>
+    <e id="822">The Dark Templar is permanently cloaked.</e>
+    <e id="823">Archon</e>
+    <e id="824">Force Field</e>
+    <e id="825">F</e>
+    <e id="826">Barrier that lasts 11 seconds and impedes movement of ground units. Massive units will shatter Force Fields on contact.</e>
+    <e id="827">Guardian Shield</e>
+    <e id="828">G</e>
+    <e id="829">Creates a range 4 aura that reduces incoming ranged damage to friendly units by 2. Lasts 11 seconds.</e>
+    <e id="830">Summon Archon Hallucination</e>
+    <e id="831">N</e>
+    <e id="832">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="833">Summon Colossus Hallucination</e>
+    <e id="834">C</e>
+    <e id="835">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="836">Summon 2 High Templar Hallucinations</e>
+    <e id="837">T</e>
+    <e id="838">These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="839">Summon Immortal Hallucination</e>
+    <e id="840">I</e>
+    <e id="841">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="842">Summon Phoenix Hallucination</e>
+    <e id="843">X</e>
+    <e id="844">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="845">Summon 4 Probe Hallucinations</e>
+    <e id="846">E</e>
+    <e id="847">These hallucinated copies function like the original unit, but they cannot use active abilities, deal damage, warp in structures, or gather resources, and they die more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="848">Summon 2 Stalker Hallucinations</e>
+    <e id="849">S</e>
+    <e id="850">These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="851">Summon Void Ray Hallucination</e>
+    <e id="852">V</e>
+    <e id="853">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="854">Summon Warp Prism Hallucination</e>
+    <e id="855">R</e>
+    <e id="856">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="857">Summon 2 Zealot Hallucinations</e>
+    <e id="858">Z</e>
+    <e id="859">These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="860">Summon Oracle Hallucination</e>
+    <e id="861">L</e>
+    <e id="862">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="863">Summon Disruptor Hallucination</e>
+    <e id="864">D</e>
+    <e id="865">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="866">Summon 2 Adept Hallucinations</e>
+    <e id="867">H</e>
+    <e id="868">This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last 43 seconds before they disappear.</e>
+    <e id="869">Oracle</e>
+    <e id="870">Ion Cannons</e>
+    <e id="871">Graviton Beam</e>
+    <e id="872">G</e>
+    <e id="873">Makes the target unit float in the air, disabling its abilities. Effect lasts up to 7 seconds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Massive units are immune.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Channeled ability&lt;/font&gt;</e>
+    <e id="874">Anion Pulse-Crystals</e>
+    <e id="875">Build Interceptor</e>
+    <e id="876">I</e>
+    <e id="877">Builds Interceptors that automatically attack the Carrier&apos;s target. Carriers may not attack without Interceptors.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="878">Interceptor</e>
+    <e id="879">Prismatic Alignment</e>
+    <e id="880">E</e>
+    <e id="881">Realigns the Void Ray&apos;s Prismatic Beam to gain +6 damage vs. armored units for 14 seconds.</e>
+    <e id="882">Flux Vanes</e>
+    <e id="883">Warp Prism</e>
+    <e id="884">Phasing Mode</e>
+    <e id="885">E</e>
+    <e id="886">Transforms the Warp Prism to Phasing Mode and generates a power radius similar to that of a Pylon. The Warp Prism cannot move in this mode.</e>
+    <e id="887">Load</e>
+    <e id="888">L</e>
+    <e id="889">Loads units into the Warp Prism&apos;s matrix.</e>
+    <e id="890">Unload All</e>
+    <e id="891">D</e>
+    <e id="892">Unloads all units.</e>
+    <e id="893">Gravitic Drive</e>
+    <e id="894">Surveillance Mode</e>
+    <e id="895">E</e>
+    <e id="896">Transforms the Observer to Surveillance Mode. The Observer gains 25% wider vision, but loses the ability to move.</e>
+    <e id="897">Permanently Cloaked</e>
+    <e id="898">The Observer is permanently cloaked.</e>
+    <e id="899">Gravitic Boosters</e>
+    <e id="900">Phase Disruptors</e>
+    <e id="901">Barrier</e>
+    <e id="902">Absorbs up to 100 damage. Lasts for 0 seconds.</e>
+    <e id="903">Particle Beam</e>
+    <e id="904">Gather</e>
+    <e id="905">G</e>
+    <e id="906">Orders Probe to gather resources from a selected Mineral Field or Vespene Geyser.</e>
+    <e id="907">Warp In Nexus</e>
+    <e id="908">Warp In Pylon</e>
+    <e id="909">Warp In Assimilator</e>
+    <e id="910">Warp In Gateway</e>
+    <e id="911">Warp In Forge</e>
+    <e id="912">Warp In Fleet Beacon</e>
+    <e id="913">Warp In Twilight Council</e>
+    <e id="914">Warp In Photon Cannon</e>
+    <e id="915">Warp In Stargate</e>
+    <e id="916">Warp In Templar Archives</e>
+    <e id="917">Warp In Dark Shrine</e>
+    <e id="918">Warp In Robotics Bay</e>
+    <e id="919">Warp In Robotics Facility</e>
+    <e id="920">Warp In Cybernetics Core</e>
+    <e id="921">Warp In Shield Battery</e>
+    <e id="922">B</e>
+    <e id="923">Defensive structure. Recharges shields of nearby units.</e>
+    <e id="924">Combat drones that automatically strafe their Carrier&apos;s target. Carriers may not attack without Interceptors.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="925">Interceptor Beam</e>
+    <e id="926">Hatchery</e>
+    <e id="927">H</e>
+    <e id="928">Primary structure. Used to spawn all Zerg units and receive gathered resources. Grows creep used to feed nearby Zerg structures. Can mutate into a Lair.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="929">Mutate into Lair</e>
+    <e id="930">L</e>
+    <e id="931">Evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Overseers from Overlords</e>
+    <e id="932">Spawning Pool</e>
+    <e id="933">Cancel</e>
+    <e id="934">Cancels the mutation order, returning the structure to its original state.</e>
+    <e id="935">Set Rally Point</e>
+    <e id="936">Y</e>
+    <e id="937">Sends morphed units to the designated point.</e>
+    <e id="938">Set Worker Rally Point</e>
+    <e id="939">G</e>
+    <e id="940">Sends morphed worker units to the designated point. Workers rallied to Mineral Fields or Extractors will begin gathering automatically.</e>
+    <e id="941">Evolve Pneumatized Carapace</e>
+    <e id="942">P</e>
+    <e id="943">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Overlords&lt;/font&gt; and &lt;font color=&quot;#ffff8a&quot;&gt;Overseers&lt;/font&gt;.</e>
+    <e id="944">Evolve Burrow</e>
+    <e id="945">Birth Queen</e>
+    <e id="946">Q</e>
+    <e id="947">Defensive unit. Can use Spawn Larvae, Spawn Creep Tumor, and Transfusion. Moves much faster on creep.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="948">Creep Tumor</e>
+    <e id="949">C</e>
+    <e id="950">A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="951">Creep Tumor</e>
+    <e id="952">Extractor</e>
+    <e id="953">E</e>
+    <e id="954">Mutated over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="955">S</e>
+    <e id="956">Contains upgrades for Zerglings.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Queens at the Hatchery, Lair, or Hive&lt;br/&gt;- Zerglings from Larvae&lt;br/&gt;- Spine Crawlers from Drones&lt;br/&gt;- Spore Crawlers from Drones</e>
+    <e id="957">Evolve Adrenal Glands</e>
+    <e id="958">A</e>
+    <e id="959">Increases the attack speed of &lt;font color=&quot;#ffff8a&quot;&gt;Zerglings&lt;/font&gt; by 40%.</e>
+    <e id="960">Evolve Metabolic Boost</e>
+    <e id="961">M</e>
+    <e id="962">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Zerglings&lt;/font&gt;.</e>
+    <e id="963">Evolution Chamber</e>
+    <e id="964">V</e>
+    <e id="965">Contains upgrades for Zerg ground units. </e>
+    <e id="966">Evolve Melee Attacks Level 1</e>
+    <e id="967">Evolve Melee Attacks Level 2</e>
+    <e id="968">Evolve Melee Attacks Level 3</e>
+    <e id="969">Evolve Ground Carapace Level 1</e>
+    <e id="970">Evolve Ground Carapace Level 2</e>
+    <e id="971">Evolve Ground Carapace Level 3</e>
+    <e id="972">Evolve Missile Attacks Level 1</e>
+    <e id="973">Evolve Missile Attacks Level 2</e>
+    <e id="974">Evolve Missile Attacks Level 3</e>
+    <e id="975">Hydralisk Den</e>
+    <e id="976">H</e>
+    <e id="977">Contains an upgrade for Hydralisks. Can mutate into a Lurker Den.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Hydralisks from Larvae</e>
+    <e id="978">Evolve Grooved Spines</e>
+    <e id="979">G</e>
+    <e id="980">Increases &lt;font color=&quot;#ffff8a&quot;&gt;Hydralisk&lt;/font&gt; attack range by +0.</e>
+    <e id="981">Evolve Muscular Augments</e>
+    <e id="982">H</e>
+    <e id="983">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Hydralisks&lt;/font&gt;.</e>
+    <e id="984">Spire</e>
+    <e id="985">S</e>
+    <e id="986">Contains upgrades for Zerg air units. Can mutate into a Greater Spire.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Mutalisks from Larvae&lt;br/&gt;- Corruptors from Larvae</e>
+    <e id="987">Mutate into Greater Spire</e>
+    <e id="988">G</e>
+    <e id="989">Contains upgrades for Zerg air units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Brood Lords from Corruptors</e>
+    <e id="990">Evolve Flyer Attacks Level 1</e>
+    <e id="991">A</e>
+    <e id="992">Upgrades the attacks of all Zerg air units.</e>
+    <e id="993">Evolve Flyer Attacks Level 2</e>
+    <e id="994">A</e>
+    <e id="995">Further upgrades the attacks of all Zerg air units.</e>
+    <e id="996">Zerg Flyer Attacks Level 1</e>
+    <e id="997">Evolve Flyer Attacks Level 3</e>
+    <e id="998">A</e>
+    <e id="999">Maximizes the attacks of all Zerg air units.</e>
+    <e id="1000">Zerg Flyer Attacks Level 2</e>
+    <e id="1001">Evolve Flyer Carapace Level 1</e>
+    <e id="1002">C</e>
+    <e id="1003">Upgrades the armor of all Zerg air units.</e>
+    <e id="1004">Evolve Flyer Carapace Level 2</e>
+    <e id="1005">C</e>
+    <e id="1006">Further upgrades the armor of all Zerg air units.</e>
+    <e id="1007">Zerg Flyer Carapace Level 1</e>
+    <e id="1008">Evolve Flyer Carapace Level 3</e>
+    <e id="1009">C</e>
+    <e id="1010">Maximizes the armor of all Zerg air units.</e>
+    <e id="1011">Zerg Flyer Carapace Level 2</e>
+    <e id="1012">Ultralisk Cavern</e>
+    <e id="1013">U</e>
+    <e id="1014">Contains an upgrade for Ultralisks.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Ultralisks from Larvae</e>
+    <e id="1015">Evolve Anabolic Synthesis</e>
+    <e id="1016">A</e>
+    <e id="1017">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Ultralisks&lt;/font&gt;.</e>
+    <e id="1018">Evolve Chitinous Plating</e>
+    <e id="1019">C</e>
+    <e id="1020">Grants &lt;font color=&quot;#ffff8a&quot;&gt;Ultralisks&lt;/font&gt; +2 armor.</e>
+    <e id="1021">Infestation Pit</e>
+    <e id="1022">I</e>
+    <e id="1023">Contains upgrades for Infestors and Swarm Hosts.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Infestors from Larvae&lt;br/&gt;- Swarm Hosts from Larvae</e>
+    <e id="1024">Evolve Neural Parasite</e>
+    <e id="1025">E</e>
+    <e id="1026">Allows &lt;font color=&quot;#ffff8a&quot;&gt;Infestors&lt;/font&gt; to use the Neural Parasite ability.</e>
+    <e id="1027">Nydus Network</e>
+    <e id="1028">N</e>
+    <e id="1029">Friendly ground units can use the Nydus Network to instantly travel to any other Nydus Network or Nydus Worm owned by the player.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Nydus Worm</e>
+    <e id="1030">Set Rally Point</e>
+    <e id="1031">Y</e>
+    <e id="1032">Sends units to the designated point. Workers rallied to resources will begin harvesting automatically.</e>
+    <e id="1033">Load</e>
+    <e id="1034">L</e>
+    <e id="1035">Loads units into the Nydus Network.</e>
+    <e id="1036">Unload All</e>
+    <e id="1037">D</e>
+    <e id="1038">Unloads all units.</e>
+    <e id="1039">Subterranean Scales</e>
+    <e id="1040">Nydus Worms have 3 armor when emerging from the ground.</e>
+    <e id="1041">Summon Nydus Worm</e>
+    <e id="1042">N</e>
+    <e id="1043">Summons a Nydus Worm at the target location.&lt;br/&gt;Friendly ground units can use a Nydus Worm to instantly travel to any other Nydus Worm or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1044">B</e>
+    <e id="1045">Contains an upgrade for Banelings.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Banelings from Zerglings</e>
+    <e id="1046">Evolve Centrifugal Hooks</e>
+    <e id="1047">Roach Warren</e>
+    <e id="1048">R</e>
+    <e id="1049">Contains upgrades for Roaches.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Roaches from Larvae&lt;br/&gt;- Ravagers from Roaches</e>
+    <e id="1050">Evolve Glial Reconstitution</e>
+    <e id="1051">G</e>
+    <e id="1052">Increases the movement speed of &lt;font color=&quot;#ffff8a&quot;&gt;Roaches&lt;/font&gt;.</e>
+    <e id="1053">Evolve Tunneling Claws</e>
+    <e id="1054">T</e>
+    <e id="1055">Enables &lt;font color=&quot;#ffff8a&quot;&gt;Roaches&lt;/font&gt; to move while burrowed. Increases the life-regeneration rate of burrowed &lt;font color=&quot;#ffff8a&quot;&gt;Roaches&lt;/font&gt;.</e>
+    <e id="1056">Spine Crawler</e>
+    <e id="1057">C</e>
+    <e id="1058">Anti-ground defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1059">Impaler Tentacle</e>
+    <e id="1060">Uproot</e>
+    <e id="1061">R</e>
+    <e id="1062">Uproots the Spine Crawler. An uprooted Spine Crawler has the ability to move but cannot attack. Moves much faster on creep.</e>
+    <e id="1063">A</e>
+    <e id="1064">Anti-air defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1065">Acid Spew</e>
+    <e id="1066">Uproot</e>
+    <e id="1067">R</e>
+    <e id="1068">Uproots the Spore Crawler. An uprooted Spore Crawler has the ability to move but cannot attack. Moves much faster on creep.</e>
+    <e id="1069">Mutate into Hive</e>
+    <e id="1070">H</e>
+    <e id="1071">Further evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Vipers from Larvae</e>
+    <e id="1072">Greater Spire</e>
+    <e id="1073">Zerg Cocoon</e>
+    <e id="1074">Zerg units morph in the safety of these cocoons.</e>
+    <e id="1075">Cancel</e>
+    <e id="1076">Cancels the build order, killing the larva in the process.</e>
+    <e id="1077">D</e>
+    <e id="1078">Basic worker unit. Can harvest minerals and vespene gas. Can mutate into structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1079">Larva</e>
+    <e id="1080">Claws</e>
+    <e id="1081">Gather</e>
+    <e id="1082">G</e>
+    <e id="1083">Orders Drone to gather resources from a selected Mineral Field or Vespene Geyser.</e>
+    <e id="1084">Mutate into Hatchery</e>
+    <e id="1085">Mutate into Extractor</e>
+    <e id="1086">Mutate into Spawning Pool</e>
+    <e id="1087">Mutate into Evolution Chamber</e>
+    <e id="1088">Mutate into Hydralisk Den</e>
+    <e id="1089">Mutate into Spire</e>
+    <e id="1090">Mutate into Ultralisk Cavern</e>
+    <e id="1091">Mutate into Infestation Pit</e>
+    <e id="1092">Mutate into Nydus Network</e>
+    <e id="1093">Mutate into Baneling Nest</e>
+    <e id="1094">Mutate into Lurker Den</e>
+    <e id="1095">D</e>
+    <e id="1096">Morph into a Lurker Den, allowing Hydralisks to morph into Lurkers.</e>
+    <e id="1097">Mutate into Roach Warren</e>
+    <e id="1098">Mutate into Spine Crawler</e>
+    <e id="1099">Mutate into Spore Crawler</e>
+    <e id="1100">Z</e>
+    <e id="1101">Morph to Baneling</e>
+    <e id="1102">Adrenal Glands</e>
+    <e id="1103">Metabolic Boost</e>
+    <e id="1104">Overlord</e>
+    <e id="1105">V</e>
+    <e id="1106">Provides supply.&lt;br/&gt;Supply allows you to create more units.</e>
+    <e id="1107">Morph to Overseer</e>
+    <e id="1108">V</e>
+    <e id="1109">Advanced aerial observer. Provides the same supply as an Overlord. Can use the Spawn Changeling and Contaminate abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1110">Generate Creep</e>
+    <e id="1111">G</e>
+    <e id="1112">Makes the Overlord start to generate creep. Creep will only be generated when the Overlord isn&apos;t moving. Creep feeds nearby Zerg structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1113">Stop Generate Creep</e>
+    <e id="1114">C</e>
+    <e id="1115">Stops generating creep.</e>
+    <e id="1116">Morph to Transport</e>
+    <e id="1117">T</e>
+    <e id="1118">Enables the overlord to transport units.</e>
+    <e id="1119">Zerg Flyer Carapace Level 3</e>
+    <e id="1120">Pneumatized Carapace</e>
+    <e id="1121">H</e>
+    <e id="1122">Ranged attacker. Can morph into a Lurker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1123">Needle Spines</e>
+    <e id="1124">Morph to Lurker </e>
+    <e id="1125">E</e>
+    <e id="1126">Anti-ground ambusher. Has a spine attack that damages all enemy units in its line of fire.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;br/&gt;Must burrow to attack.&lt;/font&gt;</e>
+    <e id="1127">Lurker Den</e>
+    <e id="1128">Grooved Spines</e>
+    <e id="1129">Muscular Augments</e>
+    <e id="1130">T</e>
+    <e id="1131">Air unit. Bounces its shot to strike multiple targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1132">Viper</e>
+    <e id="1133">Glave Wurm</e>
+    <e id="1134">Tissue Regeneration</e>
+    <e id="1135">The Mutalisk regenerates life faster than most zerg units.</e>
+    <e id="1136">Zerg Flyer Attacks Level 3</e>
+    <e id="1137">U</e>
+    <e id="1138">Heavy assault beast. Has an area-damage attack.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1139">Kaiser Blades</e>
+    <e id="1140">Frenzied</e>
+    <e id="1141">Immune to snare, stun, and mind control effects.</e>
+    <e id="1142">Chitinous Plating</e>
+    <e id="1143">Anabolic Synthesis</e>
+    <e id="1144">R</e>
+    <e id="1145">Assault unit. Regenerates life quickly when burrowed. Can morph into a Ravager.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1146">Acid Saliva</e>
+    <e id="1147">Morph To Ravager</e>
+    <e id="1148">V</e>
+    <e id="1149">Ranged artillery. Can use Corrosive Bile.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1150">Rapid Regeneration</e>
+    <e id="1151">The Roach regenerates life very quickly while burrowed.</e>
+    <e id="1152">Glial Reconstitution</e>
+    <e id="1153">Tunneling Claws</e>
+    <e id="1154">F</e>
+    <e id="1155">Infestation specialist. Can use the Fungal Growth, Infested Terran, and Neural Parasite abilities.</e>
+    <e id="1156">Burrow</e>
+    <e id="1157">Buries the unit underground. Burrowed units are unable to attack, but they cannot be seen without detection. This unit may move while burrowed.</e>
+    <e id="1158">Neural Parasite</e>
+    <e id="1159">E</e>
+    <e id="1160">Target unit is controlled by the Infestor for 11 seconds. The Infestor cannot take any other action while controlling an enemy unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Channeled ability.&lt;/font&gt;</e>
+    <e id="1161">Neural Parasite</e>
+    <e id="1162">Fungal Growth</e>
+    <e id="1163">F</e>
+    <e id="1164">Immobilizes target units and causes 25 damage over 3 seconds. Reveals cloaked and burrowed units.</e>
+    <e id="1165">Microbial Shroud</e>
+    <e id="1166">C</e>
+    <e id="1167">Creates a shroud that obscures ground units underneath, reducing damage taken from air units by 50%. Lasts 11 seconds.</e>
+    <e id="1168">Burrow Move</e>
+    <e id="1169">Can move while burrowed.</e>
+    <e id="1170">C</e>
+    <e id="1171">Anti-air flyer. Can use Caustic Spray. Can morph into a Brood Lord.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1172">Parasite Spore</e>
+    <e id="1173">Caustic Spray</e>
+    <e id="1174">C</e>
+    <e id="1175">Emits a stream of acid that deals 7 damage per second for 4.3 seconds, then increases to 35 damage per second.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Channeled ability.&lt;/font&gt;&lt;font color=&quot;#ffff8a&quot;&gt; Can only target enemy structures.&lt;/font&gt;</e>
+    <e id="1176">Morph to Brood Lord</e>
+    <e id="1177">B</e>
+    <e id="1178">Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1179">Brood Lord Cocoon</e>
+    <e id="1180">This cocoon contains a Corruptor that is morphing into a Brood Lord.</e>
+    <e id="1181">Broodling Strike</e>
+    <e id="1182">Swarm Seeds</e>
+    <e id="1183">The Brood Lord shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1184">Unburrow</e>
+    <e id="1185">R</e>
+    <e id="1186">Returns the unit to the surface.</e>
+    <e id="1187">Basic worker unit. Can harvest minerals and vespene gas. Can mutate into structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1188">Stop</e>
+    <e id="1189">S</e>
+    <e id="1190">Orders selected units to cancel all orders and stop moving.</e>
+    <e id="1191">Redstone Lava Critter</e>
+    <e id="1192">Small critter native to Redstone.</e>
+    <e id="1193">Redstone Lava Critter (Injured)</e>
+    <e id="1194">Small critter native to Redstone.</e>
+    <e id="1195">Redstone Lava Critter</e>
+    <e id="1196">Small critter native to Redstone.</e>
+    <e id="1197">Redstone Lava Critter (Injured)</e>
+    <e id="1198">Small critter native to Redstone.</e>
+    <e id="1199">Queen</e>
+    <e id="1200">Acid Spines</e>
+    <e id="1201"></e>
+    <e id="1202">Talons</e>
+    <e id="1203">Spawn Larvae</e>
+    <e id="1204">V</e>
+    <e id="1205">Target Hatchery, Lair, or Hive spawns 4 Larvae in 29 seconds. If Hatchery, Lair, or Hive has more than 3 Larvae at one time, regular Larva production will stop until there are fewer than 3 Larvae.</e>
+    <e id="1206">Transfusion</e>
+    <e id="1207">T</e>
+    <e id="1208">Instantly restores 125 life to target biological unit or structure.</e>
+    <e id="1209">Queen Must Be On Creep</e>
+    <e id="1210">Spawn Creep Tumor</e>
+    <e id="1211">C</e>
+    <e id="1212">A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1213">Overseer Cocoon</e>
+    <e id="1214">This cocoon contains an Overlord as it is morphing into an Overseer.</e>
+    <e id="1215">Advanced aerial observer. Maintains the unit cap set by the Overlord. Can use the Spawn Changeling and Contaminate abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1216">Spawn Changeling</e>
+    <e id="1217">Creates a Changeling. Changelings cannot attack and die after 107 seconds. When a Changeling first encounters an enemy unit, it will match that unit&apos;s color and change into a Zealot, Marine, or Zergling, depending on the enemy race.</e>
+    <e id="1218">Contaminate</e>
+    <e id="1219">E</e>
+    <e id="1220">The target structure will be unable to train units or research upgrades for 21 seconds.</e>
+    <e id="1221">Oversight</e>
+    <e id="1222">W</e>
+    <e id="1223">Grants the Overseer 25% wider vision, but removes its ability to move. This ability can be canceled after activation.</e>
+    <e id="1224">Planetary Fortress</e>
+    <e id="1225">Defensive stronghold. &lt;br/&gt;Used to receive gathered resources. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1226">Ibiks Cannon</e>
+    <e id="1227">Stop</e>
+    <e id="1228">P</e>
+    <e id="1229">Orders selected units to cancel all orders and stop moving.</e>
+    <e id="1230">Load </e>
+    <e id="1231">O</e>
+    <e id="1232">Loads nearby SCVs into the Planetary Fortress.</e>
+    <e id="1233">Orbital Command</e>
+    <e id="1234">Primary structure. Used to train SCVs and receive gathered resources. Can use the Scanner Sweep ability. Can use the abilities Calldown: MULE and Calldown: Extra Supplies.</e>
+    <e id="1235">Calldown: MULE</e>
+    <e id="1236">E</e>
+    <e id="1237">Drops an experimental robotic MULE miner onto the target Mineral Field. MULEs collect minerals more quickly than SCVs.  &lt;br/&gt;&lt;br/&gt;MULEs last 64 seconds before their systems fail.</e>
+    <e id="1238">Calldown: Extra Supplies</e>
+    <e id="1239">X</e>
+    <e id="1240">Drops additional supplies, permanently increasing the supply output of the target Supply Depot by 8.</e>
+    <e id="1241">Scanner Sweep</e>
+    <e id="1242">C</e>
+    <e id="1243">Reveals an area of the map, detecting cloaked and burrowed units. Lasts 9 seconds.</e>
+    <e id="1244">Warp Gate</e>
+    <e id="1245">Enables warp in of Protoss ground units.</e>
+    <e id="1246">Transform to Gateway</e>
+    <e id="1247">M</e>
+    <e id="1248">Transforms this Warp Gate back to a Gateway.</e>
+    <e id="1249">Orbital Command</e>
+    <e id="1250">Primary structure. Must land to receive resources, produce units, or use abilities.</e>
+    <e id="1251">Force Field</e>
+    <e id="1252">Warp Prism</e>
+    <e id="1253">Immobile power provider. Can load and unload units. Can switch to a mobile Transport Mode.</e>
+    <e id="1254">Transport Mode</e>
+    <e id="1255">T</e>
+    <e id="1256">Reverts the Warp Prism back to Transport Mode, allowing it to move.</e>
+    <e id="1257">A burrowed creep generator. Creep feeds nearby Zerg structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1258">Spawn Creep Tumor</e>
+    <e id="1259">A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1260">Spine Crawler</e>
+    <e id="1261">Uprooted anti-ground defensive structure. Can move when uprooted, but cannot attack. Must plant itself in creep to attack.</e>
+    <e id="1262">Root</e>
+    <e id="1263">R</e>
+    <e id="1264">Roots the Spine Crawler. A rooted Spine Crawler has the ability to attack ground units but is unable to move.</e>
+    <e id="1265">Spore Crawler</e>
+    <e id="1266">Uprooted anti-air defensive structure. Can move when uprooted, but cannot attack. Must plant itself in creep to attack.</e>
+    <e id="1267">Root</e>
+    <e id="1268">R</e>
+    <e id="1269">Roots the Spore Crawler. A rooted Spore Crawler has the ability to attack air units and detect cloaked units, but it&apos;s unable to move.</e>
+    <e id="1270">Powerful psionic attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1271">Psionic Shockwave</e>
+    <e id="1272">Nydus Worm</e>
+    <e id="1273">Friendly ground units can use a Nydus Worm to instantly travel to any other Nydus Worm or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="1274">Load</e>
+    <e id="1275">L</e>
+    <e id="1276">Loads units into the Nydus Worm.</e>
+    <e id="1277">Broodling</e>
+    <e id="1278">Fast melee creature that will last for a short duration.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1279">Rich Mineral Field</e>
+    <e id="1280">Workers can harvest minerals from this Mineral Field at a faster rate than normal.</e>
+    <e id="1281">Ursadon</e>
+    <e id="1282">Spines</e>
+    <e id="1283">R</e>
+    <e id="1284">Hold Fire</e>
+    <e id="1285">F</e>
+    <e id="1286">Orders selected units to ignore enemies that are within range.</e>
+    <e id="1287">Cancel Hold Fire</e>
+    <e id="1288">G</e>
+    <e id="1289">Orders selected units to fire at will.</e>
+    <e id="1290">Seismic Spines</e>
+    <e id="1291">D</e>
+    <e id="1292">Increases the attack range of &lt;font color=&quot;#ffff8a&quot;&gt;Lurkers&lt;/font&gt; by +3.</e>
+    <e id="1293">Adaptive Talons</e>
+    <e id="1294">D</e>
+    <e id="1295">Reduces the time &lt;font color=&quot;#ffff8a&quot;&gt;Lurkers&lt;/font&gt; take to burrow from 2 seconds to 1.07 seconds and increases their movement speed.</e>
+    <e id="1296">Disruptor</e>
+    <e id="1297">Burrow</e>
+    <e id="1298">R</e>
+    <e id="1299">Buries the Lurker underground. Burrowed Lurkers are unable to move, but are able to attack. They cannot be seen without detection.</e>
+    <e id="1300">Contains an upgrade for Lurkers.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Lurkers from Hydralisks</e>
+    <e id="1301">Evolve Adaptive Talons</e>
+    <e id="1302">Evolve Seismic Spines</e>
+    <e id="1303">Lurker Cocoon</e>
+    <e id="1304">This cocoon contains a Hydralisk that is morphing into a Lurker.</e>
+    <e id="1305">Nydus Destroyer</e>
+    <e id="1306">Nydus Destroyer has a ranged attack that can attack air and ground structures.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Attacks structures only.&lt;/font&gt;</e>
+    <e id="1307">Viscous Bile</e>
+    <e id="1308">Overlord</e>
+    <e id="1309">Provides supply.&lt;br/&gt;Supply allows you to create more units.</e>
+    <e id="1310">Load</e>
+    <e id="1311">L</e>
+    <e id="1312">Loads units into the Overlord&apos;s ventral sacs.</e>
+    <e id="1313">Is Transport Overlord</e>
+    <e id="1314">Unload All</e>
+    <e id="1315">D</e>
+    <e id="1316">Unloads all units.</e>
+    <e id="1317">Plasma Discharge</e>
+    <e id="1318">Corrosive Bile</e>
+    <e id="1319">C</e>
+    <e id="1320">Launch a missile at the target location, dealing 60 damage to all units in the area upon impact.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can destroy Protoss Force Fields.&lt;/font&gt;</e>
+    <e id="1321">Ravager</e>
+    <e id="1322">Ranged artillery. Can use Corrosive Bile.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1323">Ravager Cocoon</e>
+    <e id="1324">This cocoon contains a Roach that is morphing into a Ravager.</e>
+    <e id="1325">Overlord Cocoon</e>
+    <e id="1326">This cocoon contains an Overlord.</e>
+    <e id="1327">Xel&apos;Naga Tower</e>
+    <e id="1328">Provides vision of the area surrounding the Xel&apos;Naga Tower. Can only be activated by ground units.</e>
+    <e id="1329">Pulsar Beam</e>
+    <e id="1330">Revelation</e>
+    <e id="1331">R</e>
+    <e id="1332">Causes enemy units and structures within the target area to grant vision for 20 seconds. Reveals cloaked or burrowed units and structures.</e>
+    <e id="1333">Attack</e>
+    <e id="1334">Activate Pulsar Beam</e>
+    <e id="1335">C</e>
+    <e id="1336">Charges the Oracle&apos;s Pulsar Beam and allows it to attack enemy ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Drains 2 energy per second.&lt;/font&gt;</e>
+    <e id="1337">Deactivate Pulsar Beam</e>
+    <e id="1338">D</e>
+    <e id="1339">Deactivates the Oracle&apos;s Pulsar Beam and prevents it from attacking.</e>
+    <e id="1340">Stasis Ward</e>
+    <e id="1341">T</e>
+    <e id="1342">Places a cloaked Stasis Ward at the target location. Once activated by an enemy ground unit, the ward traps nearby enemies in stasis for 21 seconds. Trapped units cannot be attacked or affected by abilities.</e>
+    <e id="1343">Kinetic Overload</e>
+    <e id="1344">Resonance Coil</e>
+    <e id="1345">Tectonic Destabilizers</e>
+    <e id="1346">Improves the Tempest&apos;s weapon to deal +0 damage vs structures.</e>
+    <e id="1347">Tectonic Destabilizers</e>
+    <e id="1348">Infested Swarm Egg</e>
+    <e id="1349">Hatches into an Infested Terran after a short period.</e>
+    <e id="1350">Morphs into Zerg units.</e>
+    <e id="1351">Morph to Drone</e>
+    <e id="1352">Morph to Zergling</e>
+    <e id="1353">Morph to Overlord</e>
+    <e id="1354">Morph to Hydralisk</e>
+    <e id="1355">Morph to Mutalisk</e>
+    <e id="1356">Morph to Ultralisk</e>
+    <e id="1357">Morph to Roach</e>
+    <e id="1358">Morph to Infestor</e>
+    <e id="1359">Morph to Corruptor</e>
+    <e id="1360">Morph to Viper</e>
+    <e id="1361">E</e>
+    <e id="1362">Flying caster. Able to manipulate battlefield conditions. Can use Parasitic Bomb, Consume, Blinding Cloud, and Abduct abilities.</e>
+    <e id="1363">Morph to Swarm Host</e>
+    <e id="1364">A</e>
+    <e id="1365">Siege unit that attacks while burrowed by spawning Locust minions.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Locusts can attack ground units.&lt;/font&gt;</e>
+    <e id="1366">Overseer</e>
+    <e id="1367">Cancel Oversight</e>
+    <e id="1368">R</e>
+    <e id="1369">Restores the Overseer&apos;s ability to move and returns its vision to its normal radius.</e>
+    <e id="1370">Marine</e>
+    <e id="1371">General-purpose infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1372">Firebat</e>
+    <e id="1373">Specialized anti-infantry attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1374">Medic</e>
+    <e id="1375">Support trooper. Heals nearby biological units.</e>
+    <e id="1376">Marauder</e>
+    <e id="1377">Heavy assault infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1378">Vulture</e>
+    <e id="1379">Fast skirmish unit. Can use the Spider Mine ability.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1380">Siege Tank</e>
+    <e id="1381">Heavy tank. Can switch into Siege Mode to provide long-range artillery support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1382">Viking</e>
+    <e id="1383">Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1384">Banshee</e>
+    <e id="1385">Tactical-strike aircraft. Can be upgraded to use cloak.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1386">Battlecruiser</e>
+    <e id="1387">Powerful warship. Can use Yamato Cannon and Tactical Jump.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1388">Orbital Command</e>
+    <e id="1389">Primary structure. Used to train SCVs and receive gathered resources. Can use the Scanner Sweep and Calldown: MULE abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector: Scanner Sweep Ability&lt;/font&gt;</e>
+    <e id="1390">Bunker</e>
+    <e id="1391">Defensive structure. Infantry fight from inside with +1 range bonus.</e>
+    <e id="1392">Bunker</e>
+    <e id="1393">Defensive structure. Infantry fight from inside with +1 range bonus.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1394">Missile Turret</e>
+    <e id="1395">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1396">Hellbat</e>
+    <e id="1397">Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1398">Goliath</e>
+    <e id="1399">Heavy-fire support unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1400">Cyclone</e>
+    <e id="1401">Mobile assault vehicle. Can use Lock On to quickly fire while moving.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1402">Wraith</e>
+    <e id="1403">Highly mobile flying unit. Excellent at surgical strikes.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1404">Science Vessel</e>
+    <e id="1405">Aerial support unit. Can use Irradiate and Nano-Repair abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1406">Hercules</e>
+    <e id="1407">Massive transport ship. Can use Tactical Jump.</e>
+    <e id="1408">Thor</e>
+    <e id="1409">Heavy assault mech. Can use 330mm Barrage Cannon.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1410">Perdition Turret</e>
+    <e id="1411">Automated defensive structure. Burrows when there are no enemies nearby.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1412">Flaming Betty</e>
+    <e id="1413">Devastation Turret</e>
+    <e id="1414">Anti-ground defensive structure. Deals bonus damage to armored units. Attacks slow enemies.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1415">Blaster Billy</e>
+    <e id="1416">Spinning Dizzy</e>
+    <e id="1417">Zergling</e>
+    <e id="1418">Fast melee creature.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1419">Raptor</e>
+    <e id="1420">Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1421">Queen</e>
+    <e id="1422">Defensive unit. Can use Spawn Larvae, Spawn Creep Tumor, and Transfusion. Moves much faster on creep.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1423">Hydralisk</e>
+    <e id="1424">Ranged attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1425">Hydralisk</e>
+    <e id="1426">Ranged attacker. Can morph into a Lurker. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1427">Mutalisk</e>
+    <e id="1428">Air unit. Bounces its shot to strike multiple targets. Can morph into a Brood Lord.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1429">Brood Lord</e>
+    <e id="1430">Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1431">Ultralisk</e>
+    <e id="1432">Heavy assault beast. Has an area-damage attack.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1433">Torrasque</e>
+    <e id="1434">Heavy assault beast. Has an area-damage cleave attack. When killed, can be revived.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1435">Overseer</e>
+    <e id="1436">Advanced aerial observer. Maintains the unit cap set by the Overlord.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1437">Lurker</e>
+    <e id="1438">Anti-ground ambusher. Has a spine attack that damages all enemy units in its line of fire.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;br/&gt;Must burrow to attack.&lt;/font&gt;</e>
+    <e id="1439">Spine Crawler</e>
+    <e id="1440">Anti-ground defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1441">Spore Crawler</e>
+    <e id="1442">Anti-air defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1443">Nydus Network</e>
+    <e id="1444">Structure which allows friendly ground units to instantly travel to any other Nydus Network or Nydus Worm owned by the player.</e>
+    <e id="1445">Omega Network</e>
+    <e id="1446">Friendly ground units can use the Omega Network to instantly travel to any other Omega Network or Omega Worm owned by the player.</e>
+    <e id="1447">Zergling</e>
+    <e id="1448">Fast melee creature. Can morph into a Baneling.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1449">Swarmling</e>
+    <e id="1450">Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1451">Queen</e>
+    <e id="1452">Defensive unit. Can use Spawn Larvae, Spawn Creep Tumor, and Transfusion. Moves much faster on creep.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1453">Baneling</e>
+    <e id="1454">Suicide unit. Does damage over a small area on death. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1455">Splitterling</e>
+    <e id="1456">Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1457">Aberration</e>
+    <e id="1458">Aberrations are durable units that deal heavy damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1459">Scourge</e>
+    <e id="1460">Flying suicide unit. Scourge hatch in pairs from a single Larva.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1461">Corruptor</e>
+    <e id="1462">Anti-air flyer.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1463">Overseer</e>
+    <e id="1464">Advanced aerial observer. Maintains the unit cap set by the Overlord.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1465">Bile Launcher</e>
+    <e id="1466">Defensive structure which bombards target locations with bile, damaging ground and air units in the area.</e>
+    <e id="1467">Swarm Queen</e>
+    <e id="1468">Support unit. Can use Spawn Creep Tumor and Rapid Transfusion.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1469">Roach</e>
+    <e id="1470">Assault unit. Regenerates life quickly when burrowed.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1471">Roach</e>
+    <e id="1472">Vile Strain&lt;br/&gt;&lt;br/&gt;Assault unit. Regenerates life quickly while burrowed. Attacks debilitate the target, slowing its attack and movement speeds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1473">Ravager</e>
+    <e id="1474">Ranged artillery. Can use Corrosive Bile.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1475">Swarm Host</e>
+    <e id="1476">Siege unit that attacks by spawning Locust minions.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Locusts can attack ground units.&lt;/font&gt;</e>
+    <e id="1477">Mutalisk</e>
+    <e id="1478">Air unit. Bounces its shot to strike multiple targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1479">Guardian</e>
+    <e id="1480">Long-range anti-ground flyer. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1481">Devourer</e>
+    <e id="1482">Powerful anti-air flier. Can use Corrosive Acid.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1483">Viper</e>
+    <e id="1484">Flying caster. Able to manipulate battlefield conditions. Can use Parasitic Bomb, Consumption, Disabling Cloud, and Abduct abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1485">Brutalisk</e>
+    <e id="1486">Massive assault beast that dwarfs even the Ultralisk in size and strength. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1487">Leviathan</e>
+    <e id="1488">Massive flying monstrosity that dominates the skies.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1489">Zealot</e>
+    <e id="1490">Powerful melee warrior. Can use Charge.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1491">Zealot</e>
+    <e id="1492">Powerful melee warrior. Has Charge and Whirlwind abilities.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1493">Dragoon</e>
+    <e id="1494">Ranged assault strider. Has enhanced life and attack damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1495">High Templar</e>
+    <e id="1496">Potent psionic master. Can use Feedback and Psionic Storm. Can merge into an Archon.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1497">Archon</e>
+    <e id="1498">Powerful psionic attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1499">Immortal</e>
+    <e id="1500">Assault strider. Can use Barrier to absorb damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1501">Observer</e>
+    <e id="1502">Flying spy. Cloak renders the unit invisible to enemies without detection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1503">Phoenix</e>
+    <e id="1504">Air superiority starfighter. Can use Graviton Beam.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1505">Reaver</e>
+    <e id="1506">Area-damage siege unit. Shoots Scarabs for high burst damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1507">Tempest</e>
+    <e id="1508">Siege artillery craft. Attacks from long range. Can use Disintegration.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1509">Photon Cannon</e>
+    <e id="1510">Primary defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1511">Zealot</e>
+    <e id="1512">Powerful melee warrior. Can use Charge.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1513">Centurion</e>
+    <e id="1514">Powerful melee warrior. Has Shadow Charge ability that stuns enemies.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1515">Stalker</e>
+    <e id="1516">Ranged attack strider. Can use Blink.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1517">Dark Templar</e>
+    <e id="1518">Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1519">Corsair</e>
+    <e id="1520">Air-superiority fighter. Can use Disruption Web to prevent enemy ground units and structures from attacking.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1521">Void Ray</e>
+    <e id="1522">Surgical strike craft. Deals increased damage with prolonged attacks.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1523">Void Ray</e>
+    <e id="1524">Surgical strike craft. Attacks charge up for extra range and extra damage versus armored targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1525">Oracle</e>
+    <e id="1526">Flying Caster. Can use Stasis Ward.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1527">Dark Archon</e>
+    <e id="1528">Powerful attack caster. Can Confuse enemies.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1529">Dark Pylon</e>
+    <e id="1530">Provides supply and power. Cloaks nearby friendly units and structures.</e>
+    <e id="1531">Sentinel</e>
+    <e id="1532">Powerful melee warrior. Can use Charge and Reconstruction.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1533">Energizer</e>
+    <e id="1534">Robotic support unit. Can use Chrono Beam and Phasing Mode.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1535">Immortal</e>
+    <e id="1536">Assault strider. Can use Barrier to absorb damage. Can be upgraded to use Shadow Cannon.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1537">Colossus</e>
+    <e id="1538">Powerful battle strider. Can walk up and down cliffs. Attacks incinerate multiple enemies at once.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1539">Colossus</e>
+    <e id="1540">Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1541">Mirage</e>
+    <e id="1542">Air superiority starfighter. Can use Graviton Beam and Phasing Armor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1543">Carrier</e>
+    <e id="1544">Capital ship. Builds and launches Interceptors that attack enemy targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1545">Carrier</e>
+    <e id="1546">Capital ship. Builds and launches Interceptors that attack enemy targets. Can be upgraded with Repair Drones that heal nearby mechanical units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1547">Khaydarin Monolith</e>
+    <e id="1548">Extremely powerful defensive structure. Has superior range and damage, but is very expensive and attacks slowly.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.</e>
+    <e id="1549">Shield Battery</e>
+    <e id="1550">Restores shields to nearby friendly units and structures.</e>
+    <e id="1551">Elite Marine</e>
+    <e id="1552">Elite all-purpose infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1553">Marauder Commando</e>
+    <e id="1554">Elite heavy assault infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1555">Spec Ops Ghost</e>
+    <e id="1556">Elite sniper. Can use Snipe and is permanently cloaked. Can be upgraded to use EMP Rounds.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1557">Hellbat Ranger</e>
+    <e id="1558">Elite close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1559">Strike Goliath</e>
+    <e id="1560">Elite heavy-fire support unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1561">Heavy Siege Tank</e>
+    <e id="1562">Enhanced heavy tank. Can switch into Siege Mode to provide long-range artillery support. Can be upgraded to use Spider Mines.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1563">Raid Liberator</e>
+    <e id="1564">Elite stationary defender. Deals heavy single target damage to ground units. Can switch into Fighter mode to provide air support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1565">Raven Type-II</e>
+    <e id="1566">Prototype aerial support unit. Can use Railgun Turret, Bio-Mechanical Repair Drone, and Predator Missile.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1567">Covert Banshee</e>
+    <e id="1568">Improved tactical-strike aircraft. Can be upgraded to be permanently cloaked.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1569">Railgun Turret</e>
+    <e id="1570">Automated defensive turret. Damages all enemy ground units in a straight line. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1571">Missile Turret</e>
+    <e id="1572">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1573">Supplicant</e>
+    <e id="1574">Short range warrior. Sacrifices itself to heal Alarak when he is near death. Supplicants are warped in two at a time.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1575">Slayer</e>
+    <e id="1576">Ranged attack strider. Can use Blink and Phasing Armor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1577">Havoc</e>
+    <e id="1578">Robotic support unit. Can use Target Lock, Squad Sight, and Force Field.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1579">Ascendant</e>
+    <e id="1580">Potent psionic master. Can use Psionic Orb, Mind Blast, and Sacrifice.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1581">Vanguard</e>
+    <e id="1582">Assault Strider. Attacks deal damage in an area around target enemy unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1583">Wrathwalker</e>
+    <e id="1584">Battle strider with a powerful single target attack. Can walk up and down cliffs.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1585">War Prism</e>
+    <e id="1586">Flying transport. Can load and unload units. Can also deploy to create a power field.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1587">Photon Cannon</e>
+    <e id="1588">Primary defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1589">Infested Civilian</e>
+    <e id="1590">General-purpose Infested infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1591">Infested Marine</e>
+    <e id="1592">General-purpose Infested infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1593">Infested Siege Tank</e>
+    <e id="1594">Heavy tank. Can root itself to provide long-range artillery support by consuming Infested infantry units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1595">Infested Diamondback</e>
+    <e id="1596">Fast, high-damage hovertank. Can attack while moving and can bring flying units to the ground.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1597">Infested Banshee</e>
+    <e id="1598">Tactical-strike aircraft. Can cloak and can be upgraded to burrow.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1599">Infested Liberator</e>
+    <e id="1600">Artillery fighter. Attacks deal area damage to enemy air units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1601">Infested Bunker</e>
+    <e id="1602">Defensive structure. Periodically spawns Infested infantry that fight from inside. Acts as a mobile ground transport while uprooted.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: +1 range to units inside.&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Enables:&lt;/font&gt;&lt;br/&gt;- Infested Troopers</e>
+    <e id="1603">Infested Missile Turret</e>
+    <e id="1604">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1605">Brood Queen</e>
+    <e id="1606">Flying support unit. Can use Ocular Symbiote and Spawn Broodlings.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1607">Legionnaire</e>
+    <e id="1608">Extremely powerful melee warrior. Can be upgraded to use Charge.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1609">Conservator</e>
+    <e id="1610">Robotic support unit. Can use Protective Field and Phasing mode.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1611">Adept</e>
+    <e id="1612">Ranged specialist. Can be upgraded to use Psionic Projection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1613">Immortal</e>
+    <e id="1614">Assault strider. Can use Barrier to absorb damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1615">Colossus</e>
+    <e id="1616">Battle strider with a powerful area attack. Can walk up and down cliffs.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1617">Disruptor</e>
+    <e id="1618">Robotic disruption unit. Can use Purification Nova to deal heavy area damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1619">Observer</e>
+    <e id="1620">Flying spy. Cloak renders the unit invisible to enemies without detection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1621">Scout</e>
+    <e id="1622">Versatile high-speed fighter.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1623">Carrier</e>
+    <e id="1624">Capital ship. Builds and launches Interceptors that attack enemy targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1625">Photon Cannon</e>
+    <e id="1626">Primary defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1627">Primal Zergling</e>
+    <e id="1628">Fast melee creature.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1629">Ravasaur</e>
+    <e id="1630">Ranged unit. Shoots large globs of acid at long range.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1631">Primal Roach</e>
+    <e id="1632">Assault unit. Regenerates life quickly when burrowed.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1633">Primal Igniter</e>
+    <e id="1634">Assault unit. Has an area-damage attack. Regenerates life quickly when burrowed.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1635">Primal Guardian</e>
+    <e id="1636">Long range anti-ground flier.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1637">Primal Hydralisk</e>
+    <e id="1638">Ranged attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1639">Primal Mutalisk</e>
+    <e id="1640">Air Unit. Bounces its shot to strike multiple targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1641">Impaler</e>
+    <e id="1642">Long-range anti-armor ambusher. Must burrow to attack.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1643">Primal Host</e>
+    <e id="1644">Siege unit that attacks by spawning Primal Locust minions.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Primal Locusts can attack ground units.&lt;/font&gt;</e>
+    <e id="1645">Creeper Host</e>
+    <e id="1646">Siege unit that attacks by spawning Explosive Creeper minions.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Explosive Creepers can attack ground units.&lt;/font&gt;</e>
+    <e id="1647">Primal Ultralisk</e>
+    <e id="1648">Heavy assault beast. Can charge at a target, dealing area damage and knocking back enemy units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1649">Tyrannozor</e>
+    <e id="1650">Heavy assault beast. Has a ground area-damage attack.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1651">Primal Wurm</e>
+    <e id="1652">Primary defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1653">Reaper</e>
+    <e id="1654">Raider. Capable of throwing knockback grenades and jumping up and down cliffs. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;	</e>
+    <e id="1655">Widow Mine</e>
+    <e id="1656">Robotic mine. Launches missiles at nearby enemy units while burrowed. Attacks deal splash damage in a small area around the target. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1657">Hellbat</e>
+    <e id="1658">Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1659">Asteria Wraith</e>
+    <e id="1660">Highly mobile flying unit. Excellent at surgical strikes.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;	</e>
+    <e id="1661">Deimos Viking</e>
+    <e id="1662">Durable support unit. Can switch into Assault mode to attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1663">Sovereign Battlecruiser</e>
+    <e id="1664">Powerful warship. Can use Tactical Jump.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1665">Theia Raven</e>
+    <e id="1666">Aerial support unit. Can use Analyze Weakness and has a radar sensor.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1667">Strike Fighter Platform</e>
+    <e id="1668">Precision strike platform.  Can launch a Strike Fighter to perform an airstrike against a targeted enemy or location.</e>
+    <e id="1669">Assault Galleon</e>
+    <e id="1670">Han&apos;s production facility. A flying fortress that can be upgraded further with Assault Drones.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1671">Missile Turret</e>
+    <e id="1672">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1673">Crooked Sam</e>
+    <e id="1674">One of the Guns. Adept at dealing heavy damage against individual targets. Can use Demolition Charge.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1675">Miles &quot;Blaze&quot; Lewis</e>
+    <e id="1676">One of the Muscle. Adept at dealing with masses of weak ground units. Can use Oil Spill.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt; </e>
+    <e id="1677">Nux</e>
+    <e id="1678">One of the Fixers. Adept at dealing with masses of enemy units and waves. Can use Ultrasonic Pulse. Can be upgraded to be a &lt;font color=&quot;#ffe303&quot;&gt;Detector.&lt;/font&gt; &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1679">Lt. Layna Nikara</e>
+    <e id="1680">One of the Fixers. Adept at healing friendly units and preventing damage. Can use Reinvigorating Burst. Can be upgraded to be a &lt;font color=&quot;#ffe303&quot;&gt;Detector.&lt;/font&gt;</e>
+    <e id="1681">Kev &quot;Rattlesnake&quot; West</e>
+    <e id="1682">One of the Muscle. Adept at supporting friendly units and dealing with armored ground units. Can use Deploy Revitalizer.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1683">James &quot;Sirius&quot; Sykes</e>
+    <e id="1684">One of the Guns. Adept at deploying Turrets and imbuing both himself and his Turrets with special abilities. Can use Deploy Warhound Turret.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt; </e>
+    <e id="1685">Rob &quot;Cannonball&quot; Boswell</e>
+    <e id="1686">One of the Muscle. Adept at taking damage and dealing it back. Can use Heavy Impact.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1687">Vega</e>
+    <e id="1688">One of the Fixers. Adept at taking control of enemy units. Can use Dominate. Can be upgraded to be a &lt;font color=&quot;#ffe303&quot;&gt;Detector.&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt; </e>
+    <e id="1689">Auto-Turret</e>
+    <e id="1690">Automated defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1691">Xel&apos;Naga Ambusher</e>
+    <e id="1692">Ranged support strider. Can automatically Blink when threatened.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1693">Xel&apos;Naga Shieldguard</e>
+    <e id="1694">Robotic support unit. Can use Shield Restoration and Reflective Shield.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1695">Void Templar</e>
+    <e id="1696">Deadly warrior-assassin. Cloak renders the unit invisible without detection. Can teleport to a nearby location and deal damage to enemies along the way.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1697">Xel&apos;Naga Enforcer</e>
+    <e id="1698">Assault strider. Can use Barrier to absorb damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1699">Xel&apos;Naga Watcher</e>
+    <e id="1700">Flying spy. Cloak renders the unit invisible without detection.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1701">Xel&apos;Naga Abrogator</e>
+    <e id="1702">Robotic Disruption unit. Can use Purification Nova to deal heavy area damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1703">Xel&apos;Naga Void Array</e>
+    <e id="1704">Flying wormhole generator. Builds two at a time. Can deploy to create a link between all Xel&apos;Naga Void Arrays on the field. </e>
+    <e id="1705">Tesseract Cannon</e>
+    <e id="1706">Primary defensive structure. Can project itself onto the battlefield. Can use Shadow Barrier to absorb damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1707">Mecha Zergling</e>
+    <e id="1708">Fast melee creature.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1709">Mecha Baneling</e>
+    <e id="1710">Suicide unit. Does damage over a small area on death. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1711">Mecha Hydralisk</e>
+    <e id="1712">Ranged attacker.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1713">Mecha Infestor</e>
+    <e id="1714">Infestation specialist. Can use the Roaches Away!, Deconstructive Roach-nites, and UMI-C Charging Protocol abilities.</e>
+    <e id="1715">Mecha Corruptor</e>
+    <e id="1716">Anti-air flyer. Can use Cluster Busters and Terraclean Solvent.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1717">Mecha Ultralisk</e>
+    <e id="1718">Heavy assault beast. Has an area-damage attack. Can use Vectored Burrow Strike and Mecha Mooch Module.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1719">Mecha Overseer</e>
+    <e id="1720">Advanced aerial observer. Maintains the unit cap set by the Mecha Overlord. Can use Oversight.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1721">Mecha Lurker</e>
+    <e id="1722">Anti-ground ambusher. Has a spine attack that damages all enemy units in its line of fire. Can use Tunnel of TERROR Algorithm and Focused Strike Algorithm.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;br/&gt;Must burrow to attack.&lt;/font&gt;</e>
+    <e id="1723">Mecha Battlecarrier Lord</e>
+    <e id="1724">Flying heavy-assault unit. Shoots Mecha Broodlings at its target. Builds and launches Mecha Locusceptors that attack enemy ground targets. Can use Stetmato Cannon. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1725">Mecha Spine Crawler</e>
+    <e id="1726">Anti-ground defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1727">Mecha Spore Crawler</e>
+    <e id="1728">Anti-air defensive structure. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1729">Dominion Trooper</e>
+    <e id="1730">General-purpose infantry. Can be outfitted with weapons for different combat situations. Can switch to a Laborer suit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1731">Imperial Intercessor</e>
+    <e id="1732">Air transport. Heals nearby biological units. Can use Ignite Afterburners.</e>
+    <e id="1733">Imperial Witness</e>
+    <e id="1734">Aerial support unit. Can use Patriot Mode to Indoctrinate nearby allies.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1735">Aegis Guard</e>
+    <e id="1736">Royal Guard heavy assault infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1737">Emperor&apos;s Shadow</e>
+    <e id="1738">Royal Guard specialist. Can use Pyrokinetic Immolation and EMP Blast. Can call down Tactical Missiles built at the Royal Academy.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1739">Shock Division</e>
+    <e id="1740">Royal Guard heavy tank. Can switch into Siege Mode to provide long-range artillery support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1741">Blackhammer</e>
+    <e id="1742">Royal Guard heavy assault mech. Can use Overwatch Mode.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1743">Sky Fury</e>
+    <e id="1744">Durable Royal Guard support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;</e>
+    <e id="1745">Pride of Augustgrad</e>
+    <e id="1746">Powerful Royal Guard warship. Can use Yamato Cannon and Tactical Jump.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="1747">Supply Bunker</e>
+    <e id="1748">Defensive structure that provides supply.&lt;br/&gt;Supply allows you to create more units.&lt;br/&gt;Troopers fight from inside. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: +1 range to units inside.&lt;/font&gt;</e>
+    <e id="1749">Missile Turret</e>
+    <e id="1750">Anti-air defensive structure.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1751">Earthsplitter Ordnance</e>
+    <e id="1752">Randomly bombards near a target location, dealing damage to ground units in the area. Enables Contaminated Strike from the top panel.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1753">Renegade Longbolt Missile</e>
+    <e id="1754">1</e>
+    <e id="1755">2</e>
+    <e id="1756">3</e>
+    <e id="1757">4</e>
+    <e id="1758">5</e>
+    <e id="1759">6</e>
+    <e id="1760">7</e>
+    <e id="1761">8</e>
+    <e id="1762">9</e>
+    <e id="1763">10</e>
+    <e id="1764">11</e>
+    <e id="1765">12</e>
+    <e id="1766">13</e>
+    <e id="1767">14</e>
+    <e id="1768">Needle Spine</e>
+    <e id="1769">Corruption</e>
+    <e id="1770">Infested Swarm</e>
+    <e id="1771">Neural Parasite</e>
+    <e id="1772">Point Defense Drone Release</e>
+    <e id="1773">Seeker</e>
+    <e id="1774">MULE</e>
+    <e id="1775">Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last 64 seconds before their systems fail.</e>
+    <e id="1776">Gather</e>
+    <e id="1777">G</e>
+    <e id="1778">Orders MULE to gather minerals from a selected Mineral Field.</e>
+    <e id="1779">Thor AA</e>
+    <e id="1780">Punisher Grenades</e>
+    <e id="1781">Viking Fighter</e>
+    <e id="1782">ATA Laser Battery</e>
+    <e id="1783">ATS Laser Battery</e>
+    <e id="1784">Longbolt Missile</e>
+    <e id="1785">D8 Charge</e>
+    <e id="1786">Yamato</e>
+    <e id="1787">Ion Cannons</e>
+    <e id="1788">Acid Saliva</e>
+    <e id="1789">Spine Crawler</e>
+    <e id="1790">Spore Crawler Weapon</e>
+    <e id="1791">Glave Wurm</e>
+    <e id="1792">Stalker</e>
+    <e id="1793">EMP</e>
+    <e id="1794">Backlash Rockets</e>
+    <e id="1795">Photon Cannon Weapon</e>
+    <e id="1796">Parasite Spore</e>
+    <e id="1797">Needle Claws</e>
+    <e id="1798">Brood Lord BWeapon</e>
+    <e id="1799">Auto Turret Release Weapon</e>
+    <e id="1800">Larva Release Missile</e>
+    <e id="1801">Acid Spines Weapon</e>
+    <e id="1802">Frenzy Weapon</e>
+    <e id="1803">Contaminate Weapon</e>
+    <e id="1804">Army Beacon</e>
+    <e id="1805">Defend Beacon</e>
+    <e id="1806">Attack Beacon</e>
+    <e id="1807">Harass Beacon</e>
+    <e id="1808">Idle Beacon</e>
+    <e id="1809">AutoA.I. Beacon</e>
+    <e id="1810">Detect Beacon</e>
+    <e id="1811">Scout Beacon</e>
+    <e id="1812">Claim Beacon</e>
+    <e id="1813">Expand Beacon</e>
+    <e id="1814">Rally Beacon</e>
+    <e id="1815">Custom Beacon #1</e>
+    <e id="1816">Custom Beacon #2</e>
+    <e id="1817">Custom Beacon #3</e>
+    <e id="1818">Custom Beacon #4</e>
+    <e id="1819">Liberator</e>
+    <e id="1820">Immobile defender. Deals heavy single target damage to ground units. Can switch into Fighter mode to provide air support.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1821">Concord Cannon</e>
+    <e id="1822">Fighter Mode</e>
+    <e id="1823">D</e>
+    <e id="1824">Reverts to Fighter Mode. In this mode Liberators can move, but they can only attack air targets.</e>
+    <e id="1825">Advanced Ballistics</e>
+    <e id="1826">Increases the range of Liberators in Defender Mode by 4.</e>
+    <e id="1827">Advanced Ballistics</e>
+    <e id="1828">Bunker</e>
+    <e id="1829">Napalm Spray</e>
+    <e id="1830">Hellion Mode</e>
+    <e id="1831">E</e>
+    <e id="1832">Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can transform into a close range combat unit.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1833">Typhoon Missile Pod</e>
+    <e id="1834">Cancel</e>
+    <e id="1835">Escape</e>
+    <e id="1836">Cancels the current Lock On, and allows you to select a new target.</e>
+    <e id="1837">Lock On</e>
+    <e id="1838">C</e>
+    <e id="1839">Locks the Cyclone&apos;s weapons on the target unit, dealing 6400 damage over 14 seconds. Can move while firing. Cancels if target moves out of range.</e>
+    <e id="1840">Hurricane Engines</e>
+    <e id="1841">Increases the move speed of &lt;font color=&quot;#ffff8a&quot;&gt;Cyclones&lt;/font&gt;.</e>
+    <e id="1842">Hurricane Engines</e>
+    <e id="1843">Widow Mine</e>
+    <e id="1844">Activate Mine</e>
+    <e id="1845">E</e>
+    <e id="1846">Burrows the Widow Mine and readies its weapon. Cannot move while activated.</e>
+    <e id="1847">Attack</e>
+    <e id="1848">C</e>
+    <e id="1849">Attacks any nearby enemy unit. </e>
+    <e id="1850">Must be Activated</e>
+    <e id="1851">Sentinel Missiles</e>
+    <e id="1852">Attacks by launching missiles at enemy ground and air units that get too close. Missiles deal 125 (+35 vs. shields) damage to their primary target, and 40 (+40 vs. shields) splash damage to units nearby.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Cooldown: 29 seconds.&lt;/font&gt;</e>
+    <e id="1853">Drilling Claws</e>
+    <e id="1854">This unit burrows faster.</e>
+    <e id="1855">Drilling Claws</e>
+    <e id="1856">Concealment</e>
+    <e id="1857">This unit is no longer revealed while reloading.</e>
+    <e id="1858">Lexington Rockets</e>
+    <e id="1859">Defender Mode</e>
+    <e id="1860">E</e>
+    <e id="1861">Deploys into Defender Mode. In this mode Liberators inflict single target damage to ground units. Liberators in this mode cannot move.</e>
+    <e id="1862">Glaive Cannon</e>
+    <e id="1863">Psionic Transfer</e>
+    <e id="1864">F</e>
+    <e id="1865">Projects an invulnerable Shade that can move but cannot attack. After 7 seconds, the Adept teleports to the Shade&apos;s location.</e>
+    <e id="1866">Resonating Glaives</e>
+    <e id="1867">Increases the attack speed of Adepts by 45%.</e>
+    <e id="1868">Resonating Glaives</e>
+    <e id="1869">Robotic disruption unit. Can use Purification Nova to deal heavy area damage.</e>
+    <e id="1870">Purification Nova</e>
+    <e id="1871">V</e>
+    <e id="1872">Shoots out a ball of energy that lasts 2 seconds and emits a powerful nova dealing 145 splash damage and an additional 55 shield damage to nearby ground units and structures. The Disruptor is immobile while this is active.</e>
+    <e id="1873">Swarm Host</e>
+    <e id="1874">R</e>
+    <e id="1875">Spawn Locust</e>
+    <e id="1876">C</e>
+    <e id="1877">Spawns 2 Locusts. Locusts have a 18 second timed life.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1878">Flying Locusts</e>
+    <e id="1879">Locusts spawned by the Swarm Host can fly. Flying Locusts can use Swoop to land and attack.</e>
+    <e id="1880">Consume</e>
+    <e id="1881">C</e>
+    <e id="1882">Latches onto the target structure, dealing 150 damage and restoring 3.5 energy to the Viper every second.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Cannot target allied or enemy structures.&lt;/font&gt;</e>
+    <e id="1883">Blinding Cloud</e>
+    <e id="1884">B</e>
+    <e id="1885">Creates a cloud for 6 seconds that reduces attack range of ground units and structures underneath to melee range.</e>
+    <e id="1886">Abduct</e>
+    <e id="1887">D</e>
+    <e id="1888">Pulls target unit to the location of the viper.</e>
+    <e id="1889">Parasitic Bomb</e>
+    <e id="1890">R</e>
+    <e id="1891">Creates a parasitic cloud that deals 90 damage over 7 seconds to the target and enemy air units nearby. If the target dies, the cloud remains in the air where the enemy died until it expires.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Cannot target ground units or structures.&lt;/font&gt;</e>
+    <e id="1892">Shield Battery</e>
+    <e id="1893">Restore</e>
+    <e id="1894">R</e>
+    <e id="1895">Restores target unit or structure&apos;s shields.</e>
+    <e id="1896">High Templar/Archon</e>
+    <e id="1897">Mothership Core</e>
+    <e id="1898">Mobile flying caster. Can use Photon Overcharge, Mass Recall, and Time Warp abilities. Can upgrade into the Mothership.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="1899">Repulsor Cannon</e>
+    <e id="1900">Mass Recall</e>
+    <e id="1901">R</e>
+    <e id="1902">Teleports the Mothership Core and all nearby units owned by the player to the targeted Nexus.</e>
+    <e id="1903">Upgrade to Mothership</e>
+    <e id="1904">U</e>
+    <e id="1905">Upgrades into the Mothership. Can use Photon Overcharge, Mass Recall, and Time Warp abilities. Cloaks nearby units and structures.</e>
+    <e id="1906">Photon Overcharge</e>
+    <e id="1907">F</e>
+    <e id="1908">Energizes the target Nexus&apos;s khaydarin crystal, turning it into a powerful long-range weapon for 14 seconds that deals 30 damage.</e>
+    <e id="1909">Viking</e>
+    <e id="1910">Inhibitor Zone Generator</e>
+    <e id="1911">Warps spacetime within the nearby area.  All ground units, air units, and structures within the field will have movement speeds reduced by 35%.</e>
+    <e id="1912">Acceleration Zone Generator</e>
+    <e id="1913">Warps spacetime within the nearby area.  All ground units, air units, and structures within the field will have movement speeds increased by 35%.</e>
+    <e id="1914">Assimilator</e>
+    <e id="1915">Warped in over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="1916">Rich Vespene Geyser</e>
+    <e id="1917">Workers can harvest vespene gas from this Vespene Geyser.</e>
+    <e id="1918">Extractor</e>
+    <e id="1919">Mutated over a Vespene Geyser to allow harvesting of vespene gas.</e>
+    <e id="1920">Ravager Corrosive Bile Missile</e>
+    <e id="1921">Ravager Weapon Missile</e>
+    <e id="1922">Renegade Missile Turret</e>
+    <e id="1923">Anti-air defensive structure. Hostile towards all players.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack air units.&lt;/font&gt;&lt;br/&gt;&lt;font color=&quot;#ffe303&quot;&gt;Detector&lt;/font&gt;</e>
+    <e id="1924">Renegade Longbolt Missile</e>
+    <e id="1925">Rocks</e>
+    <e id="1926">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="1927">Fungal Growth</e>
+    <e id="1928">Neural Parasite Tentacle</e>
+    <e id="1929">Beacon</e>
+    <e id="1930">Beacon</e>
+    <e id="1931">Beacon</e>
+    <e id="1932">Beacon</e>
+    <e id="1933">Beacon</e>
+    <e id="1934">Beacon</e>
+    <e id="1935">Lyote</e>
+    <e id="1936">Local scavenger known for its echoing nocturnal howl.</e>
+    <e id="1937">Urubu</e>
+    <e id="1938">Unsightly avian creature that is often found on the battlefield.</e>
+    <e id="1939">Male Karak</e>
+    <e id="1940">Males of this species are known for their plumage and bright colors.</e>
+    <e id="1941">Female Karak</e>
+    <e id="1942">Females of this species are far less impressive than the males that compete for their attention.</e>
+    <e id="1943">Female Ursadak</e>
+    <e id="1944">Females of this species differ markedly from the more aggressive males.</e>
+    <e id="1945">Male Ursadak</e>
+    <e id="1946">Males of the species are often hunted for their horns and ferocious tusks.</e>
+    <e id="1947">Females of this species differ markedly from the more aggressive males.</e>
+    <e id="1948">Ursadak Calf</e>
+    <e id="1949">Benign creature that sautees well with butter.</e>
+    <e id="1950">Males of this species are often hunted for their horns and ferocious tusks.</e>
+    <e id="1951">Automaton 2000</e>
+    <e id="1952">Automaton 2000. The utility bot of choice.</e>
+    <e id="1953">Artosis Bot 2000</e>
+    <e id="1954"></e>
+    <e id="1955">Tasteless Bot 2000</e>
+    <e id="1956"></e>
+    <e id="1957">Artosis Bot 2000</e>
+    <e id="1958"></e>
+    <e id="1959">Tasteless Bot 2000</e>
+    <e id="1960"></e>
+    <e id="1961">Scantipede</e>
+    <e id="1962">This ferocious predator lacks the natural weaponry to harm military units.</e>
+    <e id="1963">Dog</e>
+    <e id="1964">The standard domesticated dog, faithful companion to Terrans since the dawn of history.</e>
+    <e id="1965">Sheep</e>
+    <e id="1966">Sheep</e>
+    <e id="1967">Cow</e>
+    <e id="1968">The Holstein cow. Transplanted from Earth centuries ago.</e>
+    <e id="1969">Infested Terrans Egg Placement</e>
+    <e id="1970">Infestor Terrans Weapon</e>
+    <e id="1971">Mineral Field</e>
+    <e id="1972">Workers can harvest resources from this Mineral Field.</e>
+    <e id="1973">Vespene Geyser</e>
+    <e id="1974">Searchlight</e>
+    <e id="1975">High-intensity search light. Commonly used in Dominion military and penal facilities.</e>
+    <e id="1976">Bullhorn Lights</e>
+    <e id="1977">High-intensity searchlight. Commonly used in Dominion military and penal facilities.</e>
+    <e id="1978">Streetlight</e>
+    <e id="1979"></e>
+    <e id="1980">Sign</e>
+    <e id="1981">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="1982">City Prop</e>
+    <e id="1983">Billboard</e>
+    <e id="1984">Billboard</e>
+    <e id="1985">Barrier</e>
+    <e id="1986">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="1987">Billboard</e>
+    <e id="1988">Billboard</e>
+    <e id="1989">Billboard</e>
+    <e id="1990">Billboard</e>
+    <e id="1991">Billboard</e>
+    <e id="1992">Garage</e>
+    <e id="1993">Local garage.</e>
+    <e id="1994">Garage</e>
+    <e id="1995">Local garage.</e>
+    <e id="1996">Traffic Signal</e>
+    <e id="1997"></e>
+    <e id="1998">Traffic Signal</e>
+    <e id="1999">Local traffic signal.</e>
+    <e id="2000">Debris</e>
+    <e id="2001">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2002">Debris</e>
+    <e id="2003">Debris</e>
+    <e id="2004">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2005">Debris</e>
+    <e id="2006">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2007">Rocks</e>
+    <e id="2008">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2009">Rocks</e>
+    <e id="2010">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2011">Rocks</e>
+    <e id="2012">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2013">Rocks</e>
+    <e id="2014">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2015">Rocks</e>
+    <e id="2016">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2017">Rocks</e>
+    <e id="2018">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2019">Rocks</e>
+    <e id="2020">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2021">Rocks</e>
+    <e id="2022">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2023">Rocks</e>
+    <e id="2024">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2025">Rocks</e>
+    <e id="2026">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2027">Debris</e>
+    <e id="2028">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2029">Debris</e>
+    <e id="2030">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2031">250mm Punisher Cannons</e>
+    <e id="2032">Explosive Payload</e>
+    <e id="2033">D</e>
+    <e id="2034">Arms the Thor&apos;s Javelin missile launchers. Javelin missiles deal splash damage to nearby air units and additional damage vs. light units.</e>
+    <e id="2035">Thor AA (Lance)</e>
+    <e id="2036">The Gift of Freedom</e>
+    <e id="2037">Statue of Emperor Mengsk, Liberator of the Oppressed.</e>
+    <e id="2038">Glory of the Dominion</e>
+    <e id="2039">Statue commemorating Emperor Mengsk, Defender of Humanity.</e>
+    <e id="2040">The Wolves of Korhal</e>
+    <e id="2041">Statue commemorating the Wolves of Korhal, a symbol of the Mengsk family.</e>
+    <e id="2042">Capitol Statue</e>
+    <e id="2043">Statue of Korhal, the Dominion capitol.</e>
+    <e id="2044">Weapon</e>
+    <e id="2045">Brood Lord Weapon</e>
+    <e id="2046">Brood Lord AWeapon</e>
+    <e id="2047">Dynamic Creep Blocker 1x1</e>
+    <e id="2048">Dynamic Pathing Blocker 1x1</e>
+    <e id="2049">Dynamic Pathing Blocker 2x2</e>
+    <e id="2050">Target</e>
+    <e id="2051">Target</e>
+    <e id="2052">Attacker</e>
+    <e id="2053">Attacker Weapon</e>
+    <e id="2054">Helper Arrow</e>
+    <e id="2055">Multi Kill Object</e>
+    <e id="2056">Golfball</e>
+    <e id="2057">Cone</e>
+    <e id="2058">Cube</e>
+    <e id="2059">Cylinder</e>
+    <e id="2060">Dodecahedron</e>
+    <e id="2061">Icosohedron</e>
+    <e id="2062">Octohedron</e>
+    <e id="2063">Pyramid</e>
+    <e id="2064">Rounded Cube</e>
+    <e id="2065">Sphere</e>
+    <e id="2066">Tetrahedron</e>
+    <e id="2067">Thick Torus</e>
+    <e id="2068">Thin Torus</e>
+    <e id="2069">Torus</e>
+    <e id="2070">Star</e>
+    <e id="2071">Star</e>
+    <e id="2072">Star</e>
+    <e id="2073">Star</e>
+    <e id="2074">Arrow Pointer</e>
+    <e id="2075">Bowl</e>
+    <e id="2076">Box</e>
+    <e id="2077">Capsule</e>
+    <e id="2078">Crescent Moon</e>
+    <e id="2079">Decahedron</e>
+    <e id="2080">Diamond</e>
+    <e id="2081">Football</e>
+    <e id="2082">Gemstone</e>
+    <e id="2083">Heart</e>
+    <e id="2084">Jack</e>
+    <e id="2085">Plus Sign</e>
+    <e id="2086">Shamrock</e>
+    <e id="2087">Spade</e>
+    <e id="2088">Tube</e>
+    <e id="2089">Egg</e>
+    <e id="2090">Yen Sign</e>
+    <e id="2091">X</e>
+    <e id="2092">Watermelon</e>
+    <e id="2093">Won Sign</e>
+    <e id="2094">Tennisball</e>
+    <e id="2095">Strawberry</e>
+    <e id="2096">Smiley Face</e>
+    <e id="2097">Soccerball</e>
+    <e id="2098">Rainbow</e>
+    <e id="2099">Sad Face</e>
+    <e id="2100">Pound Sign</e>
+    <e id="2101">Pear</e>
+    <e id="2102">Pineapple</e>
+    <e id="2103">Orange</e>
+    <e id="2104">Peanut</e>
+    <e id="2105">O</e>
+    <e id="2106">Lemon</e>
+    <e id="2107">Money Bag</e>
+    <e id="2108">Horseshoe</e>
+    <e id="2109">Hockey Stick</e>
+    <e id="2110">Hockey Puck</e>
+    <e id="2111">Hand</e>
+    <e id="2112">Golf Club</e>
+    <e id="2113">Grape</e>
+    <e id="2114">Euro Sign</e>
+    <e id="2115">Dollar Sign</e>
+    <e id="2116">Basketball</e>
+    <e id="2117">Carrot</e>
+    <e id="2118">Cherry</e>
+    <e id="2119">Baseball</e>
+    <e id="2120">Baseball Bat</e>
+    <e id="2121">Banana</e>
+    <e id="2122">Apple</e>
+    <e id="2123">Cash</e>
+    <e id="2124">Cash</e>
+    <e id="2125">Cash</e>
+    <e id="2126">Football</e>
+    <e id="2127">Lemon</e>
+    <e id="2128">Orange</e>
+    <e id="2129">Treasure Chest</e>
+    <e id="2130">Treasure Chest</e>
+    <e id="2131">Watermelon</e>
+    <e id="2132">Unbuildable Rocks</e>
+    <e id="2133">Prevents placement of buildings. Can be destroyed to allow placement.</e>
+    <e id="2134">Unbuildable Bricks</e>
+    <e id="2135">Prevents placement of buildings. Can be destroyed to allow placement.</e>
+    <e id="2136">Unbuildable Plates</e>
+    <e id="2137">Prevents placement of buildings. Can be destroyed to allow placement.</e>
+    <e id="2138">Debris</e>
+    <e id="2139">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2140">Enemy Unit Pathing Blocker - 1x1</e>
+    <e id="2141">Enemy Unit Pathing Blocker - 2x2</e>
+    <e id="2142">Enemy Unit Pathing Blocker - 4x4</e>
+    <e id="2143">Enemy Unit Pathing Blocker - 8x8</e>
+    <e id="2144">Enemy Unit Pathing Blocker - 16x16</e>
+    <e id="2145">Scope Test</e>
+    <e id="2146">Sentry</e>
+    <e id="2147">Robotic support unit. Can use Shield Recharge and Guardian Shield.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="2148">Infested Trooper</e>
+    <e id="2149">General-purpose Infested infantry.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="2150">Debris</e>
+    <e id="2151">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2152">Debris</e>
+    <e id="2153">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2154">Debris</e>
+    <e id="2155">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2156">Locust</e>
+    <e id="2157">Timed life creature. Durable and dangerous.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="2158">Acid Spit</e>
+    <e id="2159">Rocks</e>
+    <e id="2160">Creep Tower</e>
+    <e id="2161">Creep Tower can launch creep in a chosen direction.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Bonus: Zerg move faster on creep.&lt;/font&gt;</e>
+    <e id="2162">Creep Spray</e>
+    <e id="2163">C</e>
+    <e id="2164">R</e>
+    <e id="2165">Warhound</e>
+    <e id="2166">Anti-vehicle mech. Haywire missiles do bonus damage to mechanical units. &lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="2167">Railgun</e>
+    <e id="2168">Haywire Missiles</e>
+    <e id="2169">E</e>
+    <e id="2170">When attacking a mechanical unit, the Warhound launches electrically charged missiles at its target, dealing 30 damage per volley.&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt; </e>
+    <e id="2171">Widow Mine</e>
+    <e id="2172">Deactivate Mine</e>
+    <e id="2173">D</e>
+    <e id="2174">Unburrows the Widow Mine and deactivates its weapon, allowing it to move.</e>
+    <e id="2175">Extending Bridge - NE - Height 8 - Wide - Extended</e>
+    <e id="2176">Bridge Retract</e>
+    <e id="2177">Extending Bridge - NE - Height 8 - Wide - Retracted</e>
+    <e id="2178">Bridge Extend</e>
+    <e id="2179">Extending Bridge - NW - Height 8 - Wide - Extended</e>
+    <e id="2180">Extending Bridge - NW - Height 8 - Wide - Retracted</e>
+    <e id="2181">Extending Bridge - NE - Height 10 - Wide - Extended</e>
+    <e id="2182">Extending Bridge - NE - Height 10 - Wide - Retracted</e>
+    <e id="2183">Extending Bridge - NW - Height 10 - Wide - Extended</e>
+    <e id="2184">Extending Bridge - NW - Height 10 - Wide - Retracted</e>
+    <e id="2185">Extending Bridge - NE - Height 12 - Wide - Extended</e>
+    <e id="2186">Extending Bridge - NE - Height 12 - Wide - Retracted</e>
+    <e id="2187">Extending Bridge - NW - Height 12 - Wide - Extended</e>
+    <e id="2188">Extending Bridge - NW - Height 12 - Wide - Retracted</e>
+    <e id="2189">Rocks</e>
+    <e id="2190">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2191">Rocks</e>
+    <e id="2192">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2193">Xel&apos;Naga Caverns Door E</e>
+    <e id="2194">Xel&apos;Naga Caverns Door Default Open</e>
+    <e id="2195">Xel&apos;Naga Caverns Door E Opened</e>
+    <e id="2196">Xel&apos;Naga Caverns Door Default Close</e>
+    <e id="2197">Xel&apos;Naga Caverns Door N</e>
+    <e id="2198">Xel&apos;Naga Caverns Door NE</e>
+    <e id="2199">Xel&apos;Naga Caverns Door NE Opened</e>
+    <e id="2200">Xel&apos;Naga Caverns Door N Opened</e>
+    <e id="2201">Xel&apos;Naga Caverns Door NW</e>
+    <e id="2202">Xel&apos;Naga Caverns Door NW Opened</e>
+    <e id="2203">Xel&apos;Naga Caverns Door S</e>
+    <e id="2204">Xel&apos;Naga Caverns Door SE</e>
+    <e id="2205">Xel&apos;Naga Caverns Door SE Opened</e>
+    <e id="2206">Xel&apos;Naga Caverns Door S Opened</e>
+    <e id="2207">Xel&apos;Naga Caverns Door SW</e>
+    <e id="2208">Xel&apos;Naga Caverns Door SW Opened</e>
+    <e id="2209">Xel&apos;Naga Caverns Door W</e>
+    <e id="2210">Xel&apos;Naga Caverns Door W Opened</e>
+    <e id="2211">Xel&apos;Naga Caverns Floating Bridge - NE - 8 - Extended</e>
+    <e id="2212">Xel&apos;Naga Caverns Floating Bridge - NE - 8 - Retracted</e>
+    <e id="2213">Xel&apos;Naga Caverns Floating Bridge - NW - 8 - Extended</e>
+    <e id="2214">Xel&apos;Naga Caverns Floating Bridge - NW - 8 - Retracted</e>
+    <e id="2215">Xel&apos;Naga Caverns Floating Bridge - NE - 10 - Extended</e>
+    <e id="2216">Xel&apos;Naga Caverns Floating Bridge - NE - 10 - Retracted</e>
+    <e id="2217">Xel&apos;Naga Caverns Floating Bridge - NW - 10 - Extended</e>
+    <e id="2218">Xel&apos;Naga Caverns Floating Bridge - NW - 10 - Retracted</e>
+    <e id="2219">Xel&apos;Naga Caverns Floating Bridge - NE - 12 - Extended</e>
+    <e id="2220">Xel&apos;Naga Caverns Floating Bridge - NE - 12 - Retracted</e>
+    <e id="2221">Xel&apos;Naga Caverns Floating Bridge - NW - 12 - Extended</e>
+    <e id="2222">Xel&apos;Naga Caverns Floating Bridge - NW - 12 - Retracted</e>
+    <e id="2223">Xel&apos;Naga Caverns Floating Bridge - H - 8 - Extended</e>
+    <e id="2224">Xel&apos;Naga Caverns Floating Bridge - H - 8 - Retracted</e>
+    <e id="2225">Xel&apos;Naga Caverns Floating Bridge - V - 8 - Extended</e>
+    <e id="2226">Xel&apos;Naga Caverns Floating Bridge - V - 8 - Retracted</e>
+    <e id="2227">Xel&apos;Naga Caverns Floating Bridge - H - 10 - Extended</e>
+    <e id="2228">Xel&apos;Naga Caverns Floating Bridge - H - 10 - Retracted</e>
+    <e id="2229">Xel&apos;Naga Caverns Floating Bridge - V - 10 - Extended</e>
+    <e id="2230">Xel&apos;Naga Caverns Floating Bridge - V - 10 - Retracted</e>
+    <e id="2231">Xel&apos;Naga Caverns Floating Bridge - H - 12 - Extended</e>
+    <e id="2232">Xel&apos;Naga Caverns Floating Bridge - H - 12 - Retracted</e>
+    <e id="2233">Xel&apos;Naga Caverns Floating Bridge - V - 12 - Extended</e>
+    <e id="2234">Xel&apos;Naga Caverns Floating Bridge - V - 12 - Retracted</e>
+    <e id="2235">Collapsible Terran Tower Push Unit (Ramp Left)</e>
+    <e id="2236">Collapsible Terran Tower Push Unit (Ramp Right)</e>
+    <e id="2237">Rocks</e>
+    <e id="2238">Collapsible Terran Tower Push Unit</e>
+    <e id="2239">Collapsible Rock Tower Debris Push Unit (Ramp Right)</e>
+    <e id="2240">Collapsible Rock Tower Debris Push Unit (Ramp Left)</e>
+    <e id="2241">Digester Creep Spray Target Unit</e>
+    <e id="2242">Digester Creep Spray Unit</e>
+    <e id="2243">Nydus Destroyer</e>
+    <e id="2244">Viper Consume Structure</e>
+    <e id="2245">Mineral Shield</e>
+    <e id="2246">Prevents harvesting from this mineral field. Attack this to destroy it.</e>
+    <e id="2247">Tempest Weapon</e>
+    <e id="2248">Yoink Missile</e>
+    <e id="2249">Yoink Viking Air Missile</e>
+    <e id="2250">Yoink Viking Ground Missile</e>
+    <e id="2251">Yoink Siege Tank Missile</e>
+    <e id="2252">Warhound</e>
+    <e id="2253">Eye Stalk Weapon</e>
+    <e id="2254">Widow Mine</e>
+    <e id="2255">Widow Mine Air</e>
+    <e id="2256">Mothership Core Weapon Weapon</e>
+    <e id="2257">Tornado Missile</e>
+    <e id="2258">Tornado Missile Dummy</e>
+    <e id="2259">Talons Missile</e>
+    <e id="2260">Creep Tumor Missile</e>
+    <e id="2261">Locust MPEgg AMissile Weapon</e>
+    <e id="2262">Locust MPEgg BMissile Weapon</e>
+    <e id="2263">Locust MPWeapon</e>
+    <e id="2264">Repulsor Cannon Weapon</e>
+    <e id="2265">Rock Tower</e>
+    <e id="2266">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2267">Cooling Tower</e>
+    <e id="2268">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2269">Cooling Tower</e>
+    <e id="2270">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2271">Cooling Tower</e>
+    <e id="2272">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2273">Ice</e>
+    <e id="2274">Protoss Crate</e>
+    <e id="2275">Crates. There may be things inside of them.</e>
+    <e id="2276">Protoss Crate</e>
+    <e id="2277">Crates. There may be things inside of them.</e>
+    <e id="2278">Tower Mine</e>
+    <e id="2279">Gas Pallet</e>
+    <e id="2280">Mineral Pallet</e>
+    <e id="2281">Small Scrap Salvage</e>
+    <e id="2282">Large Scrap Salvage</e>
+    <e id="2283">Huge Scrap Salvage</e>
+    <e id="2284">Rough Terrain</e>
+    <e id="2285">Unbuildable Bricks</e>
+    <e id="2286">Unbuildable Plates</e>
+    <e id="2287">Unbuildable Plates</e>
+    <e id="2288">Unbuildable Rocks</e>
+    <e id="2289">Xel&apos;Naga Healing Shrine</e>
+    <e id="2290">Invisible Target Dummy</e>
+    <e id="2291">Rock Tower</e>
+    <e id="2292">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2293">Cooling Tower</e>
+    <e id="2294">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2295">Thorn Lizard</e>
+    <e id="2296">A reptilian creature that dines on small insects and rodents.</e>
+    <e id="2297">Cleaning Bot</e>
+    <e id="2298">With the touch of a button, the Cleaning Bot collects dirt, pet hair and other debris from all areas.</e>
+    <e id="2299">Rocks</e>
+    <e id="2300">Protoss Snake Segment Demo</e>
+    <e id="2301">Physics Capsule</e>
+    <e id="2302">Physics Cube</e>
+    <e id="2303">Physics Cylinder</e>
+    <e id="2304">Physics Knot</e>
+    <e id="2305">Physics L</e>
+    <e id="2306">Physics Primitives</e>
+    <e id="2307">Physics Sphere</e>
+    <e id="2308">Physics Star</e>
+    <e id="2309">Dynamic Creep and Structure Blocker 4x4</e>
+    <e id="2310">Debris</e>
+    <e id="2311">Debris</e>
+    <e id="2312">Debris</e>
+    <e id="2313">Debris</e>
+    <e id="2314">Debris</e>
+    <e id="2315">Debris</e>
+    <e id="2316">Debris</e>
+    <e id="2317">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2318">Debris</e>
+    <e id="2319">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2320">Test Zerg</e>
+    <e id="2321">Dynamic Pathing Blocker (No footprint, Radius 1)</e>
+    <e id="2322">Rocks</e>
+    <e id="2323">Rocks</e>
+    <e id="2324">Rocks</e>
+    <e id="2325">Rocks</e>
+    <e id="2326">Rocks</e>
+    <e id="2327">Rocks</e>
+    <e id="2328">Rocks</e>
+    <e id="2329">Rocks</e>
+    <e id="2330">Rocks</e>
+    <e id="2331">Rocks</e>
+    <e id="2332">Ice</e>
+    <e id="2333">Ice</e>
+    <e id="2334">Ice</e>
+    <e id="2335">Ice</e>
+    <e id="2336">Ice</e>
+    <e id="2337">Ice</e>
+    <e id="2338">Ice</e>
+    <e id="2339">Ice</e>
+    <e id="2340">Ice</e>
+    <e id="2341">Ice</e>
+    <e id="2342">Searchlight</e>
+    <e id="2343">Streetlight</e>
+    <e id="2344">Unbuildable Bricks</e>
+    <e id="2345">Unbuildable Rocks</e>
+    <e id="2346">Arch</e>
+    <e id="2347">Artosilope</e>
+    <e id="2348">A highly intelligent and curious creature.</e>
+    <e id="2349">Critter Flee</e>
+    <e id="2350">Runs away from other units</e>
+    <e id="2351">Tastelope</e>
+    <e id="2352">An arctic dwelling creature with an eerie bugle.</e>
+    <e id="2353">Lab Bot 1-X</e>
+    <e id="2354">Scans and identifies organic matter.</e>
+    <e id="2355">Crab Beetle</e>
+    <e id="2356">An ill-tempered and cowardly insectoid creature.</e>
+    <e id="2357">Rock Tower</e>
+    <e id="2358">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2359">Rock Tower</e>
+    <e id="2360">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2361">Snow Refinery Terran Extending Bridge NEShort8 Out</e>
+    <e id="2362">Snow Refinery Terran Extending Bridge NEShort8</e>
+    <e id="2363">Snow Refinery Terran Extending Bridge NWShort8 Out</e>
+    <e id="2364">Snow Refinery Terran Extending Bridge NWShort8</e>
+    <e id="2365">Tarsonis Door N</e>
+    <e id="2366">Tarsonis Door N Lowered</e>
+    <e id="2367">Tarsonis Door NE</e>
+    <e id="2368">Tarsonis Door NE Lowered</e>
+    <e id="2369">Tarsonis Door E</e>
+    <e id="2370">Tarsonis Door E Lowered</e>
+    <e id="2371">Tarsonis Door NW</e>
+    <e id="2372">Tarsonis Door NW Lowered</e>
+    <e id="2373">Compound Mansion Door N</e>
+    <e id="2374">Compound Mansion Door N Lowered</e>
+    <e id="2375">Compound Mansion Door NE</e>
+    <e id="2376">Compound Mansion Door NE Lowered</e>
+    <e id="2377">Compound Mansion Door E</e>
+    <e id="2378">Compound Mansion Door E Lowered</e>
+    <e id="2379">Compound Mansion Door NW</e>
+    <e id="2380">Compound Mansion Door NW Lowered</e>
+    <e id="2381">Locust</e>
+    <e id="2382">Timed life creature. Durable and dangerous.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="2383">Swoop</e>
+    <e id="2384">Z</e>
+    <e id="2385">Orders the Locust to land at the targeted location, allowing it to attack.</e>
+    <e id="2386">Aiur Light Bridge - NE - Height 8 - Extended</e>
+    <e id="2387">Aiur Light Bridge - NE - Height 8 - Retracted</e>
+    <e id="2388">Aiur Light Bridge - NE - Height 10 - Extended</e>
+    <e id="2389">Aiur Light Bridge - NE - Height 10 - Retracted</e>
+    <e id="2390">Aiur Light Bridge - NE - Height 12 - Extended</e>
+    <e id="2391">Aiur Light Bridge - NE - Height 12 - Retracted</e>
+    <e id="2392">Aiur Light Bridge - NW - Height 8 - Extended</e>
+    <e id="2393">Aiur Light Bridge - NW - Height 8 - Retracted</e>
+    <e id="2394">Aiur Light Bridge - NW - Height 10 - Extended</e>
+    <e id="2395">Aiur Light Bridge - NW - Height 10 - Retracted</e>
+    <e id="2396">Aiur Light Bridge - NW - Height 12 - Extended</e>
+    <e id="2397">Aiur Light Bridge - NW - Height 12 - Retracted</e>
+    <e id="2398">Aiur Temple Bridge - NE - SW - Height 8</e>
+    <e id="2399">Aiur Temple Bridge - NE - SW - Height 10</e>
+    <e id="2400">Aiur Temple Bridge - NE - SW - Height 12</e>
+    <e id="2401">Aiur Temple Bridge - NW - SE- Height 8</e>
+    <e id="2402">Aiur Temple Bridge - NW - SE - Height 10</e>
+    <e id="2403">Aiur Temple Bridge - NW - SE - Height 12</e>
+    <e id="2404">Shakuras Light Bridge - NE - Height 8 - Extended</e>
+    <e id="2405">Shakuras Light Bridge - NE - Height 8 - Retracted</e>
+    <e id="2406">Shakuras Light Bridge - NE - Height 10 - Extended</e>
+    <e id="2407">Shakuras Light Bridge - NE - Height 10 - Retracted</e>
+    <e id="2408">Shakuras Light Bridge - NE - Height 12 - Extended</e>
+    <e id="2409">Shakuras Light Bridge - NE - Height 12 - Retracted</e>
+    <e id="2410">Shakuras Light Bridge - NW - Height 8 - Extended</e>
+    <e id="2411">Shakuras Light Bridge - NW - Height 8 - Retracted</e>
+    <e id="2412">Shakuras Light Bridge - NW - Height 10 - Extended</e>
+    <e id="2413">Shakuras Light Bridge - NW - Height 10 - Retracted</e>
+    <e id="2414">Shakuras Light Bridge - NW - Height 12 - Extended</e>
+    <e id="2415">Shakuras Light Bridge - NW - Height 12 - Retracted</e>
+    <e id="2416">Immortal Revive Corpse</e>
+    <e id="2417">Immortal Revive</e>
+    <e id="2418">Guardian Cocoon</e>
+    <e id="2419">Guardian</e>
+    <e id="2420">Acid Spores</e>
+    <e id="2421">Devourer Cocoon </e>
+    <e id="2422">Devourer</e>
+    <e id="2423">Devourer MPWeapon</e>
+    <e id="2424">Defiler</e>
+    <e id="2425">Defiler</e>
+    <e id="2426">Consume</e>
+    <e id="2427">C</e>
+    <e id="2428">Dark Swarm</e>
+    <e id="2429">D</e>
+    <e id="2430">Plague</e>
+    <e id="2431">G</e>
+    <e id="2432">Infects all enemy units and buildings in the target area, inflicting 300 damage over 29 seconds. Cannot reduce units or buildings below 1 life. Ignores shields. Reveals infected cloaked units.</e>
+    <e id="2433">Stasis Ward</e>
+    <e id="2434">Ground unit trap. Cloak renders the Stasis Ward invisible to enemies without detection.</e>
+    <e id="2435">Stasis</e>
+    <e id="2436">Traps nearby enemies in stasis for 21 seconds. Trapped units cannot be attacked or affected by abilities.</e>
+    <e id="2437">Permanently Cloaked</e>
+    <e id="2438">The Stasis Ward is permanently cloaked.</e>
+    <e id="2439">Disruptor</e>
+    <e id="2440">Robotic disruption unit. Can use Purification Nova to deal heavy area damage.</e>
+    <e id="2441">Aiur Light Bridge Abandoned – NE – Height 8 - Extended</e>
+    <e id="2442">Aiur Light Bridge Abandoned – NE – Height 8 - Retracted</e>
+    <e id="2443">Aiur Light Bridge Abandoned – NE – Height 10 – Extended</e>
+    <e id="2444">Aiur Light Bridge Abandoned – NE – Height 10 – Retracted</e>
+    <e id="2445">Aiur Light Bridge Abandoned – NE – Height 12 - Extended</e>
+    <e id="2446">Aiur Light Bridge Abandoned – NE – Height 12 - Retracted</e>
+    <e id="2447">Aiur Light Bridge Abandoned – NW – Height 8 – Extended</e>
+    <e id="2448">Aiur Light Bridge Abandoned – NW – Height 8 – Retracted</e>
+    <e id="2449">Aiur Light Bridge Abandoned – NW – Height 10 - Extended</e>
+    <e id="2450">Aiur Light Bridge Abandoned – NW – Height 10 - Retracted</e>
+    <e id="2451">Aiur Light Bridge Abandoned – NW – Height 12 - Extended</e>
+    <e id="2452">Aiur Light Bridge Abandoned – NW – Height 12 - Retracted</e>
+    <e id="2453">Debris</e>
+    <e id="2454">A barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2455">Port City Bridge Unit NE8 Out</e>
+    <e id="2456">Port City Bridge Unit NE8</e>
+    <e id="2457">Port City Bridge Unit SE8 Out</e>
+    <e id="2458">Port City Bridge Unit SE8</e>
+    <e id="2459">Port City Bridge Unit NW8 Out</e>
+    <e id="2460">Port City Bridge Unit NW8</e>
+    <e id="2461">Port City Bridge Unit SW8 Out</e>
+    <e id="2462">Port City Bridge Unit SW8</e>
+    <e id="2463">Port City Bridge Unit NE10 Out</e>
+    <e id="2464">Port City Bridge Unit NE10</e>
+    <e id="2465">Port City Bridge Unit SE10 Out</e>
+    <e id="2466">Port City Bridge Unit SE10</e>
+    <e id="2467">Port City Bridge Unit NW10 Out</e>
+    <e id="2468">Port City Bridge Unit NW10</e>
+    <e id="2469">Port City Bridge Unit SW10 Out</e>
+    <e id="2470">Port City Bridge Unit SW10</e>
+    <e id="2471">Port City Bridge Unit NE12 Out</e>
+    <e id="2472">Port City Bridge Unit NE12</e>
+    <e id="2473">Port City Bridge Unit SE12 Out</e>
+    <e id="2474">Port City Bridge Unit SE12</e>
+    <e id="2475">Port City Bridge Unit NW12 Out</e>
+    <e id="2476">Port City Bridge Unit NW12</e>
+    <e id="2477">Port City Bridge Unit SW12 Out</e>
+    <e id="2478">Port City Bridge Unit SW12</e>
+    <e id="2479">Port City Bridge Unit N8 Out</e>
+    <e id="2480">Port City Bridge Unit N8</e>
+    <e id="2481">Port City Bridge Unit S8 Out</e>
+    <e id="2482">Port City Bridge Unit S8</e>
+    <e id="2483">Port City Bridge Unit E8 Out</e>
+    <e id="2484">Port City Bridge Unit E8</e>
+    <e id="2485">Port City Bridge Unit W8 Out</e>
+    <e id="2486">Port City Bridge Unit W8</e>
+    <e id="2487">Port City Bridge Unit N10 Out</e>
+    <e id="2488">Port City Bridge Unit N10</e>
+    <e id="2489">Port City Bridge Unit S10 Out</e>
+    <e id="2490">Port City Bridge Unit S10</e>
+    <e id="2491">Port City Bridge Unit E10 Out</e>
+    <e id="2492">Port City Bridge Unit E10</e>
+    <e id="2493">Port City Bridge Unit W10 Out</e>
+    <e id="2494">Port City Bridge Unit W10</e>
+    <e id="2495">Port City Bridge Unit N12 Out</e>
+    <e id="2496">Port City Bridge Unit N12</e>
+    <e id="2497">Port City Bridge Unit S12 Out</e>
+    <e id="2498">Port City Bridge Unit S12</e>
+    <e id="2499">Port City Bridge Unit E12 Out</e>
+    <e id="2500">Port City Bridge Unit E12</e>
+    <e id="2501">Port City Bridge Unit W12 Out</e>
+    <e id="2502">Port City Bridge Unit W12</e>
+    <e id="2503">Collapsible Rock Tower Debris Push Unit (Ramp Left) (Green)</e>
+    <e id="2504">Collapsible Rock Tower Debris Push Unit (Ramp Right) (Green)</e>
+    <e id="2505">Collapsible Rock Tower Push Unit (Purifier)</e>
+    <e id="2506">Locust Precursor</e>
+    <e id="2507">Release Interceptors Beacon</e>
+    <e id="2508">Shade</e>
+    <e id="2509">Hydralisk Impale Missile</e>
+    <e id="2510">Cyclone Missile</e>
+    <e id="2511">Oracle Weapon</e>
+    <e id="2512">Tempest Weapon (Ground)</e>
+    <e id="2513">Scout MPAir Weapon Left</e>
+    <e id="2514">Scout MPAir Weapon Right</e>
+    <e id="2515">Arbiter MPWeapon Missile</e>
+    <e id="2516">Guardian MP Weapon</e>
+    <e id="2517">Devourer MPWeapon Missile</e>
+    <e id="2518">Queen MPEnsnare Missile</e>
+    <e id="2519">Queen MPSpawn Broodlings Missile</e>
+    <e id="2520">Lightning Bomb Weapon</e>
+    <e id="2521">HERC</e>
+    <e id="2522">H1 Flash Welder</e>
+    <e id="2523">Grapple Weapon</e>
+    <e id="2524">Caustic Spray Missile</e>
+    <e id="2525">Parasitic Bomb Missile</e>
+    <e id="2526">Parasitic Bomb Dummy</e>
+    <e id="2527">Adept</e>
+    <e id="2528">Adept Upgrade</e>
+    <e id="2529">Liberator Missile</e>
+    <e id="2530">Liberator Damage Missile</e>
+    <e id="2531">Liberator AG Missile</e>
+    <e id="2532">KD8 Charge</e>
+    <e id="2533">KD8 Charge Weapon</e>
+    <e id="2534">Slayn Elemental Grab Weapon</e>
+    <e id="2535">Solarite Cocoon</e>
+    <e id="2536">Solarite Cocoon</e>
+    <e id="2537">Slayn Elemental Weapon</e>
+    <e id="2538">Debris</e>
+    <e id="2539">Debris</e>
+    <e id="2540">HERC</e>
+    <e id="2541">Front-line infantry. Can use Grapple.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="2542">Moopy</e>
+    <e id="2543">Moopy Stick</e>
+    <e id="2544">Replicant</e>
+    <e id="2545">Robotic disruption unit. Can use Purification Nova to deal heavy area damage.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground units.&lt;/font&gt;</e>
+    <e id="2546">Seeker Missile</e>
+    <e id="2547">Aiur Temple Bridge</e>
+    <e id="2548">Aiur Temple Bridge</e>
+    <e id="2549">Aiur Temple Bridge</e>
+    <e id="2550">Aiur Temple Bridge</e>
+    <e id="2551">Aiur Temple Bridge</e>
+    <e id="2552">Aiur Temple Bridge</e>
+    <e id="2553">Aiur Temple Bridge</e>
+    <e id="2554">Aiur Temple Bridge</e>
+    <e id="2555">Aiur Temple Bridge</e>
+    <e id="2556">Aiur Temple Bridge</e>
+    <e id="2557">Aiur Temple Bridge</e>
+    <e id="2558">Aiur Temple Bridge</e>
+    <e id="2559">Flyover Unit</e>
+    <e id="2560">An invisible, invincible unit for the flyover mode cheat.</e>
+    <e id="2561">Corsair</e>
+    <e id="2562">Neutron Flare</e>
+    <e id="2563">Disruption Web</e>
+    <e id="2564">D</e>
+    <e id="2565">Scout </e>
+    <e id="2566">Scout MPGround</e>
+    <e id="2567">Scout MPAir</e>
+    <e id="2568">Arbiter</e>
+    <e id="2569">Arbiter MPWeapon</e>
+    <e id="2570">Recall</e>
+    <e id="2571">R</e>
+    <e id="2572">Teleports all friendly units in the target area to the location of the Arbiter.</e>
+    <e id="2573">Stasis Field</e>
+    <e id="2574">F</e>
+    <e id="2575">Puts enemies in target area into stasis. Units in Stasis cannot move, attack, or be attacked or be affected by spells for 43 seconds.</e>
+    <e id="2576">Scourge</e>
+    <e id="2577">Air unit. Bounces its shot to strike multiple targets.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#ffff8a&quot;&gt;Can attack ground and air units.&lt;/font&gt;</e>
+    <e id="2578">Suicide</e>
+    <e id="2579">Brood Queen</e>
+    <e id="2580">Support flyer. Can use Ensnare, Spawn Broodlings, and Infest Command Center.</e>
+    <e id="2581">Ensnare</e>
+    <e id="2582">E</e>
+    <e id="2583">Reduces movement of units in the targeted area by 50% for 0 seconds. Reveals cloaked and burrowed units.</e>
+    <e id="2584">Spawn Broodlings</e>
+    <e id="2585">B</e>
+    <e id="2586">Kills target biological unit and spawns 2 Broodlings.</e>
+    <e id="2587">Infest Command Center</e>
+    <e id="2588">C</e>
+    <e id="2589">Blockade</e>
+    <e id="2590">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2591">Blockade</e>
+    <e id="2592">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2593">Blockade</e>
+    <e id="2594">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2595">Blockade</e>
+    <e id="2596">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2597">Blockade</e>
+    <e id="2598">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2599">Blockade</e>
+    <e id="2600">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2601">Blockade</e>
+    <e id="2602">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2603">Blockade</e>
+    <e id="2604">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2605">Blockade</e>
+    <e id="2606">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2607">Blockade</e>
+    <e id="2608">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2609">Blockade</e>
+    <e id="2610">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2611">Blockade</e>
+    <e id="2612">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2613">Blockade</e>
+    <e id="2614">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2615">Blockade</e>
+    <e id="2616">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2617">Blockade</e>
+    <e id="2618">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2619">Blockade</e>
+    <e id="2620">Barrier that can be destroyed to allow access to new areas.</e>
+    <e id="2621">Blockade</e>
+    <e id="2622">Blockade</e>
+    <e id="2623">Blockade</e>
+    <e id="2624">Blockade</e>
+    <e id="2625">Blockade</e>
+    <e id="2626">Blockade</e>
+    <e id="2627">Blockade</e>
+    <e id="2628">Blockade</e>
+    <e id="2629">Blockade</e>
+    <e id="2630">Blockade</e>
+    <e id="2631">Blockade</e>
+    <e id="2632">Blockade</e>
+    <e id="2633">Blockade</e>
+    <e id="2634">Blockade</e>
+    <e id="2635">Blockade</e>
+    <e id="2636">Blockade</e>
+    <e id="2637">Reptile Crate</e>
+    <e id="2638">An ordinary cardboard box. According to its label, there might be a snake inside. Probably best to leave it alone.</e>
+    <e id="2639">Dirge Beetle</e>
+    <e id="2640">Slayn Elemental</e>
+    <e id="2641">Essence Leech</e>
+    <e id="2642">Q</e>
+    <e id="2643">Siphons energy from targeted unit.</e>
+    <e id="2644">Rock Tower</e>
+    <e id="2645">A tower that can be destroyed to prevent access to new areas or resource locations.</e>
+    <e id="2646">Dynamic Creep Only Blocker 4x4</e>
+    <e id="2647">Beacon</e>
+    <e id="2648">Beacon</e>
+    <e id="2649">Ursula</e>
+    <e id="2650">Hut</e>
+    <e id="2651">A modest civilian residence.</e>
+    <e id="2652">Observer Mode</e>
+    <e id="2653">T</e>
+    <e id="2654">Transforms the Observer to standard Observer Mode. Allows the Observer to move at the cost of decreased sight radius.</e>
+    <e id="2655">Repair Drone</e>
+    <e id="2656">Repairs nearby friendly mechanical units for 90 seconds.</e>
+    <e id="2657">Repair</e>
+    <e id="2658">E</e>
+    <e id="2659">Repair a friendly mechanical target.&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#f078ff&quot;&gt;Repairs 4 life per 1 energy.&lt;/font&gt;</e>
+    <e id="2660">Bypass Armor Drone</e>
+    <e id="2661">Focuses a beam on enemy units and reduces their armor by 3.&lt;br/&gt;Times out after 11 seconds.</e>
+    <e id="2662">Adept Piercing Weapon</e>
+    <e id="2663">High Templar Weapon Missile</e>
+    <e id="2664">Infested Acid Spines Weapon</e>
+    <e id="2665">Corrosive Parasite</e>
+</Locale>

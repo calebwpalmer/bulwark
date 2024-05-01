@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit id="FactoryFlying">
+    <meta name="340" icon="btn-building-terran-Factory" race="Terr" hotkey="0" tooltip="500" source="Liberty.SC2Mod" index="66"/>
+    <life start="1250" max="1250"/>
+    <armor start="1" max="3"/>
+    <shieldArmor start="0" max="0"/>
+    <movement type="Fly" speed="0.9375" acceleration="1.3125" deceleration="0" turnRate="720"/>
+    <score build="0" kill="0"/>
+    <misc radius="1.625" cargoSize="0" sightRadius="9" supply="0"/>
+    <attributes>
+        <attribute type="Armored"/>
+        <attribute type="Mechanical"/>
+        <attribute type="Structure"/>
+    </attributes>
+    <abilities>
+        <ability id="FactoryLand" index="155">
+            <command id="Execute" index="0">
+                <meta name="469" icon="btn-ability-terran-land" hotkey="470" type="command" tooltip="471"/>
+                <misc range="0"/>
+                <cost time="2"/>
+            </command>
+        </ability>
+        <ability id="move" index="43">
+            <command id="Move" index="0">
+                <meta name="8" icon="btn-command-move" hotkey="9" type="command" tooltip="10"/>
+                <misc range="0"/>
+            </command>
+            <command id="Patrol" index="1">
+                <meta name="11" icon="btn-command-patrol" hotkey="12" type="command" tooltip="13"/>
+                <misc range="0"/>
+            </command>
+            <command id="HoldPos" index="2">
+                <meta name="14" icon="btn-command-holdposition" hotkey="15" type="command" tooltip="16"/>
+            </command>
+        </ability>
+        <ability id="stop" index="41">
+            <command id="Stop" index="0">
+                <meta name="5" icon="btn-command-stop" hotkey="6" type="command" tooltip="7"/>
+            </command>
+        </ability>
+    </abilities>
+    <builds>
+        <unit id="FactoryTechLab" ability="151" index="0">
+            <meta name="501" icon="btn-building-terran-techlab" hotkey="502" type="command" tooltip="503"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="25" time="25"/>
+        </unit>
+        <unit id="FactoryReactor" ability="151" index="1">
+            <meta name="250" icon="btn-building-terran-reactor" hotkey="251" type="command" tooltip="78"/>
+            <misc range="0"/>
+            <cost minerals="50" vespene="50" time="50"/>
+        </unit>
+    </builds>
+    <upgrades>
+        <upgrade id="TerranBuildingArmor" index="9">
+            <level>
+                <meta name="74" icon="BTN-upgrade-terran-buildingarmor" hotkey="75" tooltip="76"/>
+                <cost minerals="150" vespene="150" time="140"/>
+            </level>
+        </upgrade>
+    </upgrades>
+</unit>
